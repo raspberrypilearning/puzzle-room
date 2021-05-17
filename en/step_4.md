@@ -86,7 +86,7 @@ if <(distance to (Monet v)) < (50)> then
 change [turned v] by (15)
 turn cw (15) degrees
 + if <(turned) = (360)> then
-+ change [handwheel turned v] by 1
++ change [handwheel turned v] by (1)
 + set [turned v] to (0)
 end
 else
@@ -101,7 +101,7 @@ set [handwheel turned v] to (0)
 ![button sprite](images/handwheel-sprite.png)
 ```blocks3
 when this sprite clicked
-+ if <(distance to (Monet v)) < (+ 150)> then
++ if <(distance to (Monet v)) < (150)> then
 change [turned v] by (15)
 turn cw (15) degrees
 if <(turned) = (360)> then
