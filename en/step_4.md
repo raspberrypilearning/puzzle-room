@@ -1,11 +1,114 @@
-## Who's in the puzzle room?
+## The handwheel puzzle
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will add a character to a puzzle room, and create controls to move them around.
+In this step you will create a puzzle that needs the handwheel to turn.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
+The scripts for this puzzle are quite similar to the button puzzle, so we can copy those scripts over and then edit them.
+
+--- task ---
+
+Drag the two scripts you created on the button on to the **handwheel** sprite, to copy them to that sprite.
+
+--- /task ---
+
+The when flag clicked sprite is the first to change.
+
+--- task ---
+
+Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable. Also change the completion number to 3.
+
+![button sprite](images/handwheel-sprite.png)
+```blocks3
+when flag clicked
+set drag mode [not draggable v]
++ set [handwheel turned v] to (0)
++ repeat until <(handwheel turned) = (3)>
++ say (join [handwheel turned] (join (button pressed) [times])
+end
++ say (task complete) for (2) seconds
+```
+
+--- /task ---
+
+The **handwheel** will be able to be turned by a few degrees at a time, so the angle it has been turned will need to be stored.
+
+--- task ---
+
+Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+
+![button sprite](images/handwheel-sprite.png)
+```blocks3
+when flag clicked
+set drag mode [not draggable v]
++ set [turned v] to (0)
+set [handwheel turned v] to (0)
+repeat until <(handwheel turned) = (3)>
+say (join [handwheel turned] (join (button pressed) [times])
+end
+say (task complete) for (2) seconds
+```
+--- /task ---
+
+Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the handwheel is clicked it turns, and when it has turned `3` times, the puzzle will be solved.
+
+--- task ---
+
+Add blocks so that each time the handwheel is clicked upon, it turns `15` degrees and the `turned`{:class="block3variables"} variable increase by `15`.
+
+![button sprite](images/handwheel-sprite.png)
+```blocks3
+when this sprite clicked
+if <(distance to (Monet v)) < (50)> then
++ change [turned v] by (15)
++ turn cw (15) degrees
+else
++ set [handwheel turned v] to (0)
+```
+
+--- /task ---
+
+When the `turned`{:class="block3variables"} variable reaches `360` then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable
+
+--- task ---
+
+Use a **nested `if`{:class="block3control"}** to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"}. A **nested `if`{:class="block3control"}** is when one `if`{:class="block3control"} is placed inside another
+
+![button sprite](images/handwheel-sprite.png)
+```blocks3
+when this sprite clicked
+if <(distance to (Monet v)) < (50)> then
+change [turned v] by (15)
+turn cw (15) degrees
++ if <(turned) = (360)> then
++ change [handwheel turned v] by 1
++ set [turned v] to (0)
+end
+else
+set [handwheel turned v] to (0)
+```
+--- /task ---
+
+--- task ---
+
+**Test:** Try and move your characted close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+
+![button sprite](images/handwheel-sprite.png)
+```blocks3
+when this sprite clicked
++ if <(distance to (Monet v)) < (150)> then
+change [turned v] by (15)
+turn cw (15) degrees
+if <(turned) = (360)> then
+change [handwheel turned v] by 1
+set [turned v] to (0)
+end
+else
+set [handwheel turned v] to (0)
+```
+--- /task ---

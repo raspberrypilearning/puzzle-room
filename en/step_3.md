@@ -76,6 +76,7 @@ set drag mode [not draggable v]
 set [button pressed v] to (0)
 repeat until <(button pressed) = (5)>
 say (join [button pressed] (join (button pressed) [times])
+end
 + say (task complete) for (2) seconds
 ```
 
