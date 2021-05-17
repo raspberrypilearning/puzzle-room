@@ -28,8 +28,8 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 when flag clicked
 set drag mode [not draggable v]
 + set [handwheel turned v] to (0)
-+ repeat until <(handwheel turned) = (3)>
-+ say (join [handwheel turned] (join (button pressed) [times])
+repeat until <(+ handwheel turned) = (3)>
++ say (join [handwheel turned] (join (+ handwheel turned) [times])
 end
 + say (task complete) for (2) seconds
 ```
@@ -101,7 +101,7 @@ set [handwheel turned v] to (0)
 ![button sprite](images/handwheel-sprite.png)
 ```blocks3
 when this sprite clicked
-+ if <(distance to (Monet v)) < (150)> then
++ if <(distance to (Monet v)) < (+ 150)> then
 change [turned v] by (15)
 turn cw (15) degrees
 if <(turned) = (360)> then
