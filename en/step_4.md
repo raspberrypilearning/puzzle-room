@@ -105,7 +105,7 @@ when this sprite clicked
 change [turned v] by (15)
 turn cw (15) degrees
 if <(turned) = (360)> then
-change [handwheel turned v] by 1
+change [handwheel turned v] by (1)
 set [turned v] to (0)
 end
 else
