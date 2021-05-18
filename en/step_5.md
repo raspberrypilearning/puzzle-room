@@ -26,7 +26,7 @@ The crosshair will follow the mouse, but it should only be visible through the w
 Use the following blocks so that the **crosshair** follows the mouse-pointer.
 
 ![crosshair sprite](images/crosshair-sprite.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 go to (mouse-pointer v)
@@ -43,7 +43,7 @@ You can use an `if`{:class="block3control"} block to test if the crosshair is to
 Add a test, to make sure that the **crosshair** is touching the **port**
 
 ![crosshair sprite](images/crosshair-sprite.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 + show
@@ -108,7 +108,7 @@ Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operator
 define go to position
 go to (random position v)
 + repeat until <<touching (port v) ?> or <not<touching color (#69B486) ?>>
-got ro (random position v)
+go to (random position v)
 
 ```
 
@@ -161,7 +161,7 @@ Add the following blocks to the **Rocks** sprite to set when the task is complet
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) > 10>
+repeat until <(asteroids) > (10)>
 ```
 
 --- /task ---
@@ -175,8 +175,8 @@ Use another `and`{:class="block3operators"} block in an `if`{:class="block3contr
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) = 10>
-if <<(at chair) = [true]> and <touching (crosshair v)> then
+repeat until <(asteroids) > (10)>
+if <<(at chair) = [true]> and <touching (crosshair v)>> then
 ```
 
 --- /task ---
@@ -190,8 +190,8 @@ If the condition has been met, then the `asteroids`{:class="block3variabels"} va
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) = 10>
-if <<(at chair) = [true]> and <touching (crosshair v)> then
+repeat until <(asteroids) = (10)>
+if <<(at chair) = [true]> and <touching (crosshair v)>> then
 change [asteroids v] by (1)
 go to position ::custom
 ```
