@@ -63,7 +63,7 @@ You might notice that the crosshair cap appear at the very edge of the **port** 
 Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the port.
 
 ![crosshair sprite](images/crosshair-sprite.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 show
