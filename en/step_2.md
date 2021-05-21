@@ -21,7 +21,7 @@ If you are working offline, you can download the starter project at [rpf.io/p/en
 
 You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
 
-**Choose:** Who's in the spaceship? Is it just one character or is it a crew? It could be an alien spaceship or exist in a future where cats rule the world.
+**Choose:** Who's in the spaceship? Is it just one character or is it a crew? It could be solo mission from Earth, or it could be an alien spaceship or it could even exist in a future where cats rule the world.
 
 You can add as many characters as you like, but you need one character to interact with the puzzles you are making.
 
