@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will create a puzzle that needs the handwheel to turn.
+In this step you will create a puzzle where the handwheel needs to turn.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
@@ -17,11 +17,13 @@ Drag the two scripts you created on the button on to the **handwheel** sprite, t
 
 --- /task ---
 
-The when flag clicked sprite is the first to change.
+The script starting with `when flag clicked`{:class='block3events} is the first to change in the handwheel sprite.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable. Also change the completion number to 3.
+Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable. 
+
+**Choose:** Change the completion number to whatever you would like it to be. We went with `3` in the example.
 
 ![button sprite](images/handwheel-sprite.png)
 ```blocks3
@@ -36,7 +38,7 @@ end
 
 --- /task ---
 
-The **handwheel** will be able to be turned by a few degrees at a time, so the angle it has been turned will need to be stored.
+Like a real handwheel, the **handwheel** sprite will only be able to be turned by a few degrees at a time, so the angle it has been turned will need to be stored.
 
 --- task ---
 
@@ -55,11 +57,11 @@ say (task complete) for (2) seconds
 ```
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the handwheel is clicked it turns, and when it has turned `3` times, the puzzle will be solved.
+Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the handwheel is clicked it turns, and when it has turned thr right number of times (`3` times in the example), the puzzle will be solved.
 
 --- task ---
 
-Add blocks so that each time the handwheel is clicked upon, it turns `15` degrees and the `turned`{:class="block3variables"} variable increase by `15`.
+Add blocks so that each time the handwheel is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increase by `15`.
 
 ![button sprite](images/handwheel-sprite.png)
 ```blocks3
@@ -73,7 +75,7 @@ else
 
 --- /task ---
 
-When the `turned`{:class="block3variables"} variable reaches `360` then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable
+When the `turned`{:class="block3variables"} variable reaches `360` then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable.
 
 --- task ---
 
