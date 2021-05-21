@@ -56,7 +56,7 @@ hide
 
 --- /task ---
 
-You might notice that the crosshair cap appear at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+You might notice that the crosshair cap appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
 
 --- task ---
 
@@ -83,7 +83,9 @@ Find a **Rocks** sprite and add it to your project. Resize the sprite so that it
 
 --- /task ---
 
-Functions help you to keep your code organised, but they also help you to stop writing the same code over and over again. You can use a function for the **Rocks** to position them in the spaceship's port.
+You may have seen how **functions** help keep code organised in the [Nature Rover project](https://projects.raspberrypi.org/en/projects/nature-rover). 
+
+Functions also help by making it so you do not have to write the same code over and over again. You can use a function for the **Rocks** to position them in the spaceship's port.
 
 --- task ---
 
@@ -133,7 +135,7 @@ end
 
 --- /task ---
 
-The last part is similar to your other puzzles. Using a variable called `asteroids`{:class="block3variables"}, you can count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable can increase and the **Rocks** can move to a new position. This should only work if your character is at the chair though.
+The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable can increase and the **Rocks** can move to a new position. This should only work if your character is at the chair though.
 
 --- task ---
 
