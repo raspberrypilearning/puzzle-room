@@ -9,7 +9,7 @@ In this step you will add your first puzzle, which will be pushing the button a 
 </div>
 </div>
 
-The button will need to be pushed 5 times for the puzzle to be completed. For this you will need a `variable`{:class="block3variables"} to store the number of pushed
+The button will need to be pushed a number of times for the puzzle to be completed. For this you will need a `variable`{:class="block3variables"} to store the number of pushed
 
 --- task ---
 
@@ -30,7 +30,9 @@ set [button pressed v] to (0)
 ```
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met. In this case, it will be until the button has been pressed `5` times.
+A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met. 
+
+**Choose:** how many times the button will be pressed to solve the puzzle. In this example, it will need to be pressed `5` times but you can choose a different number.
 
 --- task ---
 
@@ -45,11 +47,11 @@ set [button pressed v] to (0)
 ```
 --- /task ---
 
-You can use the `join`{:class="block3operators"} to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
 
 For example:
 
@@ -82,7 +84,7 @@ end
 
 --- /task ---
 
-Now the player needs to be able to push the button. They should only be able to press it, when the character is close to the button though.
+Now the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
 
 --- task ---
 
@@ -99,6 +101,10 @@ else
 
 If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset.
 
+--- task ---
+
+Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when this sprite clicked
@@ -113,4 +119,6 @@ else
 **Test:** Run your project and move the character close to the button. When you click on the button 5 times, the task should be complete.
 
 --- /task ---
+
+--- save ---
 
