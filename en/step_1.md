@@ -6,12 +6,12 @@ In this project, you will create a spaceship puzzle room with a character that s
 <span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
-+ 
-+ 
-+
++ Nesting If Use if blocks inside if blocks
++ Boolean operators
++ Use a repeat until block until a variable is equal to a number
+
+Boxout (conditions)
 
 <mark>Image of many different examples in a strip</mark>
 
