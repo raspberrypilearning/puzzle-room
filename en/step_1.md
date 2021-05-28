@@ -3,7 +3,7 @@
 In this project, you will create a spaceship puzzle room with a character that solves puzzles.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms** are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete a mission as quickly as you can!
 </p>
 
 You will:
