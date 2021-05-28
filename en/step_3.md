@@ -20,6 +20,7 @@ Create a new `variable`{:class="block3variables"} and call it `button pressed`{:
 At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
 
 --- task ---
+
 Add the following blocks to the button sprite
 
 ![button sprite](images/button-sprite.png)
@@ -28,6 +29,7 @@ when flag clicked
 set drag mode [not draggable v]
 set [button pressed v] to (0)
 ```
+
 --- /task ---
 
 A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met. 
@@ -45,6 +47,7 @@ set drag mode [not draggable v]
 set [button pressed v] to (0)
 + repeat until <(button pressed) = (5)>
 ```
+
 --- /task ---
 
 You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
@@ -63,6 +66,7 @@ set [button pressed v] to (0)
 repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
+
 --- /task ---
 
 As the loop will end when the button has been pressed `5` times, the last block in the script will then be run. This can tell the player that the task is complete.
@@ -113,6 +117,8 @@ if <(distance to (Monet v)) < (50)> then
 else
 + set [button press v] to (0)
 ```
+
+--- /task ---
 
 --- task ---
 
