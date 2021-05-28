@@ -1,0 +1,21 @@
+title: Puzzle room
+hero_image: images/banner.png
+description: design-project-template description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: "Who's in the puzzle room?"
+  - title: The button puzzle
+  - title: The handwheel puzzle
+  - title: The asteroids puzzle
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
+  - title: What next?
