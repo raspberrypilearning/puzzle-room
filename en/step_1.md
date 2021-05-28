@@ -9,7 +9,7 @@ In this project, you will create a spaceship puzzle room with a character that s
 You will:
 + Use a `repeat until`{:class="block3control"} block to control when an action stops
 + `Join`{:class="block3operators"} calculations together to enhance your project
-+ Combine `And`{:class="block3operators"}, `Or`{:class="block3operators"} and `Not`{:class="block3operators"} and use **Boolean Logic** to solve problems
++ Combine `And`{:class="block3operators"}, `Or`{:class="block3operators"} and `Not`{:class="block3operators"}, using **Boolean Logic** to solve problems
 
 Boxout (conditions)
 
