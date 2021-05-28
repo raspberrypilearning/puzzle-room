@@ -7,9 +7,9 @@ In this project, you will create a spaceship puzzle room with a character that s
 </p>
 
 You will:
-+ Nesting If Use if blocks inside if blocks
-+ Boolean operators
-+ Use a repeat until block until a variable is equal to a number
++ Use a `repeat until`{:class="block3control"} block to control when an action stops
++ `Join`{:class="block3operators"} calculations together to enhance your project
++ Combine `And`{:class="block3operators"}, `Or`{:class="block3operators"} and `Not`{:class="block3operators"} and use **Boolean Logic** to solve problems
 
 Boxout (conditions)
 

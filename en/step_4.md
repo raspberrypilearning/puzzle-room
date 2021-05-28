@@ -28,7 +28,6 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 ![button sprite](images/handwheel-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 + set [handwheel turned v] to (0)
 repeat until <(+ handwheel turned) = (3)>
 + say (join [handwheel turned] (join (+ handwheel turned) [times])
@@ -44,14 +43,13 @@ Like a real handwheel, the **handwheel** sprite will only be able to be turned b
 
 Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
 
-![button sprite](images/handwheel-sprite.png)
+![handwheel sprite](images/handwheel-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 + set [turned v] to (0)
 set [handwheel turned v] to (0)
 repeat until <(handwheel turned) = (3)>
-say (join [handwheel turned] (join (button pressed) [times])
+say (join [handwheel turned] (join (handwheel turned) [times])
 end
 say (task complete) for (2) seconds
 ```
