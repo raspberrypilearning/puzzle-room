@@ -43,7 +43,6 @@ Add a `repeat until`{:class="block3control"} loop, and set its condition to be w
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 set [button pressed v] to (0)
 + repeat until <(button pressed) = (5)>
 ```
@@ -61,7 +60,6 @@ For example:
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 set [button pressed v] to (0)
 repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
@@ -78,7 +76,6 @@ Use a `say`{:class="block3looks"} block to tell the player the task has been com
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 set [button pressed v] to (0)
 repeat until <(button pressed) = (5)>
 say (join [button pressed] (join (button pressed) [times])
