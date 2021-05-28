@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a spaceship puzzle room with a character that solves the puzzles.
+In this project, you will create a spaceship puzzle room with a character that solves puzzles.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
@@ -8,8 +8,8 @@ In this project, you will create a spaceship puzzle room with a character that s
 
 You will:
 + Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ `Join`{:class="block3operators"} inputs and outputs together to enhance your project
-+ Combine `And`{:class="block3operators"}, `Or`{:class="block3operators"} and `Not`{:class="block3operators"}, using **Boolean Logic** to solve problems
++ Use multiple `Join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
++ Combine `And`{:class="block3operators"}, `Or`{:class="block3operators"} and `Not`{:class="block3operators"} conditions to solve problems
 
 Boxout (conditions)
 
