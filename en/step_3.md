@@ -26,7 +26,6 @@ Add the following blocks to the button sprite
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when flag clicked
-set drag mode [not draggable v]
 set [button pressed v] to (0)
 ```
 
