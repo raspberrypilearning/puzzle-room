@@ -52,13 +52,10 @@ You will need onscreen controls, to be able to move your character around.
 
 --- task ---
 
-Add an arrow sprite to your project. The sprite should have its mode set to `non draggable`{:class="block3sensing"} when the flag is clicked so it stays in place. When the sprite is clicked, it should broadcast the direction it is pointing so that it can control the character.
+Add an arrow sprite to your project. When the sprite is clicked, it should broadcast the direction it is pointing so that it can control the character.
 
 ![arrow sprite](images/arrow-sprite.png)
 ```blocks3
-when flag clicked
-set drag mode [not draggable v]
-
 when this sprite clicked
 broadcast (right v)
 ```
