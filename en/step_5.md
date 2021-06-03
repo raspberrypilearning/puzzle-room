@@ -48,7 +48,7 @@ when flag clicked
 forever
 + show
 go to (mouse-pointer v)
-+ if <not <touching (port v) ?>> then
++ if <not <touching (port v) ?>> then //only show the crosshair when touching the port
 hide
 ```
 
@@ -68,7 +68,7 @@ when flag clicked
 forever
 show
 go to (mouse-pointer v)
-+ if <<not <touching (port v) ?>> or <touching color (#69B486) ?>> then
++ if <<not <touching (port v) ?>> or <touching color (#69B486) ?>> then //also not touching edge of port
 hide
 ```
 
@@ -99,7 +99,7 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** and not touching the edge of the **port**. This is similar to the code you used on the **crosshair** but this time you will use an `and`{:class="block3operators"} block.
+The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair** but this time you will use an `and`{:class="block3operators"} block.
 
 --- task ---
 
@@ -128,7 +128,7 @@ Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the
 define go to position
 go to (random position v)
 repeat until <<touching (port v) ?> and <not<touching color (#69B486) ?>>
-+ set [ghost v] effect to (100)
++ set [ghost v] effect to (100) //hide the sprite
 end
 + clear graphic effects
 ```
@@ -146,7 +146,7 @@ On your **character** sprite, create a new variable called `at chair`{:class="bl
 when flag clicked
 set size to (60) %
 go to x: (0) y: (-130)
-+ forever
++ forever //check that Monet is at the chair
 if <touching (chair v) ?> then
 set [at chair v] to [true]
 else
@@ -163,7 +163,7 @@ Add the following blocks to the **Rocks** sprite to set when the task is complet
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) > (10)>
+repeat until <(asteroids) > (10)> //10 asteroids have been destroyed
 ```
 
 --- /task ---
@@ -178,7 +178,7 @@ when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
 repeat until <(asteroids) > (10)>
-if <<(at chair) = [true]> and <touching (crosshair v)>> then
+if <<(at chair) = [true]> and <touching (crosshair v)>> then //Monet is at chair and crosshair is touching asteroid
 ```
 
 --- /task ---
@@ -194,8 +194,8 @@ set [asteroids v] to (0)
 go to position ::custom
 repeat until <(asteroids) = (10)>
 if <<(at chair) = [true]> and <touching (crosshair v)>> then
-change [asteroids v] by (1)
-go to position ::custom
+change [asteroids v] by (1) //store the number of asteroids destroyed
+go to position ::custom //reset asteroid position
 ```
 
 --- /task ---

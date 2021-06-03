@@ -26,7 +26,7 @@ Add the following blocks to the button sprite
 ![button sprite](images/button-sprite.png)
 ```blocks3
 when flag clicked
-set [button pressed v] to (0)
+set [button pressed v] to (0) //button presses at 0 at start
 ```
 
 --- /task ---
@@ -43,7 +43,7 @@ Add a `repeat until`{:class="block3control"} loop, and set its condition to be w
 ```blocks3
 when flag clicked
 set [button pressed v] to (0)
-+ repeat until <(button pressed) = (5)>
++ repeat until <(button pressed) = (5)> //keep repeating until button pressed 5 times
 ```
 
 --- /task ---
@@ -60,7 +60,7 @@ For example:
 ```blocks3
 when flag clicked
 set [button pressed v] to (0)
-repeat until <(button pressed) = (5)>
+repeat until <(button pressed) = (5)> 
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
@@ -79,7 +79,7 @@ set [button pressed v] to (0)
 repeat until <(button pressed) = (5)>
 say (join [button pressed] (join (button pressed) [times])
 end
-+ say (task complete) for (2) seconds
++ say [task complete] for (2) seconds
 ```
 
 --- /task ---
@@ -109,9 +109,9 @@ Add code to change the value of the variable `button pressed`{:class="block3vari
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1)
++ change [button pressed v] by (1) //if close to Monet then increase button pressed
 else
-+ set [button press v] to (0)
++ set [button press v] to (0) //if far from Monet then reset button pressed
 ```
 
 --- /task ---
