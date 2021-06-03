@@ -109,9 +109,9 @@ Add code to change the value of the variable `button pressed`{:class="block3vari
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //if close to Monet then increase button pressed
++ change [button pressed v] by (1) //if close to Monet then increase button press
 else
-+ set [button press v] to (0) //if far from Monet then reset button pressed
++ set [button press v] to (0) //if far from Monet then reset button press
 ```
 
 --- /task ---
