@@ -17,7 +17,7 @@ Drag the two scripts you created on the button on to the **handwheel** sprite, t
 
 --- /task ---
 
-The script starting with `when flag clicked`{:class='block3events} is the first to change in the handwheel sprite.
+The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
 
 --- task ---
 
@@ -65,7 +65,7 @@ Add blocks so that each time the handwheel is clicked, it turns `15` degrees and
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [turned v] by (15)
++ change [turned v] by (15) //store the turnes of the wheel
 + turn cw (15) degrees
 else
 + set [handwheel turned v] to (0)
@@ -85,9 +85,9 @@ when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
 change [turned v] by (15)
 turn cw (15) degrees
-+ if <(turned) = (360)> then
-+ change [handwheel turned v] by (1)
-+ set [turned v] to (0)
++ if <(turned) = (360)> then //handwheel has turned a full circle
++ change [handwheel turned v] by (1) //store the total number of turns
++ set [turned v] to (0) //reset the angle that has been turned
 end
 else
 set [handwheel turned v] to (0)
