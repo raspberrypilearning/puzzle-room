@@ -14,6 +14,6 @@ Here are some ideas you could try:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Take a look at our [Puzzle room Scratch studio](https://scratch.mit.edu/studios/29120534){:target="_blank"} to see projects created by community members.
+Take a look at our [Puzzle room Scratch studio](https://scratch.mit.edu/studios/29861242/){:target="_blank"} to see projects created by community members.
 
 --- save ---
