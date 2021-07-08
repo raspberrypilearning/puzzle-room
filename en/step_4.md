@@ -29,15 +29,15 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 ```blocks3
 when flag clicked
 + set [handwheel turned v] to (0)
-repeat until <(+ handwheel turned) = (3)>
++ repeat until <(handwheel turned) = (3)>
 + say (join [handwheel turned] (join (+ handwheel turned) [times])
 end
-+ say (task complete) for (2) seconds
++ say [task complete] for (2) seconds
 ```
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to be turned by a few degrees at a time, so the angle it has been turned will need to be stored.
+Like a real handwheel, the **handwheel** sprite will only be able to be turned by a small number of degrees at a time, so the angle it has been turned will need to be stored.
 
 --- task ---
 
@@ -51,7 +51,7 @@ set [handwheel turned v] to (0)
 repeat until <(handwheel turned) = (3)>
 say (join [handwheel turned] (join (handwheel turned) [times])
 end
-say (task complete) for (2) seconds
+say [task complete] for (2) seconds
 ```
 --- /task ---
 

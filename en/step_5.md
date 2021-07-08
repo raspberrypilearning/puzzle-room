@@ -13,7 +13,7 @@ You will need a crosshair that you can use to target the asteroids.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. A really simple example is shown below, using a circle and two lines.
+Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines.
 
 ![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas](images/draw-crosshair.png)
 

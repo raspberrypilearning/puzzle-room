@@ -21,9 +21,9 @@ If you are working offline, you can download the starter project at [rpf.io/p/en
 
 You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
 
-**Choose:** Who's in the spaceship? Is it just one character or is it a crew? It could be solo mission from Earth, or it could be an alien spaceship or it could even exist in a future where cats rule the world.
+**Choose:** Who's in the spaceship? It could be solo mission from Earth, or it could be an alien spaceship or it could even exist in a future where cats rule the world.
 
-You can add as many characters as you like, but you need one character to interact with the puzzles you are making.
+You need one character to interact with the puzzles you are making.
 
 --- task ---
 
@@ -33,18 +33,11 @@ Add a new sprite to your project. In this example you will see the character Mon
 
 --- /task ---
 
-If your character is too large or too small for the scene, then you should change its size. You can also pick a starting position for the character.
+If your character is too large or too small for the scene, then you should change their size. You can also pick a starting position for the character.
 
 --- task ---
 
-Add code to set up your character `when green flag clicked`{:class="block3events"}.
-
-![monet sprite](images/monet-sprite.png)
-```blocks3
-when flag clicked
-set size to (60) %
-go to x: (0) y: (-130)
-```
+Add code to set up your character's size and starting position.
 
 --- /task ---
 
@@ -52,7 +45,7 @@ You will need onscreen controls, to be able to move your character around.
 
 --- task ---
 
-Add an arrow sprite to your project. When the sprite is clicked, it should broadcast the direction it is pointing so that it can control the character.
+Select one of the arrow sprites. When the sprite is clicked, it should broadcast the direction it is pointing so that it can control the character.
 
 ![arrow sprite](images/arrow-sprite.png)
 ```blocks3

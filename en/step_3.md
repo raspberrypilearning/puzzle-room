@@ -64,6 +64,8 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
+**Tip:** Make sure you add spaces in the text in your join code block.
+
 --- /task ---
 
 As the loop will end when the button has been pressed `5` times, the last block in the script will then be run. This can tell the player that the task is complete.
