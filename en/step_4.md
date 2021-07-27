@@ -73,6 +73,8 @@ else
 
 --- /task ---
 
+**Test**: Move **Monet** close to the handwheel and then click on the handwheel. It helps to be in fullscreen mode, so that you can't drag the handwheel sprite around.
+
 When the `turned`{:class="block3variables"} variable reaches `360` then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable.
 
 --- task ---
