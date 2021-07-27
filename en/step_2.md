@@ -55,6 +55,8 @@ broadcast (right v)
 
 --- /task ---
 
+**Tip**: If the arrow sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each arrow sprite also has a large purple circle that can be used instead.
+
 Now add more direction controls to move your main character.
 
 --- task ---

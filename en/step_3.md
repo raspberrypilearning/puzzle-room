@@ -9,6 +9,21 @@ In this step you will add your first puzzle, which will be pushing the button a 
 </div>
 </div>
 
+When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+
+--- task ---
+
+Add the following blocks to the **button** sprite.
+
+```blocks3
+when flag clicked
+forever
+go to x: (-225) y (27)
+go to [front v] layer
+```
+
+--- /task ---
+
 The button will need to be pushed a number of times for the puzzle to be completed. For this you will need a `variable`{:class="block3variables"} to store the number of pushed
 
 --- task ---
@@ -45,6 +60,46 @@ when flag clicked
 set [button pressed v] to (0)
 + repeat until <(button pressed) = (5)> //keep repeating until button pressed 5 times
 ```
+
+--- /task ---
+
+Now the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+
+--- task ---
+
+Add blocks to detect if the character is close to the button, when the button sprite is clicked.
+
+![button sprite](images/button-sprite.png)
+```blocks3
+when this sprite clicked
+if <(distance to (Monet v)) < (50)> then
+else
+```
+
+--- /task ---
+
+If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset, so the player needs to push the buttons 5 times in a row, before trying any other puzzles.
+
+**Tip**: In Scratch, distance is calculated between the centre of any two sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+
+--- task ---
+
+Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+
+![button sprite](images/button-sprite.png)
+```blocks3
+when this sprite clicked
+if <(distance to (Monet v)) < (50)> then
++ change [button pressed v] by (1) //if close to Monet then increase button press
+else
++ set [button press v] to (0) //if far from Monet then reset button press
+```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your project and move the character close to the button. When you click on the button 5 times the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
 
 --- /task ---
 
@@ -86,37 +141,7 @@ end
 
 --- /task ---
 
-Now the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
 
---- task ---
-
-Add blocks to detect if the character is close to the button, when the button sprite is clicked.
-
-![button sprite](images/button-sprite.png)
-```blocks3
-when this sprite clicked
-if <(distance to (Monet v)) < (50)> then
-else
-```
-
---- /task ---
-
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset.
-
---- task ---
-
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
-
-![button sprite](images/button-sprite.png)
-```blocks3
-when this sprite clicked
-if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //if close to Monet then increase button press
-else
-+ set [button press v] to (0) //if far from Monet then reset button press
-```
-
---- /task ---
 
 --- task ---
 

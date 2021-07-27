@@ -105,4 +105,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
+**Tip**: You can click and drag your **Monet** sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+
 --- save ---
