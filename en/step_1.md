@@ -35,6 +35,17 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 </div>
 
+--- collapse ---
+---
+title: Tips for playing
+---
+1. You need to be close to the button and click it 5 times
+2. You need to be close to the chair and then use the crosshairs to destroy 10 asteroids
+3. You need to be close to the handwheel and click it to turn it a total of three full turns.
+
+
+--- /collapse ---
+
 --- /task ---
 
 --- /no-print ---
