@@ -19,7 +19,7 @@ Add the following blocks to the **button** sprite.
 when flag clicked
 forever
 go to x: (-225) y (27)
-go to [front v] layer
+go to [front v] layer //button is visible
 ```
 
 --- /task ---

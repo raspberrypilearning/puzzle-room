@@ -50,7 +50,7 @@ Select one of the arrow sprites. When the sprite is clicked, it should broadcast
 ![arrow sprite](images/arrow-sprite.png)
 ```blocks3
 when this sprite clicked
-broadcast (right v)
+broadcast (right v) //direction arrow is pointing
 ```
 
 --- /task ---
