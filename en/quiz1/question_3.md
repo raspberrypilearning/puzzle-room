@@ -5,8 +5,10 @@
 legend: Question 3 of 3
 ---
 
-Which description best describes the behaviour of the sprite these blocks are on, when the flag is clicked?
+Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
 
+
+![rock sprite](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -17,7 +19,7 @@ go to (random position v)
 
 - ( ) 
 
-The sprite will move to a random position until it is touching **sprite 1** and touching the colour black. 
+The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black. 
   --- feedback ---
 These blocks would fit that description.
 <touching (sprite 1 v) ?> and <touching color (#000000) ?>
@@ -25,13 +27,13 @@ These blocks would fit that description.
 
 - ( ) 
 
-The sprite will move to a random position until it is touching **sprite 1** or not touching the colour black. 
+The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black. 
   --- feedback ---
 <touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
   --- /feedback ---
 
 - (x) 
-The sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black. 
+The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black. 
 
   --- feedback ---
 Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
@@ -39,7 +41,7 @@ Yes, that's correct. The `not`{:class='block3operators'} block checks that it is
 
 - ( ) 
 
-The sprite will move to a random position until it is not touching **sprite 1** or the colour black. 
+The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black. 
   --- feedback ---
 <not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>
   --- /feedback ---

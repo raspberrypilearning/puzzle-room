@@ -13,9 +13,13 @@ You will need a crosshair that you can use to target the asteroids.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. A really simple example is shown below, using a circle and two lines.
+Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid, at first and then adjust it's **fill** to transparent, once you have it sizes and positioned.
 
 ![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas](images/draw-crosshair.png)
+
+Resize your crosshair sprite if you need to.
+
+**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
 
 --- /task ---
 
@@ -163,7 +167,7 @@ Add the following blocks to the **Rocks** sprite to set when the task is complet
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) > (10)> //10 asteroids have been destroyed
+repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 ```
 
 --- /task ---
@@ -177,8 +181,8 @@ Use another `and`{:class="block3operators"} block in an `if`{:class="block3contr
 when flag clicked
 set [asteroids v] to (0)
 go to position ::custom
-repeat until <(asteroids) > (10)>
-if <<(at chair) = [true]> and <touching (crosshair v)>> then //Monet is at chair and crosshair is touching asteroid
++ repeat until <(asteroids) = (10)>
++ if <<(at chair) = [true]> and <touching (crosshair v)>> then //Monet is at chair and crosshair is touching asteroid
 ```
 
 --- /task ---
@@ -194,8 +198,8 @@ set [asteroids v] to (0)
 go to position ::custom
 repeat until <(asteroids) = (10)>
 if <<(at chair) = [true]> and <touching (crosshair v)>> then
-change [asteroids v] by (1) //store the number of asteroids destroyed
-go to position ::custom //reset asteroid position
++ change [asteroids v] by (1) //store the number of asteroids destroyed
++ go to position ::custom //reset asteroid position
 ```
 
 --- /task ---
@@ -213,8 +217,14 @@ go to x: (-15) y: (122)
 repeat until <(asteroids) = (10)>
 say (join (asteroids) [asteroids destroyed])
 end
-say [task completed]
+say [task completed] for (2) seconds
 ```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Try and move your character close to the chair, then move the crosshair around and try and destroy some asteroids. You can then try and adjust some of the values in your code, so that it works well for your sprite sizes.
 
 --- /task ---
 

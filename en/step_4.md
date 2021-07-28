@@ -29,15 +29,15 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 ```blocks3
 when flag clicked
 + set [handwheel turned v] to (0)
-repeat until <(+ handwheel turned) = (3)>
++ repeat until <(handwheel turned) = (3)>
 + say (join [handwheel turned] (join (+ handwheel turned) [times])
 end
-+ say (task complete) for (2) seconds
++ say [task complete] for (2) seconds
 ```
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to be turned by a few degrees at a time, so the angle it has been turned will need to be stored.
+Like a real handwheel, the **handwheel** sprite will only be able to be turned by a small number of degrees at a time, so the angle it has been turned will need to be stored.
 
 --- task ---
 
@@ -51,7 +51,7 @@ set [handwheel turned v] to (0)
 repeat until <(handwheel turned) = (3)>
 say (join [handwheel turned] (join (handwheel turned) [times])
 end
-say (task complete) for (2) seconds
+say [task complete] for (2) seconds
 ```
 --- /task ---
 
@@ -72,6 +72,8 @@ else
 ```
 
 --- /task ---
+
+**Test**: Move **Monet** close to the handwheel and then click on the handwheel. It helps to be in fullscreen mode, so that you can't drag the handwheel sprite around.
 
 When the `turned`{:class="block3variables"} variable reaches `360` then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable.
 
@@ -104,5 +106,7 @@ set [handwheel turned v] to (0)
 ```
 
 --- /task ---
+
+**Tip**: You can click and drag your **Monet** sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
 
 --- save ---
