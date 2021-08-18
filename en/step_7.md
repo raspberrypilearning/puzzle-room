@@ -1,11 +1,11 @@
 ## Upgrade your project
 
-If you have time you can upgrade your project. 
+If you have time, you can upgrade your project. 
 
 Here are some ideas you could try:
 - Add in extra sprites to provide more puzzles
 - Edit the backdrop and turn areas into new sprites
-- Add an extra challenge, by making the player have to complete all the challenges in a set time.
+- Add an extra challenge, by making the player complete all the challenges in a set time
 
 [Here](images/lever.png){:target='_blank'} is a new image that you might like to try using as a sprite, and a [new backdrop](images/upgrade-backdrop.png){:target='_blank'} to go with it. Both are used in the project shown below.
 
