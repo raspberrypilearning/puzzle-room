@@ -123,7 +123,7 @@ repeat until <(button pressed) = (5)>
 
 --- /task ---
 
-As the loop will end when the button has been pressed `5` times, the last block in the script will then be run. This can tell the player that the task is complete.
+The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
 
 --- task ---
 
