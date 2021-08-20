@@ -13,7 +13,7 @@ The scripts for this puzzle are quite similar to the button puzzle, so you can c
 
 --- task ---
 
-Drag the two scripts you created for the button on to the **handwheel** sprite, to copy them to that sprite.
+Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
 
 --- /task ---
 
@@ -55,11 +55,11 @@ say [task complete] for (2) seconds
 ```
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the handwheel is clicked it turns, and when it has turned the right number of times (`3` times in the example), the puzzle will be solved.
+Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked it turns, and when it has turned the right number of times (`3` times in the example), the puzzle will be solved.
 
 --- task ---
 
-Add blocks so that each time the handwheel is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
 ```blocks3
@@ -73,9 +73,9 @@ else
 
 --- /task ---
 
-**Test**: Move **Monet** close to the handwheel and then click on the handwheel. It helps to be in fullscreen mode, so that you can't drag the handwheel sprite around.
+**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once, so that can be stored in the `handwheel turned`{:class="block3variables"} variable.
+When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
 
 --- task ---
 
@@ -98,7 +98,7 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
 ```blocks3
@@ -107,6 +107,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
 
 --- save ---
