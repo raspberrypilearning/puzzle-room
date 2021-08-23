@@ -13,7 +13,7 @@ You will need a crosshair that you can use to target the asteroids.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid, at first and then adjust its **fill** to transparent, once you have it sized and positioned.
+Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
 
 ![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
 
@@ -79,7 +79,7 @@ hide
 **Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
 --- /task ---
 
-Now it's time to create the asteroid.
+Now it's time to create the asteroids.
 
 --- task ---
 
@@ -189,7 +189,7 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variabels"} variable can be increased by `1` and the function can be called again so the **Rocks** move to a new position.
+If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the function can be called again so the **Rocks** move to a new position.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
 ```blocks3
@@ -224,7 +224,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust some of the values in your code, so that it works well for your sprite sizes.
+**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
 
 --- /task ---
 
