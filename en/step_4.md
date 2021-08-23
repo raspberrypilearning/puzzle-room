@@ -55,7 +55,7 @@ say [task complete] for (2) seconds
 ```
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked it turns, and when it has turned the right number of times (`3` times in the example), the puzzle will be solved.
+Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
 
 --- task ---
 
