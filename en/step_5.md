@@ -87,9 +87,9 @@ Find a **Rocks** sprite and add it to your project. Resize the sprite so that it
 
 --- /task ---
 
-You may have seen how **functions** help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover). 
+You may have seen how `my blocks`{:class="block3custom"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover). 
 
-Functions also help by making it so you don't have to write the same code over and over again. You can use a function for the **Rocks** to position them in the spaceship's port.
+`My blocks`{:class="block3custom"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3custom"} for the **Rocks** to position them in the spaceship's port.
 
 --- task ---
 
@@ -118,7 +118,7 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your function definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Test:** Click on your `my blocks`{:class="block3custom"} definition and you should see the rock move randomly around the screen, until it stops in the port.
 --- /task ---
 
 The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
@@ -189,7 +189,7 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the function can be called again so the **Rocks** move to a new position.
+If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
 ```blocks3
