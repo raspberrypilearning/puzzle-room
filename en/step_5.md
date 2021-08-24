@@ -113,7 +113,7 @@ Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operator
 ```blocks3
 define go to position
 go to (random position v)
-+ repeat until <<touching (port v) ?> and <not<touching color (#69B486) ?>>
++ repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
 go to (random position v)
 
 ```
@@ -131,7 +131,7 @@ Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the
 ```blocks3
 define go to position
 go to (random position v)
-repeat until <<touching (port v) ?> and <not<touching color (#69B486) ?>>
+repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
 + set [ghost v] effect to (100) //Hide the sprite
 end
 + clear graphic effects
