@@ -11,10 +11,6 @@ You will:
 + Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
 + Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
 
-Boxout (conditions)
-
-<mark>Image of many different examples in a strip</mark>
-
 --- no-print ---
 
 --- task ---
