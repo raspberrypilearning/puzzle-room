@@ -30,7 +30,7 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 when flag clicked
 + set [handwheel turned v] to (0)
 + repeat until <(handwheel turned) = (3)>
-+ say (join [handwheel turned] (join (+ handwheel turned) [times])
++ say (join [handwheel turned] (join (handwheel turned) [times])
 end
 + say [task complete] for (2) seconds
 ```
