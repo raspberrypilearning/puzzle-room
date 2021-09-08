@@ -87,13 +87,13 @@ Find a **Rocks** sprite and add it to your project. Resize the sprite so that it
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3custom"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover). 
+You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}. 
 
-`My blocks`{:class="block3custom"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3custom"} for the **Rocks** to position them in the spaceship's port.
+`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
 
 --- task ---
 
-Create a new `block`{:class="block3custom"} and call it `go to position`{:class="block3custom"}. The starting position can be anywhere on the screen.
+Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
 ```blocks3
@@ -113,12 +113,12 @@ Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operator
 ```blocks3
 define go to position
 go to (random position v)
-+ repeat until <<touching (port v) ?> and <not<touching color (#69B486) ?>>
++ repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
 go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3custom"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
 --- /task ---
 
 The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
@@ -131,7 +131,7 @@ Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the
 ```blocks3
 define go to position
 go to (random position v)
-repeat until <<touching (port v) ?> and <not<touching color (#69B486) ?>>
+repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
 + set [ghost v] effect to (100) //Hide the sprite
 end
 + clear graphic effects
