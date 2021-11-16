@@ -2,13 +2,14 @@ title: Puzzle room
 hero_image: images/banner.png
 description: Create a spaceship puzzle room with a character that solves puzzles.
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
   - title: Who's in the puzzle room?
   - title: The button puzzle
+    completion: engaged  
   - title: The handwheel puzzle
   - title: The asteroids puzzle
   - title: Reflection
@@ -17,5 +18,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: internal       
   - title: Upgrade your project
+    completion: external  
   - title: What next?
