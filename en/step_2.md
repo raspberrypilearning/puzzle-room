@@ -48,6 +48,7 @@ You will need on-screen controls to enable you to move your character around.
 Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
 
 ![Arrow sprite.](images/arrow-sprite.png)
+
 ```blocks3
 when this sprite clicked
 broadcast (right v) //Direction the arrow is pointing
@@ -78,6 +79,7 @@ Your main character should move when the arrows are pressed.
 Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
 
 ![Monet sprite.](images/monet-sprite.png)
+
 ```blocks3
 when I receive [up v]
 change y by (10)
@@ -91,6 +93,7 @@ change x by (10)
 when I receive [left v]
 change x by (-10)
 ```
+
 --- /task ---
 
 --- task ---
