@@ -39,6 +39,7 @@ At the start of the game, `button pressed`{:class="block3variables"} should be `
 Add the following blocks to the **button** sprite.
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when flag clicked
 set [button pressed v] to (0) //Button presses set to 0 at start
@@ -55,6 +56,7 @@ A `repeat until`{:class="block3control"} block is a loop that keeps repeating un
 Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when flag clicked
 set [button pressed v] to (0)
@@ -70,6 +72,7 @@ Now, the player needs to be able to push the button. They should only be able to
 Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
@@ -87,6 +90,7 @@ If the character is close, and the button is pressed, then the `button pressed`{
 Add code to change the value of the variable `button pressed`{:class="block3variables"}.
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
@@ -112,6 +116,7 @@ Place a `join`{:class="block3operators"} block inside another one. Then add in t
 For example:
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when flag clicked
 set [button pressed v] to (0)
@@ -130,6 +135,7 @@ The loop will end when the button has been pressed `5` times, then the last bloc
 Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
 
 ![The button sprite.](images/button-sprite.png)
+
 ```blocks3
 when flag clicked
 set [button pressed v] to (0)

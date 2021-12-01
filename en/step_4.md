@@ -26,6 +26,7 @@ Create a new variable called `handwheel turned`{:class="block3variables"}, and u
 **Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
+
 ```blocks3
 when flag clicked
 + set [handwheel turned v] to (0)
@@ -44,6 +45,7 @@ Like a real handwheel, the **handwheel** sprite will only be able to turn a smal
 Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
+
 ```blocks3
 when flag clicked
 + set [turned v] to (0)
@@ -53,6 +55,7 @@ say (join [handwheel turned] (join (handwheel turned) [times])
 end
 say [task complete] for (2) seconds
 ```
+
 --- /task ---
 
 Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
@@ -62,6 +65,7 @@ Now you can edit the `when this sprite clicked`{:class="block3events"} script, s
 Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
@@ -82,6 +86,7 @@ When the `turned`{:class="block3variables"} variable reaches `360`, then the han
 Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
+
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
@@ -94,6 +99,7 @@ end
 else
 set [handwheel turned v] to (0)
 ```
+
 --- /task ---
 
 --- task ---
@@ -101,6 +107,7 @@ set [handwheel turned v] to (0)
 **Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
 
 ![The handwheel sprite.](images/handwheel-sprite.png)
+
 ```blocks3
 <(distance to (Monet v)) < (150)>
 ```

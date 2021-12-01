@@ -30,6 +30,7 @@ The crosshair will follow the mouse, but it should only be visible through the w
 Use the following blocks so that the **crosshair** follows the mouse-pointer.
 
 ![The crosshair sprite.](images/crosshair-sprite.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -47,6 +48,7 @@ You can use an `if`{:class="block3control"} block to test if the **crosshair** i
 Add a test, to make sure that the **crosshair** is touching the **port**.
 
 ![The crosshair sprite.](images/crosshair-sprite.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -67,6 +69,7 @@ You might notice that the crosshair appears at the very edge of the **port** and
 Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
 
 ![The crosshair sprite.](images/crosshair-sprite.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -77,6 +80,7 @@ hide
 ```
 
 **Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+
 --- /task ---
 
 Now it's time to create the asteroids.
@@ -96,6 +100,7 @@ You may have seen how `my blocks`{:class="block3myblocks"} help keep code organi
 Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 define go to position
 go to (random position v)
@@ -110,6 +115,7 @@ The **Rocks** sprite needs to keep finding a random position until it is touchin
 Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 define go to position
 go to (random position v)
@@ -119,6 +125,7 @@ go to (random position v)
 ```
 
 **Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+
 --- /task ---
 
 The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
@@ -128,6 +135,7 @@ The **Rocks** need to be hidden from view as they move, but if they are hidden, 
 Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 define go to position
 go to (random position v)
@@ -146,6 +154,7 @@ The last part is similar to the other puzzles. Using a variable called `asteroid
 On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
 
 ![The Monet sprite.](images/monet-sprite.png)
+
 ```blocks3
 when flag clicked
 set size to (60) %
@@ -156,6 +165,7 @@ set [at chair v] to [true]
 else
 set [at chair v] to [false]
 ```
+
 --- /task ---
 
 --- task ---
@@ -163,6 +173,7 @@ set [at chair v] to [false]
 Add the following blocks to the **Rocks** sprite to set when the task is complete.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 when flag clicked
 set [asteroids v] to (0)
@@ -177,6 +188,7 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 when flag clicked
 set [asteroids v] to (0)
@@ -192,6 +204,7 @@ go to position ::custom
 If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
 
 ![The Rocks sprite.](images/rocks-sprite.png)
+
 ```blocks3
 when flag clicked
 set [asteroids v] to (0)
@@ -211,6 +224,7 @@ The last thing to do is tell the player about the task. This can be done on the 
 Add blocks to tell the player how many asteroids have been destroyed.
 
 ![The port sprite.](images/port-sprite.png)
+
 ```blocks3
 when flag clicked
 go to x: (-15) y: (122)
