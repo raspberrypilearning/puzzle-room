@@ -1,0 +1,35 @@
+Direction the arrow is pointing
+
+The button is visible
+
+Button presses set to 0 at start
+
+Keep repeating until button is pressed 5 times
+
+If close to Monet, then increase button press count
+
+If far from Monet, then reset button press count
+
+Store the turnes of the wheel
+
+The handwheel has turned a full circle
+
+Store the total number of turns
+
+Reset the angle that it has been turned
+
+Only show the crosshair when the mouse is touching the port
+
+Also not touching the edge of the port
+
+Hide the sprite
+
+Check that Monet is at the chair
+
+10 asteroids have been destroyed
+
+Monet is at chair and crosshair is touching asteroid
+
+Store the number of asteroids destroyed
+
+Reset asteroid position
