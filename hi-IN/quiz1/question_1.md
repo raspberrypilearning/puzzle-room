@@ -34,7 +34,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback --- Your script says the number of button presses, however it stops after only 5 button presses. --- /feedback ---
+  --- feedback ---
+
+Your script says the number of button presses, however it stops after only 5 button presses.
+
+  --- /feedback ---
 
 - ( )
 
@@ -47,7 +51,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback --- These blocks would only run once at the start of the game, as there is no loop being used. --- /feedback ---
+  --- feedback ---
+
+These blocks would only run once at the start of the game, as there is no loop being used.
+
+  --- /feedback ---
 
 - (x)
 
@@ -60,7 +68,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback --- Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses. --- /feedback ---
+  --- feedback ---
+
+Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+
+  --- /feedback ---
 
 - ( )
 
@@ -72,7 +84,11 @@ say (button pressed)
 end
 say [task complete)] for (2) seconds
 ```
-  --- feedback --- These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable. --- /feedback ---
+  --- feedback ---
+
+These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+
+  --- /feedback ---
 
 --- /choices ---
 
