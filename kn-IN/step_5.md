@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## ಕ್ಷುದ್ರಗ್ರಹಗಳ ಪಝಲ್
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಅತ್ಯಂತ ಸವಾಲಿನ ಪಝಲ್‌ ರಚಿಸುತ್ತೀರಿ. ನೀವು ಅಪಾಯಕಾರಿ ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ನಾಶಮಾಡಲು ಪಝಲ್‌ ರಚಿಸುತ್ತೀರಿ.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+ನೀವು ಕ್ಷುದ್ರಗ್ರಹಗಳಿಗೆ ಗುರಿ ಇಡಲು ನಿಮಗೆ ಒಂದು ಕ್ರಾಸ್‌ಹೇರ್‌ ಬೇಕಾಗುತ್ತದೆ.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+**crosshair** ಎನ್ನುವ ಹೊಸ ಸ್ಪ್ರೈಟ್‌ಗೆ ಬಣ್ಣಹಚ್ಚಿ. ಒಂದು ವೃತ್ತ ಮತ್ತು ಎರಡು ಗೆರೆಗಳನ್ನು ಉಪಯೋಗಿಸಿ, ಒಂದು ಉದಾಹರಣೆಯನ್ನು ಇಲ್ಲಿ ತೋರಿಸಲಾಗಿದೆ. ಪ್ರಾರಂಭದಲ್ಲಿ ವೃತ್ತವನ್ನು ಘನವಾಗಿಸಿ ಮತ್ತು ನಂತರ ಒಮ್ಮೆ ನೀವು ಅದರ ಗಾತ್ರವನ್ನು ಸರಿಪಡಿಸಿ ಸರಿಯಾದ ಸ್ಥಾನದಲ್ಲಿರಿಸಿದ ನಂತರ ಅದರ **fill** ನ್ನು ಪಾರದರ್ಶಕಕ್ಕೆ ಹೊಂದಿಸಿ.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![ಕ್ಯಾನ್‌ವಾಸ್‌ನಲ್ಲಿ ಕೇಂದ್ರೀಕೃತವಾದ, ವಿಭಜಕ ಕರ್ಣರೇಖೆಗಳೊಂದಿಗೆ ಸಣ್ಣ ಕೆಂಪು ವೃತ್ತವುಳ್ಳ ಕ್ರಾಸ್‌ಹೇರ್.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+ನಿಮಗೆ ಬೇಕಾದಲ್ಲಿ ನಿಮ್ಮ **crosshair** ಸ್ಪ್ರೈಟ್‌ನ ಗಾತ್ರವನ್ನು ಮರುಹೊಂದಿಸಿ.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**ಸಲಹೆ**: ಪೇಂಟ್‌ ಎಡಿಟರ್‌ನ್ನು ಝೂಮ್‌ ಮಾಡಬಹುದು, ವಿಶೇಷವಾಗಿ ನೀವು ಮೊಬೈಲ್‌ ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್‌ ಉಪಕರಣ ಉಪಯೋಗಿಸುತ್ತಿದ್ದರೆ, **+** ಮತ್ತು **-** ಸಂಕೇತಗಳನ್ನು ಉಪಯೋಗಿಸುವುದು, ಸರಿಯಾದ ಸ್ಥಾನದಲ್ಲಿಡಲು ಸುಭವಾಗುತ್ತದೆ.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+ಕ್ರಾಸ್‌ಹೇರ್‌ ಮೌಸ್‌ನ್ನು ಅನುಸರಿಸುತ್ತದೆ, ಆದರೆ ಅದು ಬಾಹ್ಯಾಕಾಶದಲ್ಲಿ ಕಿಟಕಿಯ ಮೂಲಕ ಮಾತ್ರ ಕಾಣಿಸಬೇಕು.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+**crosshair** ಮೌಸ್‌ ಪಾಯಿಂಟರ್‌ನ್ನು ಅನುಸರಿಸುವಂತೆ ಮಾಡಲು ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿ.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![ಕ್ರಾಸ್‌ಹೇರ್‌ ಸ್ಪ್ರೈಟ್.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **crosshair** ಮೌಸ್-ಪಾಯಿಂಟರ್‌ನ್ನು ಅನುಸರಿಸುತ್ತಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+ನೀವು **crosshair**, **port** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸಲು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಉಪಯೋಗಿಸಬಹುದು, ಅದರಿಂದ ಅದು ಅದನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತ **ಇಲ್ಲ**ದಾಗ ಅದು ಮರೆಯಾಗಿರಬಹುದು.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+**crosshair** **port**ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು, ಪರೀಕ್ಷೆಯನ್ನು ಸೇರಿಸಿ.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![ಕ್ರಾಸ್‌ಹೇರ್‌ ಸ್ಪ್ರೈಟ್.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **crosshair**, **port** ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲದಾಗ ಅದು ಮರೆಯಾಗುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+ಕ್ರಾಸ್‌ಹೇರ್‌ **port**ನ ತುಂಬಾ ಅಂಚಿನಲ್ಲಿ ಕಾಣಿಸುವುದನ್ನು ಮತ್ತು ಅದರಿಂದ ಅದು ಗಗನನೌಕೆಯ ಒಳಗಿರುವಂತೆ ಕಾಣಿಸುವುದನ್ನು ನೀವು ಗಮನಿಸಬಹುದು. ಅದು ಹಿನ್ನೆಲೆಯ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲ ಎಂಬುವುದನ್ನು ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+`or`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ಗೆ ಸೇರಿಸಿ. ಎರಡನೆಯ ಷರತ್ತು **crosshair** **port** ನ್ನು ಸುತ್ತುವರಿದಿರುವ ಹಸಿರು ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದ್ದರೆ.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![ಕ್ರಾಸ್‌ಹೇರ್‌ ಸ್ಪ್ರೈಟ್.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**ಸಲಹೆ:** ಕ್ರಾಸ್‌ಹೇರ್‌ ಮೌಸ್‌-ಪಾಯಿಂಟರ್‌ನ್ನು ಅನುಸರಿಸುವುದರಿಂದ, ಕಲರ್‌ ಪಿಕ್ಕರ್‌ನ್ನು ಉಪಯೋಗಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ನಿಲ್ಲಿಸಲು ಮರೆಯಬೇಡಿ.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+ಈಗ ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ರಚಿಸುವ ಸಮಯ.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+**Rocks** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಪತ್ತೆ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಸೇರಿಸಿ. ಸ್ಪ್ರೈಟ್‌ ತುಂಬಾ ದೊಡ್ಡದಾಗಿಲ್ಲದಂತೆ ಅದರ ಗಾತ್ರವನ್ನು ಮರುಹೊಂದಿಸಿ.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+`my blocks`{:class="block3myblocks"} ಹೇಗೆ ಕೋಡ್‌ಗಳನ್ನು ಅಚ್ಚುಕಟ್ಟಾಗಿ ಜೋಡಿಸಲು ಸಹಾಯಮಾಡುತ್ತದೆ ಎಂದು ನೀವು [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"} ನಲ್ಲಿ ನೋಡಿರಬಹುದು.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+ಆ ರೀತಿ ಮಾಡಿ `My blocks`{:class="block3myblocks"} ಒಂದೇ ಕೋಡ್‌ನ್ನು ಪದೆ ಪದೆ ಬರೆಯುವುದನ್ನು ತಪ್ಪಿಸಿಯೂ ಸಹ ಸಹಾಯಮಾಡುತ್ತದೆ. **Rocks**ಗಳಿಗೆ ಗಗನನೌಕೆಯ ಪೋರ್ಟ್‌ನಲ್ಲಿ ಸ್ಥಾನ ನೀಡಲು `my blocks`{:class="block3myblocks"} ನ್ನು ನೀವು ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+ಹೊಸ `block`{:class="block3myblocks"} ನ್ನು ರಚಿಸಿ ಮತ್ತು ಅದನ್ನು `go to position`{:class="block3myblocks"} ಎಂದು ಕರೆಯಿರಿ. ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನವು ಪರದೆಯ ಮೇಲೆ ಎಲ್ಲಿಯಾದರೂ ಅಗಬಹುದು.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+**Rocks** ಸ್ಪ್ರೈಟ್‌ ಅದು **port** `and`{:class="block3operators"} ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರುವವರೆಗೆ ಮತ್ತು **port** ನ ಅಂಚನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲದವರೆಗೆ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನವನ್ನು ಕಂಡುಕೊಳ್ಳುತ್ತಲೇ ಇರಬೇಕು. ಇದು ನೀವು **crosshair** ನಲ್ಲಿ ಉಪಯೋಗಿಸಿದ ಕೋಡ್‌ನ್ನು ಹೋಲುತ್ತದೆ, ಆದರೆ ಈ ಬಾರಿ ನೀವು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+**Rocks** ಗಳು ಅವುಗಳು ಸರಿಯಾದ ಸ್ಥಾನದಲ್ಲಿರುವವರೆಗೆ ಚಲಿಸುತ್ತಲೇ ಇರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು `repeat until`{:class="block3control"} ಮತ್ತು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ `my blocks`{:class="block3myblocks"} ವ್ಯಾಖ್ಯಾನದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ರಾಕ್‌ ಪೋರ್ಟ್‌ನಲ್ಲಿ ನಿಲ್ಲುವವೆರೆಗೆ ಯಾದೃಚ್ಛಿಕವಾಗಿ ಪರದೆಯ ಮೇಲೆ ಚಲಿಸುವುದನ್ನು ನೀವು ನೋಡಬೇಕು.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+**Rocks** ಗಳನ್ನು ಅವುಗಳು ಚಲಿಸುತ್ತಿರುವಾಗ ವೀಕ್ಷಣೆಯಿಂದ ಮರೆಮಾಡಬೇಕು, ಆದರೆ ಅವುಗಳನ್ನು ಮರೆಮಾಡಿದರೆ, ಅವುಗಳು **port**ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರುವುದಿಲ್ಲ, ಆದುದರಿಂದ `ghost`{:class="block3looks"} ಪರಿಣಾಮವನ್ನು ಅವುಗಳು ಕಾಣಿಸುವಂತೆ ಮಾಡಲು ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+ಸ್ಪ್ರೈಟ್‌ ಚಲಿಸುತ್ತಿರುವಾಗ **Rocks**ಗಳ ಮೇಲಿನ `ghost`{:class="block3looks"} ಪರಿಣಾಮವನ್ನು `100`ಕ್ಕೆ ಹೊಂದಿಸಿ, ಮತ್ತು ನಂತರ ಗ್ರಾಫಿಕಲ್‌ ಪರಿಣಾಮವನ್ನು ತೆಗೆಯಿರಿ.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -147,13 +147,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+ಕೊನೆಯ ಭಾಗವು ಉಳಿದ ಪಝಲ್‌ಗಳನ್ನು ಹೋಲುತ್ತದೆ. `asteroids`{:class="block3variables"} ಎನ್ನುವ ವೇರಿಯೇಬಲ್‌ನ್ನು ಉಪಯೋಗಿಸಿ, **crosshair** **Rocks** ನ್ನು ಎಷ್ಟು ಬಾರಿ ಸ್ಪರ್ಶಿಸುತ್ತದೆ ಎಂದು ಎಣಿಸಿ. ಪ್ರತಿಬಾರಿ ಅದು ಮಾಡಿದಾಗ, ಕ್ಷುದ್ರಗ್ರಹ ವೇರಿಯೇಬಲ್‌ ಹೆಚ್ಚುತ್ತದೆ ಮತ್ತು **Rocks** ಹೊಸ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತದೆ. ನಿಮ್ಮ ಪಾತ್ರವು ಕುರ್ಚಿಯಲ್ಲಿದ್ದರೆ ಮಾತ್ರ ಇದು ಕಾರ್ಯನಿರ್ವಹಿಸಬೇಕು.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+ನಿಮ್ಮ **character** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ, `at chair` {:class="block3variables"} ಎನ್ನುವ ಹೊಸ ವೇರಿಯೇಬಲ್‌ನ್ನು ರಚಿಸಿ, ಮತ್ತು ಅದನ್ನು ಪಾತ್ರವು ಕುರ್ಚಿಯನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರುವಾಗ `true` ಎಂದು ಮತ್ತು ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲದಿರುವಾಗ `false` ಎಂದು ಹೊಂದಿಸಿ.
 
-![The Monet sprite.](images/monet-sprite.png)
+![Monet ಸ್ಪ್ರೈಟ್.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +170,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+ಕಾರ್ಯವು ಪೂರ್ಣಗೊಂಡಾಗ ಹೊಂದಿಸಲು **Rocks** ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +185,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+**crosshair** ರಾಕ್‌ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆ ಮತ್ತು `at chair`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ `true` ಆಗಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಲು ಇನ್ನೊಂದು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಉಪಯೋಗಿಸಿ.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +201,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+ಷರತ್ತು ಪೂರೈಕೆಯಾಗಿದ್ದರೆ, ಆಗ `asteroids`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ್ನು `1` ರಷ್ಟು ಹೆಚ್ಚಿಸಬಹುದು ಮತ್ತು **Rocks** ಹೊಸ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸಲು `my block`{:class="block3custom"} ನ್ನು ಮತ್ತೆ ಆಹ್ವಾನಿಸಬಹುದು.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +217,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+ಕೊನೆಯದಾಗಿ ಮಾಡಬೇಕಾಗಿರುವುದು ಆಟಗಾರನಿಗೆ ಕಾರ್ಯದ ಬಗೆಗೆ ಹೇಳುವುದು. ಇದನ್ನು **port** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಮಾಡಬಹುದು.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+ಎಷ್ಟು ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ನಾಶಪಡಿಸಲಾಗಿದೆ ಎಂದು ಆಟಗಾರನಿಗೆ ಹೇಳಲು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The port sprite.](images/port-sprite.png)
+![ಪೋರ್ಟ್‌ ಸ್ಪ್ರೈಟ್.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +238,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಕುರ್ಚಿಗೆ ಹತ್ತಿರ ಚಲಿಸಿ, ನಂತರ ಕ್ರಾಸ್‌ಹೇರ್‌ನ್ನು ಸುತ್ತಲೂ ಚಲಿಸಿ ಕೆಲವು ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ನಾಶಪಡಿಸಲು ಪ್ರಯತ್ನಿಸಿ. ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ ಗಾತ್ರಗಳಿಗೆ ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವಂತೆ ಮಾಡಲು ನಿಮಗೆ ಬೇಕಾದ ಮೌಲ್ಯಗಳನ್ನು ನಿಮ್ಮ ಕೋಡ್‌ನಲ್ಲಿ ನೀವು ಹೊಂದಿಸಬಹುದು.
 
 --- /task ---
 
