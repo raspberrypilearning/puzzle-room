@@ -1,15 +1,15 @@
-## Upgrade your project
+## तुमचा प्रोजेक्ट अपग्रेड करा
 
-If you have time, you can upgrade your project.
+तुमच्याकडे वेळ असल्यास, तुम्ही तुमचा प्रोजेक्ट अपग्रेड करू शकता.
 
-Here are some ideas you could try:
-- Add in extra sprites to provide more puzzles
-- Edit the backdrop and turn areas into new sprites
-- Add an extra challenge, by making the player complete all the challenges in a set time
+तुम्ही प्रयत्न करू शकता अशा काही कल्पना येथे आहेत:
+- अधिक कोडी देण्यासाठी अतिरीक्त स्प्राईट्स जोडा
+- बॅकड्रॉप एडिट करा आणि नवीन स्प्राईट्स मध्ये एरिया वळवा
+- प्लेयर ठरावीक वेळेत सर्व आव्हाने पूर्ण करू शकतील यासाठीअतिरीक्त आव्हान जोडा
 
-You could use this [lever image](images/lever.png){:target='_blank'} as a new sprite, and this [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} with the bottom right levers removed to create a new task. Both are used in the project shown below.
+तुम्ही या [lever image](images/lever.png){:target='_blank'} चा नवीन स्प्राईट म्हणून वापर करू शकता, आणि खालील उजवीकडील लीव्हर सह असलेल्या या [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} ला नवीन कार्य तयार करण्यासाठी काढा. दोन्हींचा खाली दिलेल्या प्रोजेक्ट मध्ये वापर केला आहे.
 
-**Puzzle room upgrade**: [See inside](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
+**पझल रूम अपग्रेड**: [आत बघा](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
 </div>
