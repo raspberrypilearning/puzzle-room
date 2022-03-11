@@ -1,24 +1,24 @@
-## Reflection
+## పునశ్చరణ
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+బాగా చేసారు, మీరు చాలా నేర్చుకున్నారు! ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
 
-Answer the three questions below to reflect on what you've learned.
+మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
 
-Have fun!
+ఆస్వాదించండి!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 3లో 1వ ప్రశ్న
 ---
 
-Here is the Monet character next to a big button:
+ఇక్కడ పెద్ద బటన్ పక్కన Monet కారెక్టర్ ఉంది:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![పెద్ద ఎరుపు బటన్ పక్కన నిలబడి ఉన్న monet కారెక్టర్](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+బటన్ మొత్తం 7 సార్లు పుష్ చేయబడే వరకు బటన్ ప్రెస్‌ల సంఖ్య నిరంతరం ప్రదర్శించబడేలా మీరు ఏ బ్లాక్‌లను ఉపయోగిస్తారు?
 
 
 --- choices ---
@@ -36,7 +36,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+మీ స్క్రిప్ట్ బటన్ ప్రెస్‌ల సంఖ్యను చెబుతుంది, అయితే ఇది కేవలం 5 బటన్ ప్రెస్‌ల తర్వాత ఆగిపోతుంది.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+లూప్ ఉపయోగించబడనందున ఈ బ్లాక్‌లు ఆట ప్రారంభంలో ఒకసారి మాత్రమే అమలు చేయబడతాయి.
 
   --- /feedback ---
 
@@ -70,7 +70,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+అవును! ఈ స్క్రిప్ట్ ప్రతిసారీ బటన్‌ను ఎన్నిసార్లు నొక్కబడినదో చెబుతుంది మరియు 7 బటన్ ప్రెస్‌ల తర్వాత పని పూర్తయిందని చెబుతుంది.
 
   --- /feedback ---
 
@@ -86,7 +86,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+వేరియబుల్ విలువను తనిఖీ చేసే కండిషన్ లేనందున ఈ బ్లాక్‌లు ఆట ప్రారంభంలో `0` సంఖ్యను ఏడుసార్లు త్వరగా చెబుతాయి.
 
   --- /feedback ---
 
