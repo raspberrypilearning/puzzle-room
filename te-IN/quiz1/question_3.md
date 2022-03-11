@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 3లో 3వ ప్రశ్న
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+దిగువ బ్లాక్‌లను చూడండి. జెండాను క్లిక్ చేసినప్పుడు rocks sprite యొక్క ప్రవర్తనను ఏ వివరణ ఉత్తమంగా వివరిస్తుంది?
 
 
 ![rock sprite](images/rocks-sprite.png)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+Rocks sprite **sprite 1** ని మరియు నలుపు రంగును తాకే వరకు యాదృచ్ఛిక స్థానానికి తరలించబడుతుంది.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+ఈ బ్లాక్‌లు ఆ వివరణకు సరిపోతాయి. <touching (sprite 1 v) ?> మరియు <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+Rocks sprite **sprite 1** ని లేదా నలుపు రంగును తాకని వరకు యాదృచ్ఛిక స్థానానికి తరలించబడుతుంది.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> లేదా <not<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+Rocks sprite **sprite 1** ని మరియు నలుపు రంగు కాక ఏదైనా రంగును తాకే వరకు యాదృచ్ఛిక స్థానానికి తరలించబడుతుంది.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+అవును, అది సరైనది. `not`{:class='block3operators'} బ్లాక్ అది నలుపును తాకలేదని తనిఖీ చేస్తుంది.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+Rocks sprite **sprite 1** ని లేదా నలుపు రంగును తాకని వరకు యాదృచ్ఛిక స్థానానికి తరలించబడుతుంది.
 
   --- feedback ---
 
