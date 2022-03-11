@@ -1,0 +1,25 @@
+---
+title: पझल रूम
+hero_image: images/banner.png
+description: कोडी सोडवणाऱ्या कॅरेक्टरसह स्पेसशिप पझल रूम तयार करा.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: परिचय
+  - title: पझल रूम मध्ये कोण आहे?
+  - title: बटन पझल
+    completion: engaged
+  - title: हँडव्हील पझल
+  - title: ऍस्टेरॉइड्स पझल
+  - title: परावर्तन
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: internal
+  - title: तुमचा प्रोजेक्ट अपग्रेड करा
+    completion: external
+  - title: पुढे काय?
