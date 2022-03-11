@@ -1,0 +1,25 @@
+---
+title: पज़्ज़ल रूम
+hero_image: images/banner.png
+description: पहेली को हल करने वाले चरित्र के साथ एक अंतरिक्ष यान पहेली कक्ष बनाएं।
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: परिचय
+  - title: पज़ल रूम (पहेली कक्ष) में कौन है?
+  - title: बटन पहेली
+    completion: engaged
+  - title: हैंडव्हील पहेली
+  - title: क्षुद्रग्रह पहेली
+  - title: सोचिए
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: internal
+  - title: प्रोजेक्ट को अपग्रेड करें
+    completion: external
+  - title: आगे क्या?

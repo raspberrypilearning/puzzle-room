@@ -1,0 +1,25 @@
+---
+title: పజిల్ రూమ్
+hero_image: images/banner.png
+description: పజిల్‌లను పరిష్కరించే పాత్రతో స్పేస్‌షిప్ పజిల్ గదిని సృష్టించండి.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: పరిచయం
+  - title: పజిల్ గదిలో ఎవరున్నారు?
+  - title: Button పజిల్
+    completion: engaged
+  - title: Handwheel పజిల్
+  - title: Asteroids పజిల్
+  - title: విశ్లేషణ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: internal
+  - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+    completion: external
+  - title: తర్వాత ఏంటి?
