@@ -1,15 +1,15 @@
-## Upgrade your project
+## ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
 
-If you have time, you can upgrade your project.
+ನಿಮಗೆ ಸಮಯವಿದ್ದರೆ, ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ನೀವು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಬಹುದು.
 
-Here are some ideas you could try:
-- Add in extra sprites to provide more puzzles
-- Edit the backdrop and turn areas into new sprites
-- Add an extra challenge, by making the player complete all the challenges in a set time
+ನೀವು ಪ್ರಯತ್ನಿಸಬಹುದಾದ ಕೆಲವು ಕಲ್ಪನೆಗಳು ಇಲ್ಲಿವೆ:
+- ಇನ್ನಷ್ಟು ಪಝಲ್‌ಗಳನ್ನು ಒದಗಿಸಲು ಹೆಚ್ಚುವರಿ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಸೇರಿಸಿ
+- ಹಿನ್ನೆಲೆಯನ್ನು ಎಡಿಟ್‌ ಮಾಡಿ ಮತ್ತು ಪ್ರದೇಶಗಳನ್ನು ಹೊಸ ಸ್ಪ್ರೈಟ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ
+- ಆಟಗಾರ ನಿಗದಿತ ಸಮಯದಲ್ಲಿ ಎಲ್ಲಾ ಸವಾಲುಗಳನ್ನು ಪೂರ್ಗೊಳಿಸುವಂತೆ ಮಾಡಿ, ಹೆಚ್ಚುವರಿ ಸವಾಲನ್ನು ಸೇರಿಸಿ
 
-You could use this [lever image](images/lever.png){:target='_blank'} as a new sprite, and this [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} with the bottom right levers removed to create a new task. Both are used in the project shown below.
+ನೀವು ಇದನ್ನು [lever image](images/lever.png){:target='_blank'} ಹೊಸ ಸ್ಪ್ರೈಟ್‌ ಆಗಿ ಉಪಯೋಗಿಸಬಹುದು, ಮತ್ತು ಈ [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} ನ್ನು ಕೆಳಗಿನ ಬಲ ಲೀವರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಹೊಸ ಕಾರ್ಯ ರಚಿಸಲು ಉಪಯೋಗಿಸಬಹುಸು. ಈ ಕೆಳಗೆ ತೋರಿಸಿರುವ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ಎರಡನ್ನು ಉಪಯೋಗಿಸಲಾಗಿದೆ.
 
-**Puzzle room upgrade**: [See inside](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
+**ಪಝಲ್‌ ಕೊಠಡಿ ಅಪ್‌ಗ್ರೇಡ್**: [ಇದರೊಳಗೆ ನೋಡಿ](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
 </div>
