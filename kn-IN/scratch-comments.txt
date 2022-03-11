@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+ಬಾಣವು ಸೂಚಿಸುತ್ತಿರುವ ದಿಕ್ಕು
 
-The button is visible
+ಬಟನ್‌ ಕಾಣಿಸುತ್ತಿದೆ
 
-Button presses set to 0 at start
+ಪ್ರಾರಂಭದಲ್ಲಿ ಬಟನ್ ಒತ್ತುವಿಕೆಯನ್ನು 0 ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ
 
-Keep repeating until button is pressed 5 times
+ಬಟನ್‌ನ್ನು 5 ಬಾರಿ ಒತ್ತುವವರೆಗೆ ಪುನರಾವರ್ತಿಸಿ
 
-If close to Monet, then increase button press count
+Monet ಗೆ ಹತ್ತಿರವಿದ್ದರೆ, ಬಟನ್‌ ಒತ್ತುವಿಕೆಯ ಸಂಖ್ಯೆಯನ್ನು ಹೆಚ್ಚಿಸಿ
 
-If far from Monet, then reset button press count
+Monet ನಿಂದ ದೂರವಿದ್ದರೆ, ಬಟನ್‌ ಒತ್ತುವಿಕೆಯ ಸಂಖ್ಯೆಯನ್ನು ಮರುಹೊಂದಿಸಿ
 
-Store the turnes of the wheel
+ಚಕ್ರದ ತಿರುವುಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ
 
-The handwheel has turned a full circle
+ಕೈಚಕ್ರವು ಸಂಪೂರ್ಣ ವೃತ್ತವನ್ನು ತಿರುಗಿದೆ
 
-Store the total number of turns
+ತಿರುವುಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ
 
-Reset the angle that it has been turned
+ಅದು ತಿರುಗಿದ ಕೋನವನ್ನು ಮರುಹೊಂದಿಸಿ
 
-Only show the crosshair when the mouse is touching the port
+ಮೌಸ್‌ ಪೋರ್ಟ್‌ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರುವಾಗ ಕ್ರಾಸ್‌ಹೇರ್‌ನ್ನು ಮಾತ್ರ ತೋರಿಸಿ
 
-Also not touching the edge of the port
+ಪೋರ್ಟ್‌ನ ಅಂಚನ್ನು ಸ್ಪರ್ಶಿಸುವುದಿಲ್ಲ
 
-Hide the sprite
+ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮರೆಮಾಡಿ
 
-Check that Monet is at the chair
+Monet ಕುರ್ಚಿಯ ಮೇಲಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ
 
-10 asteroids have been destroyed
+10 ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ನಾಶಪಡಿಸಲಾಗಿದೆ
 
-Monet is at chair and crosshair is touching asteroid
+Monet ಕುರ್ಚಿಯ ಮೇಲಿದೆ ಮತ್ತು ಕ್ರಾಸ್‌ಹೇರ್‌ ಕ್ಷುದ್ರಗ್ರಹವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆ
 
-Store the number of asteroids destroyed
+ನಾಶಪಡಿಸಿದ ಕ್ಷುದ್ರಗ್ರಹಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸಂಗ್ರಹಿಸಿ
 
-Reset asteroid position
+ಕ್ಷುದರಗ್ರಹದ ಸ್ಥಾನವನ್ನು ಮರುಹೊಂದಿಸಿ
