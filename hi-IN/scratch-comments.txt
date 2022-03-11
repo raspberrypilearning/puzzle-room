@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+तीर जिस दिशा को इंगित कर रहा है
 
-The button is visible
+बटन दिखाई दे रहा है
 
-Button presses set to 0 at start
+बटन प्रेस प्रारंभ में 0 पर सेट है
 
-Keep repeating until button is pressed 5 times
+5 बार बटन दबाए जाने तक दोहराते रहें
 
-If close to Monet, then increase button press count
+अगर Monet के करीब हो तो, बटन दबाने की गिनती को बढ़ाएं
 
-If far from Monet, then reset button press count
+अगर Monet से दूर हों तो, तो बटन दबाने के गिनती को रीसेट करें
 
-Store the turnes of the wheel
+पहिया के घुमावों को स्टोर करें
 
-The handwheel has turned a full circle
+हैंडव्हील ने एक पूरा चक्कर लगा लिया है
 
-Store the total number of turns
+घुमावों की कुल संख्या स्टोर करें
 
-Reset the angle that it has been turned
+उस कोण को रीसेट करें जिस पर इसे घुमाया गया है
 
-Only show the crosshair when the mouse is touching the port
+क्रॉसहेयर केवल तभी दिखाएं जब चूहा पोर्ट को छू रहा हो
 
-Also not touching the edge of the port
+और तब भी जब पोर्ट के किनारों को नहीं छू रहा है
 
-Hide the sprite
+स्प्राइट को छिपाएँ
 
-Check that Monet is at the chair
+जांचें कि Monet कुर्सी पर है
 
-10 asteroids have been destroyed
+10 क्षुद्रग्रहों को नष्ट कर दिया गया है
 
-Monet is at chair and crosshair is touching asteroid
+Monet कुर्सी पर है और क्रॉसहेयर क्षुद्रग्रह को छू रहा है
 
-Store the number of asteroids destroyed
+नष्ट किए गए क्षुद्रग्रहों की संख्या को स्टोर करें
 
-Reset asteroid position
+क्षुद्रग्रह की स्थिति रीसेट करें
