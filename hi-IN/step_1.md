@@ -1,15 +1,15 @@
-## Introduction
+## परिचय
 
-In this project, you will create a spaceship puzzle room with a character that solves puzzles.
+इस प्रोजेक्ट में, आप पहेली को हल करने वाले चरित्र के साथ एक स्पेस्शिप पज़ल रूम (अंतरिक्ष यान पहेली कक्ष) बनाएंगे।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">**पज़्ज़ल रूम**</span>, या **एस्केप रूम**, पहेलियों वाले कमरे हैं जिन्हें आपको कमरे से बाहर निकलने के लिए, या अगले कमरे में जाने के लिए हल करना होगा। वे ऑनलाइन या वास्तविक कमरे हो सकते हैं, लेकिन विचार आमतौर पर एक ही होता है: जितनी जल्दी हो सके मिशन को पूरा करें!
 </p>
 
-You will:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
+आप:
++ किसी क्रिया के रुकने पर नियंत्रण करने के लिए`repeat until`{:class="block3control"} ब्लॉक का उपयोग करेंगे
++ कई `join`{:class="block3operators"} ब्लॉक का उपयोग `variable`{:class="block3variables"} के मान को आउटपुट करने के लिए करें
++ समस्याओं को हल करने के लिए `and`{:class="block3operators"}, `or`{:class="block3operators"}, और `not`{:class="block3operators"} शर्तों को मिलाएं
 
 --- no-print ---
 
@@ -18,13 +18,13 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### इसे आज़माएं 
 
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
+उह ओह, अंतरिक्ष यान कुछ कठिनाइयों का सामना कर रहा है! इंजीनियर चरित्र को अंतरिक्ष यान के चारों ओर घूमने के लिए तीरों का उपयोग करें। क्या आप सभी पहेलियों को सुलझाने और अंतरिक्ष यान की मदद करने में उनकी मदद कर सकते हैं?
 
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**पज़्ज़ल रूम**: [अंदर देखें](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -33,12 +33,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: खेलने के लिए सलाह
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. आपको बटन के पास रहना है और इसे पांच बार क्लिक करना होगा
+2. आपको कुर्सी के करीब रहने की जरूरत है और फिर दस क्षुद्रग्रहों को नष्ट करने के लिए क्रॉसहेयर का उपयोग करें
+3. आपको हैंडव्हील के करीब रहने की जरूरत है और इसके कुल तीन टीन बार पूरा चक्कर लेने के लिए इस पर क्लिक करें
 
 
 --- /collapse ---
@@ -49,7 +49,7 @@ title: Tips for playing
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![पूर्ण प्रोजेक्ट](images/showcase_static.png)
 
 --- /print-only ---
 
