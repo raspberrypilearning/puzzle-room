@@ -1,15 +1,15 @@
-## Introduction
+## పరిచయం
 
-In this project, you will create a spaceship puzzle room with a character that solves puzzles.
+ఈ ప్రాజెక్ట్‌లో, మీరు పజిల్‌లను పరిష్కరించే పాత్రతో స్పేస్ షిప్ పజిల్ రూమ్ ని తయారు చేస్తారు.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">**పజిల్ రూమ్**</span>, లేదా **ఎస్కేప్ రూమ్**, మీరు గది నుండి బయటకు రావడానికి లేదా తదుపరి గదిలోకి వెళ్లడానికి తప్పనిసరిగా పరిష్కరించాల్సిన పజిల్ లను కలిగి ఉండే గదులు. అవి ఆన్‌లైన్ లేదా నిజమైన గదులు కావచ్చు, కానీ ఆలోచన సాధారణంగా ఒకే విధంగా ఉంటుంది: మీకు వీలైనంత త్వరగా మిషన్‌ను పూర్తి చేయండి!
 </p>
 
-You will:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
+మీరు:
++ `repeat until`{:class="block3control"} బ్లాకుని, యాక్షన్ నిలువగానే కంట్రోల్ చేయడానికి ఉపయోగించండి
++ వివిధ `join`{:class="block3operators"} బ్లాకులను `variable`{:class="block3variables"} యొక్క విలువను ఓట్ పుట్ చేయడానికి వాడండి
++ `and`{:class="block3operators"}, `or`{:class="block3operators"}, మరియు `not`{:class="block3operators"} కలిపి, కండిషన్ ని సమస్యను పరిష్కరించడానికీ కలపండి
 
 --- no-print ---
 
@@ -18,13 +18,13 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### దీన్ని ప్రయత్నించండి 
 
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
+అయ్యో, స్పేస్‌షిప్ కొన్ని సమస్యలను ఎదుర్కొంటోంది! ఇంజనీర్ పాత్రను స్పేస్‌షిప్ చుట్టూ తరలించడానికి బాణాలను ఉపయోగించండి. మీరు వాటిని అన్ని పజిల్స్ పరిష్కరించడానికి మరియు స్పేస్ షిప్ కి సహాయం చేయవచ్చు?
 
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**పజిల్ రూమ్**: [లోపల చూడండి](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -33,12 +33,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: ఆడటానికి చిట్కాలు
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. మీరు బటన్‌కు దగ్గరగా ఉండి, దాన్ని ఐదుసార్లు క్లిక్ చేయాలి
+2. మీరు కుర్చీకి దగ్గరగా ఉండాలి మరియు పది గ్రహశకలాలను నాశనం చేయడానికి క్రాస్‌హైర్లను ఉపయోగించాలి
+3. మీరు హ్యాండ్‌వీల్‌కి దగ్గరగా ఉండి, దాన్ని మొత్తం మూడు పూర్తి మలుపులు తిప్పడానికి దాన్ని క్లిక్ చేయాలి
 
 
 --- /collapse ---
@@ -49,7 +49,7 @@ title: Tips for playing
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![పూర్తయిన ప్రాజెక్ట్](images/showcase_static.png)
 
 --- /print-only ---
 
