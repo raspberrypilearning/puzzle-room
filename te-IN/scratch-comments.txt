@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+బాణం సూచించే దిశ
 
-The button is visible
+బటన్ కనిపిస్తుంది
 
-Button presses set to 0 at start
+బటన్ ప్రెస్‌లు ప్రారంభంలో 0 కి సెట్ చేయబడ్డాయి
 
-Keep repeating until button is pressed 5 times
+బటన్‌ను 5 సార్లు నొక్కేంత వరకు పునరావృతం చేస్తూ ఉండండి
 
-If close to Monet, then increase button press count
+Monet కి దగ్గరగా ఉంటే, బటన్ ప్రెస్ కౌంట్‌ని పెంచండి
 
-If far from Monet, then reset button press count
+Monet కి దూరంగా ఉంటే, బటన్ ప్రెస్ కౌంట్‌ని రీసెట్ చేయండి
 
-Store the turnes of the wheel
+చక్రం యొక్క ఆవర్తన లను స్టోర్ చేయండి
 
-The handwheel has turned a full circle
+Handwheel పూర్తి వృత్తం తిరిగింది
 
-Store the total number of turns
+మొత్తం ఆవర్తనల సంఖ్యను స్టోర్ చేయండి
 
-Reset the angle that it has been turned
+అది తిరిగిన కోణాన్ని రీసెట్ చేయండి
 
-Only show the crosshair when the mouse is touching the port
+మౌస్ పోర్ట్‌ను తాకినప్పుడు మాత్రమే క్రాస్‌హైర్‌ను చూపండి
 
-Also not touching the edge of the port
+అలాగే పోర్ట్ అంచుని తాకనప్పుడు
 
-Hide the sprite
+Sprite ను దాచండి
 
-Check that Monet is at the chair
+Monet కుర్చీ దగ్గర ఉన్నదో లేదో తనిఖీ చేయండి
 
-10 asteroids have been destroyed
+10 గ్రహశకలాలు ధ్వంసమయ్యాయి
 
-Monet is at chair and crosshair is touching asteroid
+Monet కుర్చీలో ఉన్నది మరియు క్రాస్‌హైర్ గ్రహశకలాన్ని తాకుతోంది
 
-Store the number of asteroids destroyed
+నాశనం చేయబడిన గ్రహశకలాల సంఖ్యను స్టోర్ చేయండి
 
-Reset asteroid position
+గ్రహశకలం స్థానాన్ని రీసెట్ చేయండి
