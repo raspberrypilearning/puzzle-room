@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## ಪಝಲ್‌ ಕೊಠಡಿಯಲ್ಲಿ ಯಾರಿದ್ದಾರೆ?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಪಜಲ್ ಕೊಠಡಿಗೆ ಪಾತ್ರವನ್ನು ಸೇರಿಸುತ್ತೀರಿ ಮತ್ತು ಅವುಗಳನ್ನು ಸುತ್ತಲೂ ಚಲಿಸಲು ನಿಯಂತ್ರಣಗಳನ್ನು ರಚಿಸುತ್ತೀರಿ.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratch will open in another browser tab.
+[ Scratch ನ ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"} ತೆರೆಯಿರಿ. Scratch ಇನ್ನೊಂದು ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, ನೀವು ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room)ರಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+ನೀವು ಗಗನನೌಕೆಯ ಒಳಗಿನಿಂದ ಒಂದು ದೃಶ್ಯವನ್ನು ನೋಡಬೇಕು. ಹಲವಾರು ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನಿಮಗಾಗಿ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅವುಗಳ ಸ್ಥಾನಗಳನ್ನು ಹೊಂದಿಸಲಾಗಿದೆ.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ:** ಗಗನನೌಕೆಯಲ್ಲಿ ಯಾರಿದ್ದಾರೆ? ಅದು ಭೂಮಿಯಿಂದ ಏಕವ್ಯಕ್ತಿ ಕಾರ್ಯಾಚರಣೆಯಾಗಿರಬಹುದು, ಅದು ಅನ್ಯಲೋಕದ ಗಗನನೌಕೆಯಾಗಿರಬಹುದು, ಅಥವಾ ಅದು ಮುಂದೆ ಬೆಕ್ಕುಗಳು ಜಗತ್ತನ್ನು ಆಳುವಾಗ ಅಸ್ತಿತ್ವಕ್ಕೆ ಬರುವುದಾಗಿರಬಹುದು.
 
-You need one character to interact with the puzzles you are making.
+ನೀವು ರಚಿಸುವ ಪಝಲ್‌ ಜೊತೆ ಸಂವಹನ ಮಾಡಲು ನಿಮಗೆ ಒಂದು ಪಾತ್ರ ಬೇಕಾಗುತ್ತದೆ.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹೊಸ ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿ. ಈ ಉದಾಹರಣೆಯಲ್ಲಿ, ನೀವು **Monet** ಪಾತ್ರವನ್ನು ನೋಡುತ್ತೀರಿ.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Scratch ನಿಂದ Mone ಸ್ಪ್ರೈಟ್‌ನ ಅನಿಮೇಟೆಡ್‌ ಜಿಐಎಫ್.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+ನಿಮ್ಮ ಪಾತ್ರವು ದೃಶ್ಯಕ್ಕೆ ತುಂಬಾ ದೊಡ್ಡದು ಅಥವಾ ಚಿಕ್ಕದು ಆಗಿದ್ದರೆ, ನೀವು ಅವುಗಳ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಬೇಕು. ನೀವು ಪಾತ್ರಕ್ಕೆ ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನವನ್ನು ಸಹ ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+ನಿಮ್ಮ ಪಾತ್ರದ ಗಾತ್ರ ಮತ್ತು ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನವನ್ನು ಹೊಂದಿಸಲು ಕೋಡ್‌ ಸೇರಿಸಿ.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಸುತ್ತಲೂ ಚಲಿಸಲು ನಿಮಗೆ ಪರದೆಯ-ಮೇಲಿನ (ಆನ್‌-ಸ್ಕ್ರೀನ್) ನಿಯಂತ್ರಣಗಳು ಬೇಕು.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+ಯಾವುದಾದರೊಂದು **arrow** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ. ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, ಅದು ತನ್ನ ದಿಕ್ಕನ್ನು ಪ್ರಸಾರ ಮಾಡಬೇಕು, ಅದರಿಂದ ಅದು ಪಾತ್ರವು ಅದೇ ದಿಕ್ಕಲ್ಲಿ ಚಲಿಸುವಂತೆ ಮಾಡಬಹುದು.
 
-![Arrow sprite.](images/arrow-sprite.png)
+![ಬಾಣದ ಸ್ಪ್ರೈಟ್.](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**ಸಲಹೆ:** ಮೊಬೈಲ್‌ ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್‌ ಉಪಯೋಗಿಸುವಾಗ **arrow** ಸ್ಪ್ರೈಟ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಲು ತುಂಬಾ ಕಷ್ಟವಾದರೆ, ಆಗ ನೀವು ಅವುಗಳ ಉಡುಪುಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು. ಪ್ರತಿಯೊಂದು **arrow** ಸ್ಪ್ರೈಟ್‌ ದೊಡ್ಡ್‌ ನೇರಳೆಬಣ್ಣದ ವೃತ್ತವನ್ನೂ ಸಹ ಹೊಂದಿದೆ, ಅದನ್ನೂ ಉಪಯೋಗಿಸಬಹುದು.
 
-Now add more direction controls to move your main character.
+ಈಗ ನಿಮ್ಮ ಮುಖ್ಯ ಪಾತ್ರವನ್ನು ಚಲಿಸಲು ಇನ್ನಷ್ಟು ದಿಕ್ಕು ನಿಯಂತ್ರಣಗಳನ್ನು ಸೇರಿಸಿ.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+**arrow** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮೂರು ಬಾರಿ ನಕಲು ಮಾಡಿ. ನಂತರ, ಪ್ರತಿಯೊಂದು ಸ್ಪ್ರೈಟ್‌ಗೆ, ಅವುಗಳು ಬೇರೆ ಬೇರೆ ದಿಕ್ಕನ್ನು ಸೂಚಿಸುವಂತೆ ಉಡುಪುಗಳನ್ನು ಬದಲಾಯಿಸಿ.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+ಪ್ರತಿಯೊಂದು ಸ್ಪ್ರೈಟ್‌ನ ಹೆಸರನ್ನು ಅದು ಸೂಚಿಸುತ್ತಿರುವ ದಿಕ್ಕಿಗೆ ಬದಲಾಯಿಸಿ ಮತ್ತು `broadcast`{:class="block3events"} ನ್ನು ಅದು ಸೂಚಿಸುತ್ತಿರುವ ದಿಕ್ಕಿಗೆ ಬದಲಾಯಿಸಿ.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+ಎಲ್ಲಾ **arrow** ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನೂ ಪರದೆಯ ಮೂಲೆಯಲ್ಲಿ ಜೋಡಿಸಿ.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![ಕೆಳ ಎಡ-ಮೂಲೆಯಲ್ಲಿ, ದಿಕ್ಸೂಚಿ ದಿಕ್ಕುಗಳನ್ನು ಸೂಚಿಸುತ್ತಿರುವ ಬಾಣಗಳೊಂದಿಗೆ ಬಾಹ್ಯಾಕಾಶದ ದೃಶ್ಯ.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+ಬಾಣಗಳನ್ನು ಒತ್ತಿದಾಗ ನಿಮ್ಮ ಮುಖ್ಯ ಪಾತ್ರ ಚಲಿಸಬೇಕು.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+ನಿಮ್ಮ ಮುಖ್ಯ ಪಾತ್ರದ ಸ್ಪ್ರೈಟ್‌ ಅದು `left, right, up, and down`{:class="block3events"} ಪ್ರಸಾರವನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ ಅದು ಚಲಿಸಲು ಕೋಡ್‌ ಮಾಡಿ.
 
-![Monet sprite.](images/monet-sprite.png)
+![Monet ಸ್ಪ್ರೈಟ್.](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಸುತ್ತಲೂ ಚಲಿಸಲು ಬಾಣಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- /task ---
 
