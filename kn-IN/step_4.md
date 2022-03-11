@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## ಕೈಚಕ್ರದ ಪಝಲ್
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಕೈಚಕ್ರವನ್ನು ತಿರುಗಿಸಬೇಕಾದ ಪಝಲ್‌ನ್ನು ರಚಿಸುತ್ತೀರಿ.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+ಈ ಪಝಲ್‌ನ ಬರಹವು ಬಟನ್‌ ಪಝಲ್‌ನ ಬರಹಕ್ಕೆ ಸರಿಸುಮಾರು ಹೋಲುತ್ತದೆ, ನೀವು ಆ ಬರಹಗಳನ್ನು ನಕಲು ಮಾಡಿ ನಂತರ ಅವುಗಳನ್ನು ಎಡಿಟ್‌ ಮಾಡಬಹುದು.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+ನೀವು **button** ಸ್ಪ್ರೈಟ್‌ಗೆ ರಚಿಸಿದ ಎರಡು ಬರಹಗಳನ್ನು ಆ ಸ್ಪ್ರೈಟ್‌ಗೆ ನಕಲು ಮಾಡಲು **handwheel** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಎಳೆಯಿರಿ.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+`when flag clicked`{:class='block3events'} ಬರಹವೇ ಮೊದಲು ಬದಲಾಯಿಸಬೇಕಾದುದು.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+`handwheel turned`{:class="block3variables"} ಎನ್ನುವ ಹೊಸ ವೇರಿಯೇಬಲ್‌ನ್ನು ರಚಿಸಿ, ಮತ್ತು ಆ ವೇರಿಯೇಬಲ್‌ನ್ನು `button pressed`{:class="block3variables"}ವೇರಿಯೆಬಲ್‌ ಬದಲಾಗಿ ಉಪಯೋಗಿಸಿ.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**ಆಯ್ಕೆ ಮಾಡಿ:** ಪೂರ್ಣಗೊಳಿಸುವಿಕೆಯ ಸಂಖ್ಯೆಯನ್ನು ನಿಮಗೆ ಯಾವುದು ಬೇಕೋ ಅದಕ್ಕೆ ಬದಲಾಯಿಸಿ. ನಾವು ಉದಾಃರಣೆಯಲ್ಲಿ `3` ಆಯ್ಕೆ ಮಾಡಿದ್ದೇವೆ.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![ಕೈಚಕ್ರ ಸ್ಪ್ರೈಟ್.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+ನಿಜವಾದ ಕೈಚಕ್ರದಂತೆ, **handwheel** ಸ್ಪ್ರೈಟ್‌ ಒಮ್ಮೆ ಕಡಿಮೆ ಸಂಖ್ಯೆಯ ಡಿಗ್ರಿಗಳನ್ನು ಮಾತ್ರ ತಿರುಗಬಲ್ಲದು, ಆದುದರಿಂದ ಅದು ತಿರುಗಿದ ಕೋನವನ್ನು ಸಂಗ್ರಹಮಾಡಬೇಕು.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+`turned`{:class="block3variables"} ಎನ್ನುವ ಹೊಸ ವೇರಿಯೇಬಲ್‌ನ್ನು ರಚಿಸಿ ಮತ್ತು ಆಟವು ಪ್ರಾರಂಭವಾದಾಗ ಅದನ್ನು `0` ಗೆ ಹೊಂದಿಸಿ.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![ಕೈಚಕ್ರ ಸ್ಪ್ರೈಟ್.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+ಈಗ ನೀವು `when this sprite clicked`{:class="block3events"} ಬರಹವನ್ನು ಎಡಿಟ್‌ ಮಾಡಹುದು, ಅದರಿಂದ **handwheel** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಪದೆ ಪದೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಅದು ಒಂದು ಸಂಪೂರ್ಣ ಆವರ್ತನ ಮುಗಿಯುವವರೆಗೂ ಪ್ರತಿಬಾರಿ ಸ್ವಲ್ಪ ಪ್ರಮಾಣದಲ್ಲಿ ತಿರುಗುತ್ತದೆ. ಅದು ಸರಿಯಾದ ಸಂಖ್ಯೆಯ ಸಂಪೂರ್ಣ ಆವರ್ತನಗಳನ್ನು ಮುಗಿಸಿದಾಗ (`3` ಬಾರಿ ಈ ಉದಾಹರಣೆಯಲ್ಲಿ), ಪಝಲ್‌ ಪರಿಹಾರವಾಗುತ್ತದೆ.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+ಪ್ರತಿಬಾರಿ **handwheel** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, ಅದು `15` ಡಿಗ್ರಿಗಳು ತಿರುಗುವಂತೆ ಮತ್ತು `turned`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ `15`ರಿಂದ ಹೆಚ್ಚಾಗುವಂತೆ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![ಕೈಚಕ್ರ ಸ್ಪ್ರೈಟ್.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**ಪರೀಕ್ಷೆ**: **Monet** ಸ್ಪ್ರೈಟ್‌ನ್ನು (ಅಥವಾ ನಿಮ್ಮ ಪಾತ್ರದ ಸ್ಪ್ರೈಟ್‌ನ್ನು) **handwheel** ಗೆ ಹತ್ತಿರ ಚಲಿಸಿ ಮತ್ತು ನಂತರ **handwheel** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಫುಲ್‌ಸ್ಕ್ರೀನ್‌ ಮೋಡ್‌ಲ್ಲಿರುವುದು ಸಹಾಯಕವಾಗುತ್ತದೆ, ಅದರಿಂದ ನೀವು **handwheel** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಸುತ್ತಲೂ ಎಳೆಯಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+`turned`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ `360` ತಲುಪಿದಾಗ, ಆಗ ಕೈಚಕ್ರವನ್ನು ಒಂದು ಬಾರಿ ತಿರುಗಿಸಲಾಗಿದೆ; ಇದನ್ನು ಈಗ `handwheel turned`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಬಹುದು.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+`handwheel turned`{:class="block3variables"} ನ್ನು ಬದಲಾಯಿಸಲು **nested** `if`{:class="block3control"} ಉಪಯೋಗಿಸಿ ಮತ್ತು `turned`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ್ನು ಮರುಹೊಂದಿಸಿ. **nested** `if`{:class="block3control"} ಎಂದರೆ `if`{:class="block3control"}ನ್ನು ಒಂದನ್ನು ಇನ್ನೊಂದರ ಒಳಗೆ ಇರಿಸುವುದು.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![ಕೈಚಕ್ರ ಸ್ಪ್ರೈಟ್.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪಾತ್ರದ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕೈಚಕ್ರದ ಹತ್ತಿರ ಚಲಿಸಿ ಮತ್ತು ನಂತರ ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಪಾತ್ರವು ಕೈಚಕ್ರದಿಂದ ಇರಬೇಕಾದ ದೂರವನ್ನು ನೀವು ಹೊಂದಿಸಬೇಕಾಗಬಹುದು.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![ಕೈಚಕ್ರ ಸ್ಪ್ರೈಟ್.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**ಸಲಹೆ**: ಉದಾಃರಣೆಗೆ ನೀವು ನಿಮ್ಮ **Monet** (ಅಥವಾ ಪಾತ್ರ) ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕೈಚಕ್ರಕ್ಕೆ ಹತ್ತಿರ ತರಲು ಅದನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಸುತ್ತಲೂ ಎಳೆಯಬಹುದು. ಇದು ನಿಮ್ಮ ಸಮಯವನ್ನು ಉಳಿಸುತ್ತದೆ, ಏಕೆಂದರೆ ನೀವು ನಿಯಂತ್ರಣಗಳನ್ನು ಉಪಯೋಗಿಸುತ್ತಲೇ ಇರಬೇಕಾಗಿಲ್ಲ.
 
 --- save ---
