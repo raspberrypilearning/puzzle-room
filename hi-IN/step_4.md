@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## हैंडव्हील पहेली
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+इस चरण में, आप एक पहेली बनाएँगे जहाँ एक हाथ के पहिये को घुमाना होगा।
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+इस पहेली की स्क्रिप्ट बटन पहेली से काफी मिलती-जुलती हैं, इसलिए आप उन स्क्रिप्ट को कॉपी कर सकते हैं और फिर उन्हें संपादित कर सकते हैं।
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+उन्हें उस स्प्राइट में कॉपी करने के लिए **button** स्प्राइट के लिए आपके द्वारा बनाई गई दो स्क्रिप्ट **handwheel** स्प्राइट पर खींचें।
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+`when flag clicked`{:class='block3events'} स्क्रिप्ट वह पहली स्क्रिप्ट होती है जिसे बदलने की आवश्यकता होती है।
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+`handwheel turned`{:class="block3variables"} नामक एक नया वेरिएबल बनाएं और `button pressed`{:class="block3variables"} वेरिएबल के बजाय उस वेरिएबल का उपयोग करें।
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**चुनें:** पूर्ति संख्या को आप जो चाहें उसमें बदलें। हमने उदाहरण में `3` चुना है।
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![handwheel स्प्राइट।](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+एक वास्तविक हैंडव्हील की तरह, **handwheel** स्प्राइट एक बार में केवल कुछ ही डिग्री मुड़ सकता है, इसलिए जिस कोण को घुमाया गया है उसे संग्रहीत करने की आवश्यकता होगी।
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+`turned`{:class="block3variables"} नामक एक नया वेरिएबल बनाएं और गेम शुरू होने पर इसे `0` पर सेट करें।
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![handwheel स्प्राइट।](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+अब आप `when this sprite clicked`{:class="block3events"} स्क्रिप्ट को संपादित कर सकते हैं ताकि जब **handwheel** स्प्राइट को बार-बार क्लिक किया जाए तो यह हर बार एक छोटी राशि में मुड़ता है जब तक कि यह एक पूरे चक्कर को पूरा नहीं कर लेता। जब यह पूर्ण घुमावों की सही संख्या (उदहारण में `3` बार) पूरा कर लेता है, तो पहेली हल हो जाएगी।
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+ब्लॉक जोड़ें ताकि हर बार **handwheel** स्प्राइट पर क्लिक किया जाए, यह `15` डिग्री मुड़ जाये और ``{:class="block3variables"} वेरिएबल `15` बढ़ जाये।
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![handwheel स्प्राइट।](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**परिक्षण **: **Monet** स्प्राइट (या आपका चरित्र स्प्राइट) को **handwheel** के पास ले जाएँ और फिर **हैंडव्हील** स्प्राइट पर क्लिक करें। फ़ुलस्क्रीन मोड में रहना मददगार होगा, ताकि आप **handwheel** स्प्राइट को इधर-उधर न खींच सकें।
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+जब `turned`{:class="block3variables"} वेरिएबल `360` तक पहुंच जाता है, तो हैंडव्हील को एक बार घुमा दिया गया है; इसे अब `handwheel turned`{:class="block3variables"} वेरिएबल में स्टोर किया जा सकता है।
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+`handwheel turned`{:class="block3variables"} को बदलने के लिए **nested** `if`{:class="block3control"} का उपयोग करें और `turned`{:class="block3variables"} वेरिएबल को रीसेट करें। एक **nested** `if`{:class="block3control"} तब होता है जब एक `if`{:class="block3control"} दूसरे के अंदर रखा जाता है।
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![handwheel स्प्राइट।](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**परिक्षण:** अपने चरित्र स्प्राइट को हैंडव्हील के करीब ले जाएं और फिर उस पर क्लिक करें। आपको उस दूरी को समायोजित करना पड़ सकता है जो चरित्र की हैंडव्हील से होनी चाहिए।
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![handwheel स्प्राइट।](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**सलाह:** आप **Monet** (या चरित्र) स्प्राइट को क्लिक करके खींच सकते हैं, उदाहरण के लिए, इसे हैंडव्हील के करीब लाने के लिए। इससे आपका समय बचेगा, क्योंकि आपको नियंत्रणों का उपयोग नहीं करना पड़ेगा।
 
 --- save ---
