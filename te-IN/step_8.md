@@ -1,10 +1,10 @@
-## What next?
+## తర్వాత ఏంటి?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Mandala](https://projects.raspberrypi.org/en/projects/mandala) project. In this project, you will make computer generated mandalas.
+మీరు [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) పాత్‌వేని అనుసరిస్తుంటే, మీరు [Mandala](https://projects.raspberrypi.org/en/projects/mandala) ప్రాజెక్ట్‌కి వెళ్లవచ్చు. ఈ ప్రాజెక్ట్‌లో, మీరు కంప్యూటర్‌లో రూపొందించిన mandala లను తయారు చేస్తారు.
 
 --- print-only ---
 
-![Mandala project](images/mandala.png)
+![Mandala ప్రాజెక్ట్](images/mandala.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+మీరు సరదాగా Scratch అన్వేషించాలనుకొంటే, అప్పుడు మీరు [ఈ ప్రాజెక్టులలో](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) ఏదైనా ప్రయత్నించండి.
