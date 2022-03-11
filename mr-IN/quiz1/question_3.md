@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: प्रश्न 3 पैकी 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+खालील कोड पहा. झेंड्यावर क्लिक केल्यावर rocks स्प्राईटच्या वागणूकीचे उत्तम वर्णन कोण करेल?
 
 
-![rock sprite](images/rocks-sprite.png)
+![rocks स्प्राईट](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,17 +20,17 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+rocks स्प्राईट **sprite 1** ला स्पर्श करेपर्यंत आणि काळ्या रंगाला स्पर्श करेपर्यंत कोणत्याही पोजिशनमध्ये हलेल.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+हे ब्लॉक त्या वर्णनात बसतील. <touching (sprite 1 v) ?> आणि <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+rocks स्प्राईट **sprite 1** ला स्पर्श करेपर्यंत किंवा काळ्या रंगाला स्पर्श करत नाही तोपर्यंत कोणत्याही पोजिशन मध्ये हलेल.
 
   --- feedback ---
 
@@ -40,21 +40,21 @@ The rocks sprite will move to a random position until it is touching **sprite 1*
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+rocks स्प्राईट **sprite 1** ला स्पर्श करेपर्यंत किंवा काळा रंग वगळता इतर कोणत्याही रंगाला स्पर्श करत नाही तोपर्यंत कोणत्याही पोजिशन मध्ये हलेल.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+हो, ते बरोबर आहे. `not`{:class='block3operators'} ब्लॉक तो काळ्याला स्पर्श करत नसल्याचे तपासतो.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+rocks स्प्राईट **sprite 1** ला स्पर्श करेपर्यंत किंवा काळ्या रंगाला स्पर्श करत नाही तोपर्यंत कोणत्याही पोजिशन मध्ये हलेल.
 
   --- feedback ---
 
-<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>
+<not<touching (sprite 1 v) ?>> किंवा <touching color (#000000) ?>
 
   --- /feedback ---
 
