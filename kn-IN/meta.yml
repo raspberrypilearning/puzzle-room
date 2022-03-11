@@ -1,25 +1,25 @@
 ---
-title: Puzzle room
+title: ಪಝಲ್‌ ಕೊಠಡಿ
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
+description: ಪಝಲ್‌ಗಳನ್ನು ಪರಿಹರಿಸುವ ಪಾತ್ರದೊಂದಿಗೆ ಗಗನನೌಕೆಯ ಪಝಲ್‌ ಕೊಠಡಿಯನ್ನು ರಚಿಸಿ.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Who's in the puzzle room?
+    title: ಪಝಲ್‌ ಕೊಠಡಿಯಲ್ಲಿ ಯಾರಿದ್ದಾರೆ?
   - 
-    title: The button puzzle
+    title: ಬಟನ್‌ ಪಝಲ್
     completion: engaged
   - 
-    title: The handwheel puzzle
+    title: ಕೈಚಕ್ರದ ಪಝಲ್
   - 
-    title: The asteroids puzzle
+    title: ಕ್ಷುದ್ರಗ್ರಹಗಳ ಪಝಲ್
   - 
-    title: Reflection
+    title: ಪುನರ್ಮನನ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,7 +27,7 @@ steps:
       passing_score: 3
     completion: internal
   - 
-    title: Upgrade your project
+    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
     completion: external
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
