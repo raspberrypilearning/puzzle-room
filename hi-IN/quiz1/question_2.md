@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: 3 में से दूसरा प्रश्न
 ---
 
-Here's a script for a handwheel puzzle:
+हैंडव्हील पहेली के लिए यहां एक स्क्रिप्ट दी गई है:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+एक पूर्ण वाक्य का उपयोग करते हुए, चरित्र को यह बताने के लिए कि उन्होंने कितनी बार पहिया घुमाया है, आप स्क्रिप्ट में कोड की कौन सी पंक्ति जोड़ेंगे?
 
 --- choices ---
 
@@ -28,7 +28,7 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+हाँ, अगर हैंडव्हील तीन बार घुमाया गया है तो यह कहेगा `handwheel turned 3 times`{:class='block3looks'}।
 
   --- /feedback ---
 
@@ -40,7 +40,7 @@ say (join [handwheel turned ]  [ times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+इस स्क्रिप्ट के साथ अगर हैंडव्हील को 3 बार माया गया है तो यह कहेगा `handwheel turned times`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+इस स्क्रिप्ट के साथ अगर हैंडव्हील को 3 बार घुमाया गया है तो यह कहेगा `3 handwheel turned times`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+इस स्क्रिप्ट के साथ अगर हैंडव्हील को 3 बार घुमाया गया है तो यह कहेगा `3`{:class='block3looks'}
 
   --- /feedback ---
 
