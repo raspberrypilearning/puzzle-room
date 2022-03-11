@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## Asteroids పజిల్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+ఈ దశలో, మీరు అత్యంత సవాలుగా ఉండే పజిల్‌ని సృష్టిస్తారు. ప్రమాదకరమైన గ్రహశకలాలు అనగా ఆస్టరాయిడ్ లను నాశనం చేయడానికి మీరు ఒక పజిల్‌ని సృష్టిస్తారు.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+మీరు గ్రహశకలాలను లక్ష్యంగా చేసుకోవడానికి ఉపయోగించే క్రాస్‌హైర్ అవసరం.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+**crosshair**అనే కొత్త spriteను పెయింట్ చేయండి. వృత్తం మరియు రెండు పంక్తులను ఉపయోగించి ఒక ఉదాహరణ క్రింద చూపబడింది. సర్కిల్‌ను మొదట్లో సాలిడ్ గా చేసి, ఒకసారి దాని పరిమాణం, పొజిషన్ సెట్ అయిన తర్వాత, దాని **fill** ని transparent కి సర్దుబాటు చేయండి.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![కాన్వాస్‌లో కేంద్రీకృతమై, విభజించే డయాగొనల్ రేఖలతో చిన్న ఎరుపు వృత్తంతో కూడిన క్రాస్‌హైర్.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+మీకు అవసరమైతే మీ **crosshair** sprite పరిమాణాన్ని మార్చండి.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**చిట్కా**: మీరు **+** మరియు **-** చిహ్నాలను ఉపయోగించి, ప్రత్యేకించి మీరు మొబైల్ లేదా టాబ్లెట్ పరికరంలో ఉన్నట్లయితే, స్థానాలను సులభతరం చేయడానికి పెయింట్ ఎడిటర్‌ను జూమ్ చేయవచ్చు.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+Crosshair మౌస్‌ను అనుసరిస్తుంది, కానీ అది అంతరిక్షంలోకి విండో ద్వారా మాత్రమే కనిపించాలి.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+కింది బ్లాక్‌లను ఉపయోగించండి, తద్వారా **crosshair** మౌస్-పాయింటర్‌ను అనుసరిస్తుంది.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Crosshair sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**పరీక్ష:** ఆకుపచ్చ జెండాపై క్లిక్ చేసి, **crosshair** మౌస్-పాయింటర్‌ను అనుసరిస్తున్నట్లు నిర్ధారించుకోండి.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+**crosshair** **port** spriteను తాకుతుందో లేదో పరీక్షించడానికి మీరు `if`{:class="block3control"} బ్లాక్‌ని ఉపయోగించవచ్చు, తద్వారా అది **not** తాకనప్పుడు దాచబడుతుంది.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+**crosshair** **port**ని తాకినట్లు నిర్ధారించుకోవడానికి పరీక్షను జోడించండి.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Crosshair sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**పరీక్ష:** ఆకుపచ్చ జెండాను క్లిక్ చేయండి మరియు **port**ని తాకనప్పుడు **crosshair** దాగి ఉందని నిర్ధారించుకోండి.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+క్రాస్ హైర్, **port** అంచున కనిపించడం కాబట్టి స్పేస్ షిప్ లోపల ఉన్నట్లు అనిపించడం మీరు గమనించవచ్చు. ఇది బ్యాక్‌డ్రాప్ రంగును తాకడం లేదని తనిఖీ చేయడం ద్వారా దీన్ని పరిష్కరించవచ్చు.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+`or`{:class="block3operators"} బ్లాకుని `if`{:class="block3control"} బ్లాకుకి జోడించండి. **crosshair**, **port** ని చుట్టి ఉన్న పచ్చని రంగుని తాకడం రెండవ కండిషన్.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Crosshair sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**చిట్కా:** crosshair మౌస్-పాయింటర్‌ను అనుసరిస్తున్నందున, కలర్ పికర్‌ని ఉపయోగించే ముందు మీరు మీ ప్రాజెక్ట్‌ను ఆపివేసినట్లు నిర్ధారించుకోండి.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+ఇప్పుడు ఆస్టరాయిడ్లను సృష్టించే సమయం వచ్చింది.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+**Rocks** sprite ని కనుగొని, దానిని మీ ప్రాజెక్ట్‌కి జోడించండి. Sprite చాలా పెద్దది కాకుండా పరిమాణాన్ని మార్చండి.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+[Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}లో కోడ్‌ని క్రమబద్ధంగా ఉంచడంలో `my blocks`{:class="block3myblocks"} ఎలా సహాయపడుతుందో మీరు చూసి ఉండవచ్చు.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+`My blocks`{:class="block3myblocks"} కూడా దీన్ని తయారు చేయడం ద్వారా సహాయం చేస్తుంది కాబట్టి మీరు ఒకే కోడ్‌ని మళ్లీ మళ్లీ రాయాల్సిన అవసరం లేదు. మీరు **Rocks** కోసం `my blocks`{:class="block3myblocks"}ని స్పేస్‌షిప్ పోర్ట్‌లో ఉంచడానికి ఉపయోగించవచ్చు.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+కొత్త `block`{:class="block3myblocks"}ని సృష్టించండి మరియు దానిని `go to position`{:class="block3myblocks"} అని పిలవండి. ప్రారంభ స్థానం స్క్రీన్‌పై ఎక్కడైనా ఉండవచ్చు.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+**Rocks** sprite, **port** ని తాకేవరకు `and`{:class="block3operators"} **port** అంచులను తాకకుండా ఉండే వరకు, ఏదైనా యాదృచ్ఛిక స్థానాన్ని కనుగొనడం అవసరం. ఇది మీరు **crosshair**లో ఉపయోగించిన కోడ్‌ని పోలి ఉంటుంది, కానీ ఈసారి మీరు `and`{:class="block3operators"} బ్లాక్‌ని ఉపయోగిస్తారు.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+**Rocks** సరైన పొజిషన్ కి వచ్చే వరకు కదులుతూ ఉండేలా, `repeat until`{:class="block3control"} మరియు `and`{:class="block3operators"} బ్లాకుని జోడించండి.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**పరీక్ష:** మీ `my blocks`{:class="block3myblocks"} నిర్వచనంపై క్లిక్ చేయండి మరియు పోర్ట్‌లో ఆగిపోయే వరకు రాక్, స్క్రీన్ చుట్టూ యాదృచ్ఛికంగా కదలడం మీరు చూడవచ్చు.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+**Rocks** కదులుతున్నప్పుడు వాటిని కనబడకుండా దాచాలి, కానీ అవి దాచబడి ఉంటే, అవి **port**ని తాకవు, కాబట్టి వాటిని కనబడకుండా చేయడానికి `ghost`{:class="block3looks"} ప్రభావాన్ని ఉపయోగించవచ్చు.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+Sprite కదులుతున్నప్పుడు **Rocks** పై `ghost`{:class="block3looks"} ప్రభావాన్ని `100` వరకు సెట్ చేసి, ఆపై గ్రాఫికల్ ఎఫెక్ట్‌ను క్లియర్ చేయండి.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -147,13 +147,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+చివరి భాగం ఇతర పజిల్స్ మాదిరిగానే ఉంటుంది. `asteroids`{:class="block3variables"} అనే వేరియబుల్‌ని ఉపయోగించి, **crosshair** **Rocks**ని ఎంత తరచుగా తాకుతుందో లెక్కించండి. ఇది ప్రతిసారీ, asteroid వేరియబుల్ పెరుగుతుంది మరియు **Rocks** కొత్త స్థానానికి వెళుతుంది. మీ కారెక్టర్ కుర్చీ దగ్గర ఉంటే మాత్రమే ఇది పని చేస్తుంది.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+మీ **character** spriteలో, `at chair`{:class="block3variables"} అనే కొత్త వేరియబుల్‌ను సృష్టించండి, మరియు కారెక్టర్ కుర్చీని తాకినప్పుడు దాన్ని `true` కి మరియు అలా లేనప్పుడు `false` కి సెట్ చేయండి.
 
-![The Monet sprite.](images/monet-sprite.png)
+![Monet sprite.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +170,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+టాస్క్ పూర్తయినప్పుడు సెట్ చేయడానికి క్రింది బ్లాక్‌లను **Rocks** spriteకి జోడించండి.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +185,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+**crosshair** రాక్ ని తాకినట్టు మరియు `at chair`{:class="block3variables"} వేరియబుల్ `true` కి సెట్ అయినట్టు చెక్ చేసేలా, `if`{:class="block3control"} బ్లాకులో మరొక `and`{:class="block3operators"} ని ఉపయోగించండి.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +201,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+కండిషన్ నెరవేరినట్లయితే, `asteroid`{:class="block3variables"} వేరియబుల్‌ని `1` ఎక్కువ పెంచవచ్చు మరియు **Rocks** కొత్త పొజిషన్ కి కదిలేలా `my block`{:class="block3custom"}ని మళ్లీ రన్ చేయచ్చు.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +217,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+చేయవలసిన చివరి విషయం ఏమిటంటే ఆటగాడికి టాస్క్ గురించి చెప్పడం. దీనిని **port** sprite లో చేయవచ్చు.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+ఎన్ని ఆస్టరాయిడ్స్ నాశనం అయ్యాయో ప్లేయర్‌కి చెప్పడానికి బ్లాక్‌లను జోడించండి.
 
-![The port sprite.](images/port-sprite.png)
+![Port sprite.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +238,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**పరీక్ష:** మీ కారెక్టర్ ను కుర్చీకి దగ్గరగా తరలించండి, ఆపై crosshair ను చుట్టూ తిప్పండి మరియు కొన్ని ఆస్టరాయిడ్లను నాశనం చేయడానికి ప్రయత్నించండి. మీరు మీ sprite పరిమాణాలకు బాగా పని చేసేలా చేయడానికి మీరు మీ కోడ్‌లోని ఏదైనా విలువలను సర్దుబాటు చేయవచ్చు.
 
 --- /task ---
 
