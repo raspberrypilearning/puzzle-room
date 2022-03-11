@@ -1,19 +1,19 @@
-## The button puzzle
+## ಬಟನ್‌ ಪಝಲ್
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ಮೊದಲನೆಯ ಪಝಲ್‌ ಸೇರಿಸುತ್ತೀರಿ, ಅದು ಬಟನ್‌ನ್ನು ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಗಳ ಬಾರಿ ಒತ್ತುವುದಾಗಿರುತ್ತದೆ.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+ಆಟವು ಶುರುವಾದಾಗ, ಅದು ಒಂದೇ ಸ್ಥಾನದಲ್ಲಿ ಇರಬೇಕು ಮತ್ತು ಆಟಗಾರನಿಗೆ ಯಾವಾಗಲೂ ಕಾಣಿಸುವಂತೆ ಮುಂದಿನ ಪದರದಲ್ಲಿ ಇರಬೇಕು.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+**button** ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+ಪಝಲ್‌ ಪೂರ್ಣಗೊಳ್ಳಲು ಬಟನ್‌ನ್ನು ಹಲವಾರು ಬಾರಿ ಒತ್ತಬೇಕಾಗುತ್ತದೆ. ಇದಕ್ಕೆ, ನಿಮಗೆ ಒತ್ತುವ ಸಂಖ್ಯೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು `variable`{:class="block3variables"} ಬೇಕಾಗುತ್ತದೆ.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+ಹೊಸ `variable`{:class="block3variables"} ರಚಿಸಿ ಮತ್ತು ಅದನ್ನು `button pressed`{:class="block3variables"} ಎಂದು ಕರೆಯಿರಿ.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+ಆಟದ ಪ್ರಾರಂಭದಲ್ಲಿ, `button pressed`{:class="block3variables"} `0` ಆಗಿರಬೇಕು.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+**button** ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+`repeat until`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಂದು ಲೂಪ್‌ ಆಗಿದ್ದು ಅದು ನಿರ್ದಿಷ್ಟ ಷರತ್ತು ಪೂರೈಸುವವರೆಗೂ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ:** ಪಝಲ್‌ನ್ನು ಪರಿಹರಿಸಲು ಬಟನ್‌ನ್ನು ಎಷ್ಟು ಬಾರಿ ಒತ್ತಬೇಕು? ಈ ಉದಾಹರಣೆಯಲ್ಲಿ, ಅದನ್ನು `5` ಬಾರಿ ಒತ್ತಬೇಕು, ಆದರೆ ನೀವು ಬೇರೆ ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ದುಕೊಳ್ಳಬಹುದು.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+`repeat until`{:class="block3control"} ಲೂಪ್‌ ಸೇರಿಸಿ, ಮತ್ತು ಅದರ ಷರತ್ತನ್ನು `button pressed`{:class="block3variables"} `equal`{:class="block3operators"} ನ್ನು `5` ಆದಾಗ ಎಂದು ಹೊಂದಿಸಿ.
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+ಈಗ, ಆಟಗಾರ ಬಟನ್‌ ಒತ್ತಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ಆದರೂ ಪಾತ್ರವು ಬಟನ್‌ಗೆ ಹತ್ತಿರವಿದ್ದಾಗ ಮಾತ್ರ ಅವರು ಅದನ್ನು ಒತ್ತಲು ಸಾಧ್ಯವಾಗಬೇಕು!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+**button** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಪಾತ್ರವು ಬಟನ್‌ಗೆ ಹತ್ತಿರವಿದೆಯೇ ಎಂದು ಪತ್ತೆ ಮಾಡಲು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+ಪಾತ್ರವು ಹತ್ತಿರವಿದ್ದರೆ, ಮತ್ತು ಬಟನ್‌ನ್ನು ಒತ್ತಿದರೆ, ಆಗ `button pressed`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ್ನು ಹೆಚ್ಚಿಸಬಹುದು. ಪಾತ್ರವು ಹತ್ತಿರವಿಲ್ಲದಿದ್ದರೆ, ಪಝಲ್‌ ಮರುಹೊಂದಿಕೆಯಾಗಬೇಕು; ಆಟಗಾರ ಇನ್ನಾವುದಾದರೂ ಪಝಲ್‌ ಪ್ರಯತ್ನಿಸುವ ಮೊದಲು, ಐದು ಬಾರಿ ಸತತವಾಗಿ ಬಟನ್‌ ಒತ್ತಬೇಕು.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**ಸಲಹೆ:** Scratch ನಲ್ಲಿ, ಯಾವುದೇ ಎರಡು ಸ್ಪ್ರೈಟ್‌ಗಳ ನಡುವಿನ ದೂರವನ್ನು ಸ್ಪ್ರೈಟ್‌ಗಳ ಕೇಂದ್ರಗಳಿಂದ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ. ಇದರ ಅರ್ಥ ದೊಡ್ಡ ಸ್ಪ್ರೈಟ್‌ಗಳು ಸ್ಪರ್ಶಿಸುತ್ತಿರುವಂತೆ ಕಾಣಬಹುದು, ಆದರೆ ಅವುಗಳ ಕೇಂದ್ರಗಳು ದೂರದಲ್ಲಿಯೇ ಇರಬಹುದು.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+`button pressed`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಲು ಕೋಡ್‌ ಸೇರಿಸಿ.
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ರನ್‌ ಮಾಡಿ ಮತ್ತು ಪಾತ್ರವನ್ನು ಬಟನ್‌ಗೆ ಹತ್ತಿರ ಚಲಿಸಿ. ನೀವು ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದ ತಕ್ಷಣ, `button pressed`{:class='block3variables'} ವೇರಿಯೇಬಲ್‌ ಹೆಚ್ಚಾಗಬೇಕು. ನೀವು `distance to Monet`{:class='block3sensing'} ನ ಮೌಲ್ಯವನ್ನು ಮೇಲೆ ಅಥವಾ ಕೆಳಗೆ ನಿಮಗೆ ಆ ಸಂಖ್ಯೆ ಅರ್ಥಪೂರ್ಣವಾಗಿದೆ ಎನಿಸುವವರೆಗೂ ಹೊಂದಿಸಬಹುದು.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+ನೀವು ಆಟಗಾರನಿಗೆ ಎಷ್ಟು ಬಾರಿ ಬಟನ್‌ ಒತ್ತಲಾಗಿದೆ ಎಂದು `say`{:class="block3looks"} ತಿಳಿಸಲು `join`{:class="block3operators"}ಬ್ಲಾಕ್‌ನ್ನು ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+`join`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು ಇನ್ನೊಂದರ ಒಳಗೆ ಇಡಿ. ನಂತರ ನಿಮಗೆ ಬೇಕಾದ ಪಠ್ಯವನ್ನು ಮತ್ತು, `button pressed`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ್ನು ಸೇರಿಸಿ, ಎಲ್ಲವೂ `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಒಳಗೆ.
 
-For example:
+ಉದಾಹರಣೆಗೆ:
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**ಸಲಹೆ:** ನಿಮ್ಮ `join`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಪಠ್ಯಗಳ ನಡುವೆ ಖಾಲಿ ಜಾಗಗಳನ್ನು ಸೇರಿಸಲು ಮರೆಯಬೇಡಿ.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+ಬಟನ್‌ನ್ನು `5` ಬಾರಿ ಒತ್ತಿದಾಗ ಲೂಪ್‌ ಕೊನೆಯಾಗುತ್ತದೆ, ನಂತರ ಬರಹದಲ್ಲಿನ ಕೊನೆಯ ಬ್ಲಾಕ್‌ ರನ್‌ ಆಗುತ್ತದೆ. ಇದು ಆಟಗಾರನಿಗೆ ಕಾರ್ಯವು ಪೂರ್ಣಗೊಂಡಿದೆ ಎಂದು ಹೇಳಬಹುದು.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+ಆಟಗಾರನಿಗೆ ಕಾರ್ಯವು ಪೂರ್ಣಗೊಂಡಿದೆ ಎಂದು ಹೇಳಲು `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಿ.
 
-![The button sprite.](images/button-sprite.png)
+![ಬಟನ್‌ ಸ್ಪ್ರೈಟ್.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ರನ್‌ ಮಾಡಿ ಮತ್ತು ಪಾತ್ರವನ್ನು ಬಟನ್‌ಗೆ ಹತ್ತಿರ ಚಲಿಸಿ. ನೀವು ಬಟನ್‌ನ್ನು ಐದು ಬಾರಿ ಒತ್ತಿದಾಗ, ಕಾರ್ಯವು ಪೂರ್ಣಗೊಳ್ಳಬೇಕು.
 
 --- /task ---
 
