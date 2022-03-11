@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## पज़ल रूम (पहेली कक्ष) में कौन है?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+इस चरण में, आप पज़ल रूम में एक पात्र जोड़ेंगे, और उन्हें इधर-उधर घुमाने के लिए नियंत्रण बनाएंगे।
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratch will open in another browser tab.
+[स्क्रैच स्टार्टर प्रोजेक्ट](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"} खोलें। Scratch दूसरे ब्राउज़र टैब में खुलेगा।
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+अगर आप ऑफलाइन काम कर रहे हैं, तो आप स्टार्टर प्रोजेक्ट को [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room)पर डाउनलोड कर सकते हैं।
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+आपको एक अंतरिक्ष यान के अंदर से एक दृश्य दिखना चाहिए। तुम्हारे लिए बहुत से स्प्राइट्स बनाए गए हैं, और उनकी स्थिति सेट की गई है।
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**चुनें:** अंतरिक्ष यान में कौन है? यह पृथ्वी से एक एकल मिशन हो सकता है, यह एक विदेशी अंतरिक्ष यान हो सकता है, या यह भविष्य में भी मौजूद हो सकता है जहां बिल्लियां दुनिया पर राज करती हैं।
 
-You need one character to interact with the puzzles you are making.
+आपके द्वारा बनाई जा रही पहेलियों के साथ बातचीत करने के लिए आपको एक चरित्र की आवश्यकता है।
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+अपने प्रोजेक्ट में एक नया स्प्राइट जोड़ें। इस उदाहरण में, आप **Monet** चरित्र देखेंगे।
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Scratch से Monet स्प्राइट का एनिमेटेड जिफ़।](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+यदि आपका चरित्र दृश्य के लिए बहुत बड़ा या बहुत छोटा है, तो आपको उनका आकार बदलना चाहिए। आप चरित्र के लिए एक प्रारंभिक स्थिति भी चुन सकते हैं।
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+अपने चरित्र के आकार और प्रारंभिक स्थिति को सेट करने के लिए कोड जोड़ें।
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+आपको अपने पात्र को इधर-उधर घुमाने में सक्षम बनाने के लिए ऑन-स्क्रीन नियंत्रणों की आवश्यकता होगी।
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+**arrow** स्प्राइट में से किसी एक का चयन करें। जब स्प्राइट पर क्लिक किया जाता है, तो उसे अपनी दिशा प्रसारित करनी चाहिए ताकि वह चरित्र को उस दिशा में ले जा सके।
 
-![Arrow sprite.](images/arrow-sprite.png)
+![Arrow स्प्राइट।](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**सलाह:** यदि मोबाइल या टैबलेट का उपयोग करते वक्त **arrow** स्प्राइट्स पर क्लिक करना बहुत मुश्किल है, तो आप उनकी पोशाक बदल सकते हैं। प्रत्येक **arrow** स्प्राइट में एक बड़ा बैंगनी वृत्त भी होता है जिसका उपयोग इसके बजाय किया जा सकता है।
 
-Now add more direction controls to move your main character.
+अब अपने मुख्य चरित्र को स्थानांतरित करने के लिए अधिक दिशा नियंत्रण जोड़ें।
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+**arrow** स्प्राइट को तीन बार डुप्लिकेट करें। फिर, प्रत्येक स्प्राइट के लिए, पोशाक बदलें ताकि यह एक अलग दिशा में इंगित करे।
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+प्रत्येक स्प्राइट का नाम उस दिशा में बदलें जो वह इंगित कर रहा है और `broadcast`{:class="block3events"} को उस दिशा में बदलें जो वह इंगित कर रहा है।
 
-Arrange all the **arrow** sprites in the corner of the screen.
+स्क्रीन के कोने में **arrow** स्प्राइट को व्यवस्थित करें।
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![कम्पास दिशाओं की ओर इशारा करते हुए, निचले बाएं कोने में चार तीरों वाला अंतरिक्ष दृश्य।](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+जब तीरों को दबाया जाता है तो आपके मुख्य चरित्र को चाहिए।
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+जब यह प्रसारण ग्रहण करता है तो अपने मुख्य चरित्र स्प्राइट को `left, right, up, and down`{:class="block3events"} स्थानांतरित करने के लिए कोड करें ।
 
-![Monet sprite.](images/monet-sprite.png)
+![Monet स्प्राइट।](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**परीक्षण:** हरे झंडे पर क्लिक करें और फिर अपने चरित्र को इधर-उधर करने के लिए तीरों पर क्लिक करें।
 
 --- /task ---
 
