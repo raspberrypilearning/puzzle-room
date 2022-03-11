@@ -1,25 +1,25 @@
 ---
-title: Puzzle room
+title: पझल रूम
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
+description: कोडी सोडवणाऱ्या कॅरेक्टरसह स्पेसशिप पझल रूम तयार करा.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Who's in the puzzle room?
+    title: पझल रूम मध्ये कोण आहे?
   - 
-    title: The button puzzle
+    title: बटन पझल
     completion: engaged
   - 
-    title: The handwheel puzzle
+    title: हँडव्हील पझल
   - 
-    title: The asteroids puzzle
+    title: ऍस्टेरॉइड्स पझल
   - 
-    title: Reflection
+    title: परावर्तन
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,7 +27,7 @@ steps:
       passing_score: 3
     completion: internal
   - 
-    title: Upgrade your project
+    title: तुमचा प्रोजेक्ट अपग्रेड करा
     completion: external
   - 
-    title: What next?
+    title: पुढे काय?
