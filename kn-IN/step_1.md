@@ -1,15 +1,15 @@
-## Introduction
+## ಪರಿಚಯ
 
-In this project, you will create a spaceship puzzle room with a character that solves puzzles.
+ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ಪಝಲ್‌ಗಳನ್ನು ಪರಿಹರಿಸುವ ಪಾತ್ರವುಳ್ಳ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆ ಪಝಲ್‌ ಕೊಠಡಿಯನ್ನು ಮಾಡುತ್ತೀರಿ.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">**ಪಝಲ್‌ ಕೊಠಡಿಗಳು**</span>, ಅಥವಾ **ತಪ್ಪಿಸಿಕೊಳ್ಳುವ ಕೊಠಡಿಗಳು**, ಎಂದರೆ ನೀವು ಕೊಠಡಿಯಿಂದ ಹೊರ ಹೋಗಲು ಅಥವಾ ಮುಂದಿನ ಕೊಠಡಿಗೆ ಪ್ರವೇಶಿಸಲು ಪರಿಹರಿಸಲೇಬೇಕಾದ ಪಝಲ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಕೊಠಡಿಗಳು. ಅವುಗಳು ಆನಲೈನ್‌ ಅಥವಾ ನಿಜ ಕೊಠಡಿಗಳಾಗಿರಬಹುದು, ಆದರೆ ಕಲ್ಪನೆ ಸಾಮಾನ್ಯವಾಗಿ ಒಂದೇ ಆಗಿರುತ್ತದೆ: ಆದಷಷ್ಟು ಬೇಗ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ!
 </p>
 
-You will:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
+ನೀವು:
++ ಕ್ರಿಯೆಯೊಂದು ನಿಂತಾಗ ನಿಯಂತ್ರಿಸಲು `repeat until`{:class="block3control"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸುವಿರಿ
++ `variable`{:class="block3variables"}ನ ಮೌಲ್ಯವನ್ನು ಔಟ್‌ಪುಟ್‌ ಮಾಡಲು ಅನೇಕ `join`{:class="block3operators"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸುವಿರಿ
++ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು `and`{:class="block3operators"}, `or`{:class="block3operators"}, ಮತ್ತು `not`{:class="block3operators"} ಷರತ್ತುಗಳನ್ನು ಸಂಯೋಜಿಸುತ್ತೀರಿ
 
 --- no-print ---
 
@@ -18,13 +18,13 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ
 
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
+ಅಹ್‌ ಅಯ್ಯೋ, ಗಗನನೌಕೆ ಏನೋ ತೊಂದರೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದೆ! ಇಂಜಿನಿಯರ್‌ ಪಾತ್ರ ಗಗನನೌಕೆಯ ಸುತ್ತ ಚಲಿಸುವಂತೆ ಮಾಡಲು ಬಾಣಗಳನ್ನು ಉಪಯೋಗಿಸಿ. ನೀವು ಅವರಿಗೆ ಎಲ್ಲಾ ಪಝಲ್‌ಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯಮಾಡುವಿರಾ ಮತ್ತು ಗಗನನೌಕೆಗೆ ಸಹಾಯಮಾಡುವಿರಾ?
 
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**ಪಝಲ್‌ ಕೊಠಡಿ**: [ಒಳಗಡೆ ನೋಡಿ](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -33,12 +33,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: ಆಟವಾಡಲು ಸಲಹೆಗಳು
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. ನೀವು ಬಟನ್ ಹತ್ತಿರ ಇರಬೇಕು ಮತ್ತು ಅದನ್ನು ಐದು ಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಿ
+2. ನೀವು ಕುರ್ಚಿಯ ಹತ್ತಿರ ಇರಬೇಕು ಮತ್ತು ನಂತರ ಹತ್ತು ಕ್ಷುದ್ರಗ್ರಹಗಳನ್ನು ನಾಶಮಾಡಲು ಕ್ರಾಸ್‌ಹೇರ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಬೇಕು
+3. ನೀವು ಕೈಚಕ್ರಕ್ಕೆ ಹತ್ತಿರವಿರಬೇಕು ಮತ್ತು ಅದನ್ನು ಒಟ್ಟು ಮೂರು ಸಂಪೂರ್ಣ ತಿರುವುಗಳನ್ನು ತಿರುಗಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ
 
 
 --- /collapse ---
@@ -49,7 +49,7 @@ title: Tips for playing
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್](images/showcase_static.png)
 
 --- /print-only ---
 
