@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## Handwheel పజిల్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+ఈ దశలో, మీరు హ్యాండ్‌వీల్‌ను తిప్పాల్సిన పజిల్‌ని సృష్టిస్తారు.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+ఈ పజిల్‌కి సంబంధించిన స్క్రిప్ట్‌లు button పజిల్‌తో సమానంగా ఉంటాయి, కాబట్టి మీరు ఆ స్క్రిప్ట్‌లను కాపీ చేసి, ఆపై వాటిని సవరించవచ్చు.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+మీరు **button** sprite కోసం సృష్టించిన రెండు స్క్రిప్ట్‌లను **handwheel** sprite కు డ్రాగ్ చేయండి, వాటిని ఆ sprite కి కాపీ చేయండి.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+`when flag clicked`{:class='block3events'} స్క్రిప్ట్, మార్చవలసిన వాటిలో మొదటిది.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+`handwheel turned`{:class="block3variables"} అనబడే కొత్త వేరియబుల్ ని సృష్టించండి, మరియు దానిని `button pressed`{:class="block3variables"} వేరియబుల్ కి బదులుగా ఉపయోగించండి.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**ఎంచుకోండి:** పూర్తి సంఖ్యను మీరు ఎలా ఉండాలనుకుంటున్నారో దానికి మార్చండి. మనము ఉదాహరణలో `3` ని ఎంచుకున్నాము.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Handwheel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+నిజమైన హ్యాండ్‌వీల్ లాగా, **handwheel** sprite ఒక సమయంలో తక్కువ సంఖ్యలో మాత్రమే డిగ్రీలను తిప్పగలదు, కాబట్టి అది తిప్పబడిన కోణాన్ని నిల్వ చేయాలి.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+`turned`{:class="block3variables"} అనే కొత్త వేరియబుల్‌ని సృష్టించండి మరియు గేమ్ ప్రారంభమైనప్పుడు దాన్ని `0` కి సెట్ చేయండి.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Handwheel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+ఇప్పుడు మీరు ఈ `when this sprite clicked`{:class="block3events"} స్క్రిప్ట్‌ను సవరించవచ్చు, తద్వారా **handwheel** sprite ని పదే పదే క్లిక్ చేసినప్పుడు అది పూర్తి పరిక్రమణం పూర్తి చేసే వరకు ప్రతిసారీ చిన్న మొత్తంలో తిరుగుతుంది. ఇది సరైన సంఖ్యలో పూర్తి పరిక్రమణలను పూర్తి చేసినప్పుడు (ఉదాహరణలో`3` సార్లు), పజిల్ పరిష్కరించబడుతుంది.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+**handwheel** sprite క్లిక్ చేయబడిన ప్రతిసారీ, అది `15` డిగ్రీలు తిరుగుతుంది మరియు `turned`{:class="block3variables"} వేరియబుల్ `15` వరకు పెరుగుతుంది.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Handwheel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**పరీక్ష**: **Monet** sprite (లేదా మీ కారెక్టర్ sprite) ని **handwheel** కి దగ్గరగా తరలించి, ఆపై **handwheel** sprite పై క్లిక్ చేయండి. ఇది పూర్తి స్క్రీన్ మోడ్‌లో ఉండటానికి సహాయపడుతుంది, తద్వారా మీరు **handwheel** sprite చుట్టూ డ్రాగ్ చేయండి.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+`turned`{:class="block3variables"} వేరియబుల్ `360`కి చేరుకున్నప్పుడు, handwheel ఒకసారి తిప్పబడుతుంది; ఇది ఇప్పుడు `handwheel turned`{:class="block3variables"} వేరియబుల్‌లో నిల్వ చేయబడుతుంది.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+`handwheel turned`{:class="block3variables"}ని మార్చడానికి **nested** `<code>if`{:class="block3control"} ని ఉపయోగించండి మరియు <1>turned</code>{:class="block3variables"} వేరియబుల్‌లను రీసెట్ చేయండి. `if`{:class="block3control"} ని మరొక దాని లోపల ఉంచినప్పుడు దానిని A **nested** `if`{:class="block3control"} అంటారు.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Handwheel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**పరీక్ష:** మీ క్యారెక్టర్ sprite ని హ్యాండ్‌వీల్‌కి దగ్గరగా తరలించి, ఆపై దానిపై క్లిక్ చేయండి. హ్యాండ్‌వీల్ నుండి కారెక్టర్ ఉండాల్సిన దూరాన్ని మీరు సర్దుబాటు చేయాల్సి రావచ్చు.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Handwheel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**చిట్కా**: మీరు మీ **Monet** (లేదా క్యారెక్టర్) spriteని హ్యాండ్‌వీల్‌కి దగ్గరగా తీసుకురావడానికి దాన్ని క్లిక్ చేసి డ్రాగ్ చేయవచ్చు. ఇది మీ సమయాన్ని ఆదా చేస్తుంది, ఎందుకంటే మీరు కంట్రోల్స్ ను ఉపయోగించాల్సిన అవసరం ఉండదు.
 
 --- save ---
