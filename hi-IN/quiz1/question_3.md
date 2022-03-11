@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 3 में से तीसरा प्रश्न
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+नीचे दिए गए ब्लॉकों को देखें। जब झंडे को क्लिक किया जाता है, तो कौन सा विवरण रॉक्स स्प्राइट के व्यवहार का सबसे अच्छा वर्णन करता है?
 
 
-![rock sprite](images/rocks-sprite.png)
+![rock स्प्राइट](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,17 +20,17 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+रॉक्स स्प्राइट एक यादृच्छिक स्थिति में तब तक चला जाएगा जब तक कि यह < **sprite 1** को स्पर्श न कर रहा हो और काले रंग को छू रहा हो।
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+ये ब्लॉक उस विवरण में फिट होंगे। <touching (sprite 1 v) ?> और <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+रॉक स्प्राइट एक यादृच्छिक स्थिति में तब तक चला जाएगा जब तक कि यह **sprite 1** को स्पर्श न कर रहा हो या काले रंग को नहीं छू रहा हो।
 
   --- feedback ---
 
@@ -40,17 +40,17 @@ The rocks sprite will move to a random position until it is touching **sprite 1*
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+रॉक्स स्प्राइट एक यादृच्छिक स्थिति में तब तक चला जाएगा जब तक कि वह **sprite 1** को स्पर्श न कर ले और काले रंग के अलावा किसी अन्य रंग को न छू ले।
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+हाँ, यह सही है। `not`{:class='block3operators'} ब्लॉक जांचता है कि यह काला तो नहीं छू रहा है।
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+रॉक स्प्राइट एक यादृच्छिक स्थिति में चला जाएगा जब तक कि यह **sprite 1** या काले रंग को नहीं छू रहा हो।
 
   --- feedback ---
 
