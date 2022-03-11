@@ -1,19 +1,19 @@
-## The button puzzle
+## Button పజిల్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+ఈ దశలో, నిర్దిష్ట సంఖ్యలో బటన్‌ను నొక్కడం ద్వారా మీరు మీ మొదటి పజిల్‌ని జోడిస్తారు.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+గేమ్ ప్రారంభమైనప్పుడు, బటన్ అదే స్థలంలో ఉండాలి మరియు ఎల్లప్పుడూ ముందు లేయర్ పై కనిపించాలి.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+కింది బ్లాక్‌లను **button** sprite కు జోడించండి.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+పజిల్ పూర్తి కావడానికి బటన్‌ను అనేకసార్లు నొక్కాల్సి ఉంటుంది. దీని కోసం, పుష్‌ల సంఖ్యను నిల్వ చేయడానికి మీకు `variable`{:class="block3variables"} అవసరం.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+ఒక కొత్త `variable`{:class="block3variables"} ని సృష్టించండి మరియు దానిని `button pressed`{:class="block3variables"} అని పిలవండి.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+గేమ్ ప్రారంభంలో, `button pressed`{:class="block3variables"} `0` ఉండాలి.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+కింది బ్లాక్‌లను **button** sprite కు జోడించండి.
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+`repeat until`{:class="block3control"} బ్లాక్ అనేది నిర్దిష్ట కండిషన్ నెరవేరే వరకు పునరావృతమయ్యే లూప్.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**ఎంచుకోండి:** పజిల్‌ను పరిష్కరించడానికి బటన్‌ను ఎన్నిసార్లు నొక్కాలి? ఈ ఉదాహరణలో, ఇది `5` సార్లు నొక్కాలి, కానీ మీరు వేరే సంఖ్యను ఎంచుకోవచ్చు.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+`repeat until`{:class="block3control"} లూపుని జోడించండి, మరియు `button pressed`{:class="block3variables"} అనేది `equal`{:class="block3operators"} to `5` కండిషన్ ను సెట్ చేయండి.
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+ఇప్పుడు, ప్లేయర్ బటన్‌ను నొక్కగలగాలి. కారెక్టర్ బటన్‌కు దగ్గరగా ఉన్నప్పుడు మాత్రమే వారు దానిని నొక్కగలరు!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+**button** sprite క్లిక్ చేసినప్పుడు కారెక్టర్ బటన్‌కు దగ్గరగా ఉందో లేదో గుర్తించడానికి బ్లాక్‌లను జోడించండి.
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+కారెక్టర్ దగ్గరగా ఉండి, బటన్ నొక్కితే, `button pressed`{:class="block3variables"} వేరియబుల్‌ని పెంచవచ్చు. కారెక్టర్ దగ్గరగా లేకుంటే, పజిల్ రీసెట్ చేయాలి; ఆటగాడు ఏదైనా ఇతర పజిల్‌లను ప్రయత్నించే ముందు, బటన్‌ను వరుసగా ఐదుసార్లు నొక్కాలి.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**చిట్కా:** Scratchలో, ఏదైనా రెండు sprite ల మధ్య దూరం sprite ల కేంద్రాల నుండి లెక్కించబడుతుంది. దీని అర్థం పెద్ద sprite లు తాకినట్లుగా కనిపిస్తాయి, కానీ వాటి కేంద్రాలు ఇప్పటికీ దూరంగా ఉండవచ్చు.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+`button pressed`{:class="block3variables"} వేరియబుల్ విలువను మార్చడానికి కోడ్‌ని జోడించండి.
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**పరీక్ష:** మీ ప్రాజెక్ట్‌ని అమలు చేయండి మరియు కారెక్టర్ ను బటన్‌కు దగ్గరగా తరలించండి. మీరు బటన్‌పై క్లిక్ చేసినప్పుడు, `button pressed`{:class='block3variables'} వేరియబుల్ పెరుగుతుంది. మీరు `distance to Monet`కి {:class='block3sensing'} విలువను పైకి లేదా క్రిందికి సర్దుబాటు చేయవచ్చు, మీకు కరెక్ట్ అనిపించే సంఖ్యను మీరు కనుగొనే వరకు.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+మీరు బటన్‌ను ఎన్నిసార్లు నొక్కారో ప్లేయర్‌కి `say`{:class="block3looks"} చెప్పడానికి `join`{:class="block3operators"} బ్లాక్ ని ఉపయోగించవచ్చు.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+`join`{:class="block3operators"} బ్లాక్‌ను మరొక దానిలో ఉంచండి. ఆపై, మీకు కావల్సిన వచనాన్ని జోడించండి, ఇక `button pressed`{:class="block3variables"} వేరియబుల్, అంతా `say`{:class="block3looks"} బ్లాకు లోపలనే.
 
-For example:
+ఉదాహరణకి:
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**చిట్కా:** మీరు మీ `join`{:class="block3operators"} బ్లాక్‌లోని టెక్స్ట్‌లో ఖాళీలను జోడించారని నిర్ధారించుకోండి.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+బటన్‌ను `5` సార్లు నొక్కినప్పుడు లూప్ ముగుస్తుంది, ఆపై స్క్రిప్ట్‌లోని చివరి బ్లాక్ రన్ అవుతుంది. ఇది టాస్క్ పూర్తయిందని ఆటగాడికి తెలియజేయవచ్చు.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+టాస్క్ పూర్తయినట్లు ప్లేయర్‌కి చెప్పడానికి `say`{:class="block3looks"} బ్లాక్‌ని ఉపయోగించండి.
 
-![The button sprite.](images/button-sprite.png)
+![Button sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**పరీక్ష:** మీ ప్రాజెక్ట్‌ని అమలు చేయండి మరియు కారెక్టర్ ను బటన్‌కు దగ్గరగా తరలించండి. మీరు బటన్‌పై ఐదుసార్లు క్లిక్ చేసినప్పుడు, పని పూర్తి కావాలి.
 
 --- /task ---
 
