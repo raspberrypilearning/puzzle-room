@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೋಡಿ. ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್‌ನ ವರ್ತನೆಯನ್ನು ಯಾವ ವಿವರಣೆಯು ಅತ್ಯುತ್ತಮವಾಗಿ ವರ್ಣಿಸುತ್ತದೆ?
 
 
-![rock sprite](images/rocks-sprite.png)
+![ರಾಕ್ ಸ್ಪ್ರೈಟ್](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,41 +20,41 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+**sprite 1** ನ್ನು ಸ್ಪರ್ಶಿಸುವವರೆಗೆ ಮತ್ತು ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುವವರೆಗೆ ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್‌ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತದೆ.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+ಈ ಬ್ಲಾಕ್‌ಗಳು ಆ ವಿವರಣೆಗೆ ಸರಿಹೊಂದುತ್ತವೆ. <touching (sprite 1 v) ?> ಮತ್ತು <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+**sprite 1** ನ್ನು ಸ್ಪರ್ಶಿಸುವವರೆಗೆ ಅಥವಾ ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸದೇ ಇಲ್ಲದಿರುವವರೆಗೆ ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್‌ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತದೆ.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> ಅಥವಾ <ಇಲ್ಲ<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+**sprite 1** ನ್ನು ಸ್ಪರ್ಶಿಸುವವರೆಗೆ ಮತ್ತು ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಹೊರತುಪಡಿಸಿ ಯಾವುದಾದರೂ ಸ್ಪರ್ಶಿಸುವವರೆಗೆ ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್‌ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತದೆ.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+ಹೌದು, ಅದು ಸರಿಯಾಗಿದೆ. ಅದು ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲ ಎಂಬುವುದನ್ನು `not`{:class='block3operators'} ಬ್ಲಾಕ್‌ ಪರಿಶೀಲಿಸುತ್ತದೆ.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+**sprite 1** ನ್ನು ಅಥವಾ ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸದೇ ಇರುವವರೆಗೆ ರಾಕ್ಸ್‌ ಸ್ಪ್ರೈಟ್‌ ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತದೆ.
 
   --- feedback ---
 
-<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>
+<not<touching (sprite 1 v) ?>> ಅಥವಾ <touching color (#000000) ?>
 
   --- /feedback ---
 
