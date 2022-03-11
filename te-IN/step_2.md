@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## పజిల్ రూమ్ లో ఎవరున్నారు?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+ఈ దశలో, మీరు పజిల్ గదికి ఒక పాత్రను జోడిస్తారు మరియు వాటిని తరలించడానికి కంట్రోల్ లను సృష్టిస్తారు.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,41 +11,41 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratch will open in another browser tab.
+[Scratch స్టార్టర్ ప్రాజెక్ట్ ](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"} ని తెరవండి. Scratch మరొక బ్రౌజర్ ట్యాబ్‌లో తెరవబడుతుంది.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+మీరు ఆఫ్‌లైన్‌లో పని చేస్తుంటే, మీరు స్టార్టర్ ప్రాజెక్ట్‌ను [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room)లో డౌన్‌లోడ్ చేసుకోవచ్చు.
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+మీరు స్పేస్ షిప్ లోపల నుండి ఒక దృశ్యాన్ని చూడాలి. మీ కోసం అనేక sprite లు తయారు చేయబడ్డాయి మరియు వాటి స్థానాలు సెట్ చేయబడ్డాయి.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**ఎంచుకోండి:** స్పేప్ షిప్ లో ఎవరున్నారు? ఇది భూమి నుండి సోలో మిషన్ కావచ్చు, ఇది గ్రహాంతర అంతరిక్ష నౌక కావచ్చు లేదా పిల్లులు ప్రపంచాన్ని పరిపాలించే భవిష్యత్తులో కూడా ఉండవచ్చు.
 
-You need one character to interact with the puzzles you are making.
+మీరు చేస్తున్న పజిల్స్‌తో పరస్పర సంప్రదింపులు చేయడానికి మీకు ఒక కారెక్టర్ అవసరం.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+మీ ప్రాజెక్ట్ కి ఒక కొత్త spriteని జోడించండి. ఈ ఉదాహరణలో, మీరు **Monet** కారెక్టర్ ని చూస్తారు.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Scratch నుండి Monet sprite యొక్క యానిమేటెడ్ gif.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+మీ కారెక్టర్ చాలా పెద్దది లేదా సన్నివేశానికి చాలా చిన్నది అయితే, మీరు వాటి పరిమాణాన్ని మార్చాలి. మీరు కారెక్టర్ కోసం ప్రారంభ స్థానాన్ని కూడా ఎంచుకోవచ్చు.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+మీ కారెక్టర్ పరిమాణం మరియు ప్రారంభ స్థానాన్ని సెటప్ చేయడానికి కోడ్‌ను జోడించండి.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+మీ క్యారెక్టర్‌ని చుట్టూ తిరిగేలా చేయడానికి మీకు ఆన్-స్క్రీన్ కంట్రోల్స్ అవసరం.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+**arrow** sprite లలో ఒకదాన్ని ఎంచుకోండి. Sprite ని క్లిక్ చేసినప్పుడు, అది దాని దిశను బ్రాడ్ కాస్ట్ చేయాలి, తద్వారా అది కారెక్టర్ ను ఆ దిశలో కదిలేలా చేస్తుంది.
 
 ![Arrow sprite.](images/arrow-sprite.png)
 
@@ -56,27 +56,27 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**చిట్కా:** మొబైల్ లేదా టాబ్లెట్‌ని ఉపయోగిస్తున్నప్పుడు **arrow** sprite లను క్లిక్ చేయడం చాలా కష్టంగా ఉంటే, మీరు వారి costume లను మార్చవచ్చు. ప్రతి **arrow** sprite కు బదులుగా ఉపయోగించబడే పెద్ద ఊదారంగు వృత్తం కూడా ఉంటుంది.
 
-Now add more direction controls to move your main character.
+ఇప్పుడు మీ ప్రధాన కారెక్టర్ ను తరలించడానికి మరిన్ని డైరెక్షన్ కంట్రోల్స్ ను జోడించండి.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+**arrow** sprite ను మూడు సార్లు డూప్లికేట్ చేయండి. అప్పుడు, ప్రతి sprite కోసం, costume లను మార్చండి, తద్వారా అది వేరే దిశలో ఉంటుంది.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+ప్రతి sprite పేరును అది సూచించే దిశకు మార్చండి మరియు `broadcast`{:class="block3events"}ని అది సూచించే దిశకు మార్చండి.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+స్క్రీన్ మూలలో అన్ని **arrow** sprite లను అమర్చండి.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![దిక్సూచి దిశలను సూచిస్తూ దిగువ ఎడమవైపు మూలలో నాలుగు arrow లతో అంతరిక్ష దృశ్యం.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+బాణపు గుర్తులు(arrows) నొక్కినప్పుడు మీ ప్రధాన కారెక్టర్ కదలాలి.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+బ్రాడ్ కాస్ట్ లను స్వీకరించినప్పుడు `left, right, up, and down`{:class="block3events"} కి వెళ్లడానికి మీ ప్రధాన కారెక్టర్ sprite ని కోడ్ చేయండి.
 
 ![Monet sprite.](images/monet-sprite.png)
 
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**పరీక్ష:** ఆకుపచ్చ జెండాను క్లిక్ చేసి, ఆపై మీ కారెక్టర్ ను చుట్టూ తరలించడానికి బాణాలపై క్లిక్ చేయండి.
 
 --- /task ---
 
