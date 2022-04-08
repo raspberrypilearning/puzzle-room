@@ -13,13 +13,13 @@ steps:
     completion: engaged
   - title: ಕೈಚಕ್ರದ ಪಝಲ್
   - title: ಕ್ಷುದ್ರಗ್ರಹಗಳ ಪಝಲ್
+    completion: internal
   - title: ಪುನರ್ಮನನ
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: internal
   - title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
-    completion: external
   - title: ಮುಂದೆ ಏನು?
