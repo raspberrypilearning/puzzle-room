@@ -1,0 +1,39 @@
+right
+
+left
+
+up
+
+down
+
+button pressed
+
+button pressed...times
+
+task complete
+
+handwheel turned
+
+handwheel turned...times
+
+turned
+
+crosshair
+
+port
+
+button
+
+go to position
+
+chair
+
+at chair
+
+true
+
+false
+
+asteroids
+
+...asteroids destroyed
