@@ -5,21 +5,24 @@ description: పజిల్‌లను పరిష్కరించే ప�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: పరిచయం
-  - title: పజిల్ గదిలో ఎవరున్నారు?
-  - title: Button పజిల్
-    completion: engaged
-  - title: Handwheel పజిల్
-  - title: Asteroids పజిల్
-    completion: internal
-  - title: విశ్లేషణ
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
-  - title: తర్వాత ఏంటి?
+- title: పరిచయం
+- title: పజిల్ గదిలో ఎవరున్నారు?
+- title: Button పజిల్
+  completion:
+  - engaged
+- title: Handwheel పజిల్
+- title: Asteroids పజిల్
+  completion:
+  - internal
+- title: విశ్లేషణ
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+- title: తర్వాత ఏంటి?
