@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+Kijk naar de blokken hieronder. Welke beschrijving geeft het beste het gedrag van de rocks sprite aan wanneer op de vlag wordt geklikt?
 
 
 ![rock sprite](images/rocks-sprite.png)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** raakt en de kleur zwart raakt.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+Deze blokken zouden bij die beschrijving passen. <touching (sprite 1 v) ?> en <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** raakt of de kleur zwart niet raakt.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> of <niet<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** raakt en iedere andere kleur dan zwart raakt.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+Ja dat is goed. Het `niet`{:class='block3operators'} blok controleert of het zwart niet raakt.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** of de kleur zwart niet raakt.
 
   --- feedback ---
 
