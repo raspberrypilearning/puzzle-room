@@ -5,7 +5,7 @@ description: पहेली को हल करने वाले चरि�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: परिचय
@@ -13,20 +13,23 @@ steps:
     title: पज़ल रूम (पहेली कक्ष) में कौन है?
   - 
     title: बटन पहेली
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: हैंडव्हील पहेली
   - 
     title: क्षुद्रग्रह पहेली
-    completion: internal
+    completion:
+      - internal
   - 
     title: सोचिए
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: प्रोजेक्ट को अपग्रेड करें
   - 
