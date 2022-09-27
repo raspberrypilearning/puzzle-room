@@ -1,19 +1,19 @@
-## The button puzzle
+## Le puzzle du bouton
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+Dans cette étape, tu ajouteras ton premier puzzle, qui sera d'appuyer sur le bouton un certain nombre de fois.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+Quand le jeu démarre, le bouton doit rester au même endroit, et toujours être visible sur le devant.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Ajoute les blocs suivants au sprite bouton****.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+Le bouton devra être appuyé plusieurs fois pour que le puzzle soit terminé. Pour cela, tu auras besoin d'une variable ``{:class="block3variables"} pour mémoriser le nombre de pressions.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+Crée une nouvelle variable ``{:class="block3variables"} et appelle-la `bouton pressé`{:class="block3variables"}.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+Au début du jeu, le `bouton pressé`{:class="block3variables"} devrait être `0`.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Ajoute les blocs suivants au sprite bouton****.
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+Un bloc `répéter jusqu'à`{:class="block3control"} est une boucle qui se répète jusqu'à ce qu'une certaine condition soit remplie.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**Choisis :** Combien de fois le bouton doit-il être appuyé pour résoudre le puzzle ? Dans cet exemple, il faudra appuyer `5 fois` fois, mais tu peux choisir un nombre différent.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+Ajoute une boucle `répéter jusqu'à`{:class="block3control"}, et règle sa condition lorsque le bouton `est appuyé sur`{:class="block3variables"} est `égal à`{:class="block3operators"} `5`.
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+Maintenant, le joueur doit pouvoir appuyer sur le bouton. Il ne devrait être en mesure de le presser que lorsque le personnage est à proximité du bouton !
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+Ajoute des blocs pour détecter si le personnage est proche du bouton lorsque le sprite **bouton** est cliqué.
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+Si le personnage est proche et que le bouton est enfoncé, alors le `bouton pressé sur la variable`{:class="block3variables"} peut être augmenté. Si le personnage n'est pas proche, le puzzle devrait se réinitialiser ; le joueur doit appuyer sur le bouton cinq fois de suite, avant d'essayer d'autres puzzles.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**Astuce :** Dans Scratch, la distance entre deux sprites est calculée à partir du centre des sprites. Cela signifie que de grands sprites peuvent donner l'impression de se toucher, mais que leurs centres peuvent être très éloignés les uns des autres.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+Ajoute du code pour modifier la valeur de la variable `bouton appuyé sur`{:class="block3variables"}.
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**Test :** Exécute ton projet et rapproche le personnage du bouton. Lorsque tu cliques sur le bouton, le bouton ` pressé sur la variable`{:class='block3variables'} devrait augmenter. Tu peux ajuster la valeur de la distance `à Monet`{:class='block3sensing'} vers le haut ou le bas, jusqu'à ce que tu trouves un nombre qui a un sens pour toi.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+Tu peux utiliser le bloc `regrouper`{:class="block3operators"} à `dire`{:class="block3looks"} au joueur combien de fois le bouton a été pressé.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+Place un bloc `regrouper`{:class="block3operators"} à l'intérieur d'un autre bloc. Ajoute ensuite le texte que tu veux, et le </code>bouton appuyé sur la variable{:class="block3variables"}, le tout à l'intérieur d'un bloc `dire`{:class="block3looks"}.
 
-For example:
+Par exemple :
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**Astuce :** Assure-toi d'ajouter des espaces dans le texte de ton bloc `regrouper`{:class="block3operators"}.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+La boucle se terminera lorsque le bouton aura été appuyé `5` fois, puis le dernier bloc du script sera exécuté. Cela peut dire au joueur que la tâche est terminée.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+Utilise un bloc `dire`{:class="block3looks"} pour dire au joueur que la tâche a été terminée.
 
-![The button sprite.](images/button-sprite.png)
+![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**Test:** Exécute ton projet et déplace le personnage près du bouton. Lorsque tu cliques sur le bouton cinq fois, la tâche doit être terminée.
 
 --- /task ---
 
