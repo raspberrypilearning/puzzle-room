@@ -1,39 +1,39 @@
-right
+droite
 
-left
+gauche
 
-up
+haut
 
-down
+bas
 
-button pressed
+bouton pressé
 
-button pressed...times
+bouton pressé ... fois
 
-task complete
+tâche terminée
 
-handwheel turned
+gouvernail a tourné
 
-handwheel turned...times
+gouvernail a tourné ... fois
 
-turned
+a tourné
 
-crosshair
+viseur
 
 port
 
-button
+bouton
 
-go to position
+aller à la position
 
-chair
+chaise
 
-at chair
+à la chaise
 
-true
+vrai
 
-false
+faux
 
-asteroids
+astéroïdes
 
-...asteroids destroyed
+... astéroïdes détruits
