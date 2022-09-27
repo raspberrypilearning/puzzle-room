@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## De asteroïden puzzel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+In deze stap maak je de meest uitdagende puzzel. Je maakt een puzzel om gevaarlijke asteroïden te vernietigen.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+Je hebt een dradenkruis nodig dat je kunt gebruiken om op de asteroïden te richten.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+Teken een nieuwe sprite met de naam **dradenkruis**. Hieronder wordt een voorbeeld weergegeven met een cirkel en twee lijnen. Vul de cirkel eerst volledig in en pas dan de **vulling** aan tot transparant, zodra je de grootte en positie hebt.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![Een dradenkruis dat bestaat uit een kleine rode cirkel met diagonale lijnen, gecentreerd in het canvas.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+Wijzig de grootte van de **dradenkruis** sprite als dat nodig is.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**Tip**: Je kunt in de verf-editor inzoomen met behulp van de **+** en **-** symbolen, om positionering gemakkelijker te maken, vooral als je op een mobiel apparaat of tablet werkt.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+Het dradenkruis volgt de muis, maar het zou alleen zichtbaar moeten zijn door het raam in de ruimte.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+Gebruik de volgende blokken zodat het **dradenkruis** de muisaanwijzer volgt.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![De dradenkruis sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**Test:** Klik op de groene vlag en zorg ervoor dat het **dradenkruis** de muisaanwijzer volgt.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+Je kunt een `als`{:class="block3control"} blok gebruiken om te testen of het **dradenkruis** de **raam** sprite raakt, zodat het verborgen is wanneer hij het raam**niet** raakt.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+Voeg een test toe om ervoor te zorgen dat het **dradenkruis** het **raam** raakt.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![De dradenkruis sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**Test:** Klik op de groene vlag en zorg ervoor dat het **dradenkruis** verborgen is wanneer deze het **raam** niet raakt.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+Je hebt misschien al gezien dat het dradenkruis helemaal aan de rand van het **raam** verschijnt en zo binnen het ruimteschip lijkt te zijn. Dit kan worden opgelost door te controleren of het een kleur van de achtergrond niet raakt.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+Voeg een `of`{:class="block3operators"} blok toe aan het `als`{:class="block3control"} blok. De tweede voorwaarde is dat het **dradenkruis** de groene kleur raakt die het **raam** omringt.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![De dradenkruis sprite.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**Tip:** als het dradenkruis de muisaanwijzer volgt, zorg er dan voor dat je het project stopt voordat je de kleurkiezer gebruikt.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+Nu is het tijd om de asteroïden te maken.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+Zoek een **Rocks** sprite en voeg deze toe aan je project. Verklein de sprite zodat deze niet te groot is.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+Je hebt misschien gezien hoe `mijn blokken`{:class="block3myblocks"} helpen om code georganiseerd te houden in het [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+`Mijn blokken`{:class="block3myblocks"} kunnen je ook helpen zodat je niet steeds opnieuw dezelfde code hoeft te schrijven. Je kunt `mijn blokken`{:class="block3myblocks"} gebruiken voor de **Rocks** om ze in het raam van het ruimteschip te plaatsen.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+Maak een nieuw `blok`{:class="block3myblocks"} en noem het `ga naar positie`{:class="block3myblocks"}. De beginpositie kan overal op het scherm zijn.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+De **Rocks** sprite moet een willekeurige positie blijven zoeken totdat deze het **raam** raakt `en`{:class="block3operators"} niet de rand van het **raam**. Dit is vergelijkbaar met de code die je hebt gebruikt op het **dradenkruis**, maar deze keer gebruik je een `en`{:class="block3operators"} blok.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+Voeg een `herhaal tot`{:class="block3control"} en een `en`{:class="block3operators"} blok toe om ervoor te zorgen dat de **Rocks** blijven bewegen totdat ze in de juiste positie staan.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Test:** Klik op je `mijn blokken`{:class="block3myblocks"} definitie en je zou de steen willekeurig over het scherm moeten zien bewegen, totdat deze stopt in het raam.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+De **Rocks** moeten tijdens het bewegen voor het zicht worden verborgen, maar als ze verborgen zijn, raken ze het **raam** niet, dus een `spook`{:class="block3looks"} effect kan worden gebruikt om ze onzichtbaar te maken.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+Stel het `transparant`{:class="block3looks"} effect op de **Rocks** in op `100` terwijl de sprite beweegt, en wis vervolgens het grafische effect.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -147,13 +147,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+Het laatste deel is vergelijkbaar met de andere puzzels. Tel met behulp van een variabele genaamd `asteroïden`{:class="block3variables"} hoe vaak het **dradenkruis** de **Rocks** raakt. Elke keer dat dit gebeurt, neemt de asteroïde variabele toe en beweegt de **Rocks** naar een nieuwe positie. Dit zou dus alleen moeten werken als je personage bij de stoel is.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+Maak op je **personage** sprite een nieuwe variabele met de naam `bij de stoel`{:class="block3variables"}, en stel deze in op `waar` wanneer het personage de stoel raakt en `niet waar` wanneer dat niet het geval is.
 
-![The Monet sprite.](images/monet-sprite.png)
+![De Monet sprite.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +170,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+Voeg de volgende blokken toe aan de **Rocks** sprite om in te stellen wanneer de opdracht is voltooid.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +185,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+Gebruik een ander `en`{:class="block3operators"} blok in een `als`{:class="block3control"} blok om te controleren of het **dradenkruis** de rock raakt en of de `bij de stoel`{:class="block3variables"} variabele `code>code>waar`{:class="block3variables"} is.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +201,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+Als aan deze voorwaarde is voldaan, kan de `asteroïden`{:class="block3variables"} variabele worden verhoogd met `1` en kan de `mijn blok`{:class="block3custom"} opnieuw worden opgeroepen zodat de **Rocks** naar een nieuwe positie kunnen bewegen.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +217,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+Het laatste wat je moet doen is de speler vertellen over de opdracht. Dit kan worden gedaan op de **raam** sprite.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+Voeg blokken toe om de speler te vertellen hoeveel asteroïden zijn vernietigd.
 
-![The port sprite.](images/port-sprite.png)
+![De raam sprite.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +238,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**Test:** Beweeg je personage dicht bij de stoel, beweeg vervolgens het dradenkruis rond en probeer een aantal asteroïden te vernietigen. Je kunt dan alle waarden in je code aanpassen die je nodig hebt om het goed te laten werken voor je sprite grootte.
 
 --- /task ---
 
