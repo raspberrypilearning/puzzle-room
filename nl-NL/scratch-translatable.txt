@@ -1,39 +1,39 @@
-right
+rechts
 
-left
+links
 
-up
+omhoog
 
-down
+omlaag
 
-button pressed
+knop ingedrukt
 
-button pressed...times
+knop....keer ingedrukt
 
-task complete
+opdracht voltooid
 
-handwheel turned
+wiel gedraaid
 
-handwheel turned...times
+wiel....keer gedraaid
 
-turned
+gedraaid
 
-crosshair
+dradenkruis
 
-port
+raam
 
-button
+knop
 
-go to position
+ga naar positie
 
-chair
+stoel
 
-at chair
+in de stoel
 
-true
+waar
 
-false
+niet waar
 
-asteroids
+asteroïden
 
-...asteroids destroyed
+...asteroïden vernietigd
