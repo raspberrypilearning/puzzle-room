@@ -113,7 +113,7 @@ You can use the `join`{:class="block3operators"} block to `say`{:class="block3lo
 
 Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
 
-For example:
+Por ejemplo:
 
 ![The button sprite.](images/button-sprite.png)
 
