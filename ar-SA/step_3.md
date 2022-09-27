@@ -1,19 +1,19 @@
-## The button puzzle
+## لغز الزر
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+في هذه الخطوة ، ستضيف اللغز الأول الخاص بك ، والذي سيكون الضغط على الزر عددًا معينًا من المرات.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+عندما تبدأ اللعبة ، يجب أن يبقى الزر في نفس المكان ، وأن يكون دائمًا مرئيًا على الطبقة الأمامية.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+أضف المقاطع البرمجي التالية إلى كائن ** الزر **.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+سيحتاج الزر إلى الضغط عليه عدة مرات حتى يكتمل اللغز. لهذا ، ستحتاج إلى ` متغير `{: class = "block3variables"} لتخزين عدد الدفعات.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+قم بإنشاء متغيير ` متغير `{: class = "block3variables"} وقم بتسميته  `بالضغط على الزر`{: class = "block3variables"}.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+في بداية اللعبة، `الضغط على الزر`{:class="block3variables"} يجب أن يكون `0`.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+أضف المقاطع البرمجي التالية إلى كائن ** الزر **.
 
-![The button sprite.](images/button-sprite.png)
+![كائن الحشرة.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+المقطع البرمجي `كرر حتى`{: class = "block3control"} هي حلقة تستمر في التكرار حتى يتم استيفاء شرط معين.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**اختر:** كم مرة يجب الضغط على الزر لحل اللغز؟ في هذا المثال ، ستحتاج إلى الضغط عليه `5` مرة ، ولكن يمكنك اختيار رقم مختلف.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+أضف `كرر حتى حلقة`{: class = "block3control"} ، واضبط حالتها عند الضغط على</code>`: class = "block3variables"} تساوي <code>تساوي`{: class = "block3operators"} إلى `5`.
 
-![The button sprite.](images/button-sprite.png)
+![كائن الحشرة.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+الآن ، يحتاج اللاعب إلى أن يكون قادرًا على الضغط على الزر. يجب أن يكونوا قادرين على الضغط فقط عندما يكون الحرف قريبًا من الزر رغم ذلك!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+أضف المقطع البرمجي لاكتشاف ما إذا كان الحرف قريبًا من الزر عند النقر فوق ** الزر **.
 
-![The button sprite.](images/button-sprite.png)
+![كائن الزر.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+إذا كان الحرف قريبًا ، وتم الضغط على الزر ، فيمكن زيادة متغير `المتغيير`الضغط عليه {: class = "block3variables"}. إذا لم تكن الشخصية قريبة ، يجب إعادة تعيين اللغز ؛ يحتاج اللاعب إلى الضغط على الزر خمس مرات متتالية ، قبل تجربة أي ألغاز أخرى.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**نصيحة:** في Scratch ، يتم حساب المسافة بين أي اثنين من الكائنات من مراكز الكائنات. هذا يعني أن الكائنات الكبيرة يمكن أن تبدو وكأنها تلامس ، لكن مراكزها قد لا تزال متباعدة.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+قم بإضافة كود لتغيير قيمة المتغير `الذي تم الضغط عليه`زر {: class = "block3variables"}.
 
-![The button sprite.](images/button-sprite.png)
+![كائن الزر.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**اختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك وحرك الماوس للتحكم في المشغل. أثناء النقر فوق الزر ، يجب زيادة متغير</code>زر اليمين `{: class = 'block3variables'}. يمكنك ضبط قيمة <code>مسافة إلى Monet`{: class = 'block3sensing'} لأعلى أو لأسفل ، حتى تجد الرقم الذي يناسبك.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+يمكنك استخدام المقطع البرمجي `انضم`{: class = "block3operators"} إلى `قل`{: class = "block3looks"} للاعب كم مرة تم الضغط على الزر.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+ضع كائن`رابط`{: class = "block3operators"} كتلة داخل كتلة أخرى. ثم أضف النص الذي تريده ، متغيير `اضغط الزر`{: class = "block3variables"} ، كل ذلك داخل المقطع البرمجي `say`{: class = "block3looks"}.
 
-For example:
+مثال:
 
-![The button sprite.](images/button-sprite.png)
+![كائن الزر.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**نصيحة:** تأكد من إضافة مسافات في النص في مقطع `الانضمام`{: class = "block3operators"}.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+ستنتهي الحلقة عندما يتم الضغط على الزر `5` مرات، ثم سيتم تشغيل آخر مقطع برمجي في البرنامج النصي. هذا يمكن أن يخبر اللاعب أن المهمة قد اكتملت.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+استخدم المقطع `say`{: class = "block3looks"} لإخبار اللاعب بأن المهمة قد اكتملت.
 
-![The button sprite.](images/button-sprite.png)
+![كائن الزر.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**اختبار:** قم بتشغيل مشروعك وحرك الشخصية بالقرب من الزر. عند النقر فوق الزر خمس مرات ، يجب أن تكتمل المهمة.
 
 --- /task ---
 
