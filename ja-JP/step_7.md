@@ -1,8 +1,8 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
-If you have time, you can upgrade your project.
+時間がある場合は、プロジェクトをアップグレードできます。
 
-Here are some ideas you could try:
+たとえばこんなアイデアがあります。
 - Add in extra sprites to provide more puzzles
 - Edit the backdrop and turn areas into new sprites
 - Add an extra challenge, by making the player complete all the challenges in a set time
