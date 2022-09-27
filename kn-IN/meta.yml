@@ -5,7 +5,7 @@ description: ಪಝಲ್‌ಗಳನ್ನು ಪರಿಹರಿಸುವ ಪ�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: ಪರಿಚಯ
@@ -13,20 +13,23 @@ steps:
     title: ಪಝಲ್‌ ಕೊಠಡಿಯಲ್ಲಿ ಯಾರಿದ್ದಾರೆ?
   - 
     title: ಬಟನ್‌ ಪಝಲ್
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: ಕೈಚಕ್ರದ ಪಝಲ್
   - 
     title: ಕ್ಷುದ್ರಗ್ರಹಗಳ ಪಝಲ್
-    completion: internal
+    completion:
+      - internal
   - 
     title: ಪುನರ್ಮನನ
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
   - 
