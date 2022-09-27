@@ -1,33 +1,36 @@
 ---
-title: Puzzle room
+title: Puzzelkamer
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
+description: Maak een ruimteschip puzzelkamer met een personage dat puzzels oplost.
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Who's in the puzzle room?
+    title: Wie zit er in de puzzelkamer?
   - 
-    title: The button puzzle
-    completion: engaged
+    title: De knop puzzel
+    completion:
+      - engaged
   - 
-    title: The handwheel puzzle
+    title: De wiel puzzel
   - 
-    title: The asteroids puzzle
-    completion: internal
+    title: De asteroïden puzzel
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
