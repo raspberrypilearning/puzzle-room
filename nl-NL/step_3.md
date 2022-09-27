@@ -1,19 +1,19 @@
-## The button puzzle
+## De knop puzzel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+In deze stap voeg je je eerste puzzel toe, om een bepaald aantal keer op de knop te drukken.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+Wanneer het spel begint, moet de knop op dezelfde plaats blijven en altijd zichtbaar zijn op de voorgrond.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Voeg de volgende blokken toe aan de **knop** sprite.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+De knop moet een aantal keer worden ingedrukt om de puzzel te voltooien. Hiervoor heb je een `variabele`{:class="block3variables"} nodig om het aantal keren op te slaan.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+Maak een nieuwe `variabele`{:class="block3variables"} en noem deze `op knop geduwd`{:class="block3variables"}.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+Aan het begin van het spel moet `op knop geduwd`{:class="block3variables"} `0` zijn.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Voeg de volgende blokken toe aan de **knop** sprite.
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+Een `herhaal tot`{:class="block3control"} blok is een lus die blijft herhalen totdat aan een bepaalde voorwaarde is voldaan.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**Kies:** Hoe vaak moet de knop worden ingedrukt om de puzzel op te lossen? In dit voorbeeld moet de knop `5` keer worden ingedrukt, maar je kunt natuurlijk ook een ander getal kiezen.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+Voeg een `herhaal tot`{:class="block3control"} lus toe en stel de voorwaarde in op wanneer `op knop geduwd`{:class="block3variables"} `gelijk is aan`{:class="block3operators"} `5`.
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+Nu moet de speler op de knop kunnen drukken. Ze zouden er alleen op moeten kunnen drukken als het personage dicht genoeg bij de knop staat!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+Voeg blokken toe om waar te nemen of het personage dicht genoeg bij de knop staat wanneer op de **knop** sprite wordt geklikt.
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+Als het personage dichtbij genoeg staat en de knop wordt ingedrukt, kan de `op knop geduwd`{:class="block3variables"} variabele worden verhoogd. Als het personage niet dichtbij geneg is, moet de puzzel gereset worden; de speler moet de knop vijf keer achter elkaar indrukken voordat hij andere puzzels kan spelen.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**Tip:** in Scratch wordt de afstand tussen twee sprites berekend uit de middelpunten van de sprites. Voor grote sprites kan het daarom soms lijken alsof ze elkaar al raken, maar hun centra kunnen nog steeds ver uit elkaar liggen waardoor ze elkaar dus nog niet raken.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+Voeg code toe om de waarde van de variabele `op knop geduwd`{:class="block3variables"} te wijzigen.
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**Test:** Voer je project uit en beweeg het personage dicht genoeg bij de knop. Als je op de knop klikt, moet de `op knop geduwd`{:class='block3variables'} variabele groter worden. Je kunt de waarde van `afstand tot Monet`{:class='block3sensing'} veranderen, totdat je een getal vindt dat jij goed vindt.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+Je kunt het `voeg samen`{:class="block3operators"} blok gebruiken om de speler met een `zeg`{:class="block3looks"} blok te laten weten hoe vaak de knop is ingedrukt.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+Plaats een `voeg samen`{:class="block3operators"} blok in een ander blok. Voeg vervolgens de gewenste tekst toe en de `op knop geduwd`{:class="block3variables"} variabele, allemaal in een `zeg`{:class="block3looks"} blok.
 
-For example:
+Bijvoorbeeld:
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**Tip:** Zorg ervoor dat je spaties toevoegt in de tekst in je `voeg samen`{:class="block3operators"} blok.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+De lus eindigt wanneer de knop `5` keer is ingedrukt, waarna het laatste blok in het script wordt uitgevoerd. Zo kun je de speler laten weten dat de opdracht is voltooid.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+Gebruik een `zeg`{:class="block3looks"} blok om de speler te vertellen dat de taak is voltooid.
 
-![The button sprite.](images/button-sprite.png)
+![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**Test:** Voer je project uit en beweeg het personage dicht genoeg bij de knop. Wanneer je vijf keer op de knop klikt, zou de opdracht voltooid moeten zijn.
 
 --- /task ---
 
