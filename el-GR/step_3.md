@@ -1,19 +1,19 @@
-## The button puzzle
+## Ο γρίφος του κουμπιού
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+Σε αυτό το βήμα, θα προσθέσεις τον πρώτο σου γρίφο, ο οποίος θα είναι να πατήσεις το κουμπί ορισμένες φορές.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+Όταν ξεκινά το παιχνίδι, το κουμπί πρέπει να παραμένει στο ίδιο σημείο και να είναι πάντα ορατό στο μπροστινό επίπεδο.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Πρόσθεσε αυτά τα μπλοκ στο αντικείμενο **Κουμπί**.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+Το κουμπί θα πρέπει να πατηθεί κάποιες φορές για να ολοκληρωθεί ο γρίφος. Για αυτό, θα χρειαστείς μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις το πόσες φορές πατήθηκε.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+Δημιούργησε μία νέα `μεταβλητή`{:class="block3variables"} και ονόμασέ την `κουμπί πατήθηκε`{:class="block3variables"}.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+Στην αρχή του παιχνιδιού, το `κουμπί πατήθηκε`{:class="block3variables"} θα πρέπει να είναι `0`.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Πρόσθεσε αυτά τα μπλοκ στο αντικείμενο **Κουμπί**.
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+Ένα μπλοκ `επανάλαβε ώσπου`{:class="block3control"} είναι ένας βρόχος που συνεχίζει να επαναλαμβάνεται μέχρι να εκπληρωθεί μια συγκεκριμένη συνθήκη.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**Επίλεξε:** Πόσες φορές θα χρειαστεί να πατήσεις το κουμπί για να λύσεις τον γρίφο; Σε αυτό το παράδειγμα, θα χρειαστεί να πατηθεί `5` φορές, αλλά μπορείς να επιλέξεις διαφορετικό αριθμό.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+Πρόσθεσε έναν βρόχο `επανάλαβε ώσπου`{:class="block3control"} και ορίστε την συνθήκη του να εκπληρώνεται όταν η μεταβλητή `κουμπί πατήθηκε`{:class="block3variables"} είναι `ίση`{:class="block3operators"} με `5`.
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+Τώρα, ο παίκτης θα μπορεί να πατήσει το κουμπί. Ωστόσο, θα πρέπει να μπορεί να το πατήσει μόνο όταν ο χαρακτήρας είναι κοντά στο κουμπί!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+Πρόσθεσε μπλοκ για να εντοπίσεις εάν ο χαρακτήρας είναι κοντά στο κουμπί όταν κάνεις κλικ στο αντικείμενο **κουμπί**.
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,15 +81,15 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+Εάν ο χαρακτήρας είναι κοντά και πατηθεί το κουμπί, τότε η μεταβλητή `κουμπί πατήθηκε`{:class="block3variables"} μπορεί να αυξηθεί. Εάν ο χαρακτήρας δεν είναι κοντά, ο γρίφος πρέπει να μηδενιστεί. ο παίκτης πρέπει να πατήσει το κουμπί πέντε φορές στη σειρά, πριν δοκιμάσει οποιονδήποτε άλλο γρίφο.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**Συμβουλή:** Στο Scratch, η απόσταση μεταξύ δύο οποιωνδήποτε αντικειμένων υπολογίζεται από τα κέντρα των αντικειμένων. Αυτό σημαίνει ότι τα μεγάλα αντικείμενα μπορεί να φαίνονται σαν να αγγίζονται, αλλά τα κέντρα τους μπορεί να είναι ακόμα μακριά.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+Πρόσθεσε κώδικα για να αλλάξεις την τιμή της μεταβλητής `κουμπί πατήθηκε`{:class="block3variables"}.
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,19 +103,19 @@ else
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**Δοκιμή:** Εκτέλεσε το έργο σου και μετακίνησε τον χαρακτήρα κοντά στο κουμπί. Καθώς κάνεις κλικ στο κουμπί, η μεταβλητή `κουμπί πατήθηκε`{:class='block3variables'} θα πρέπει να αυξάνεται. Μπορείς να προσαρμόσεις την τιμή `της απόστασης από τον Monet`{:class='block3sensing'} προς τα πάνω ή προς τα κάτω, έως ότου βρεις έναν αριθμό που να σου φαίνεται λογικός.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+Μπορείς να χρησιμοποιήσεις το μπλοκ `ένωσε`{:class="block3operators"} για `να πεις`{:class="block3looks"} στον παίκτη πόσες φορές έχει πατηθεί το κουμπί.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+Τοποθέτησε ένα μπλοκ `ένωσε`{:class="block3operators"} μέσα σε ένα άλλο. Στη συνέχεια, πρόσθεσε το κείμενο που θέλεις και τη μεταβλητή `κουμπί πατήθηκε`{:class="block3variables"}, όλα μέσα σε ένα μπλοκ `πες`{:class="block3looks"}.
 
-For example:
+Για παράδειγμα:
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**Συμβουλή:** Βεβαιώσου ότι έχεις προσθέσει κενά στο κείμενο στο μπλοκ `ένωσε`{:class="block3operators"}.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+Ο βρόχος θα τελειώσει όταν το κουμπί έχει πατηθεί `5` φορές, τότε θα εκτελεστεί το τελευταίο μπλοκ στο script. Αυτό μπορεί να πει στον παίκτη ότι η εργασία έχει ολοκληρωθεί.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+Χρησιμοποίησε ένα μπλοκ `πες`{:class="block3looks"} για να πεις στον παίκτη ότι η εργασία έχει ολοκληρωθεί.
 
-![The button sprite.](images/button-sprite.png)
+![Το αντικείμενο κουμπί.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**Δοκιμή:** Τρέξε το έργο σου και μετακίνησε τον χαρακτήρα κοντά στο κουμπί. Όταν κάνεις κλικ στο κουμπί πέντε φορές, η εργασία πρέπει να έχει ολοκληρωθεί.
 
 --- /task ---
 
