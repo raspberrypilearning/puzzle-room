@@ -22,7 +22,7 @@ crosshair
 
 port
 
-button
+przycisk
 
 go to position
 
