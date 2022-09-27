@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+Richting waarin de pijl wijst
 
-The button is visible
+De knop is zichtbaar
 
-Button presses set to 0 at start
+Druk op de knop om bij het starten op 0 te zetten
 
-Keep repeating until button is pressed 5 times
+Blijf herhalen totdat de knop 5 keer is ingedrukt
 
-If close to Monet, then increase button press count
+Als je dicht bij Monet bent, verhoog je het aantal keren dat op de knop is gedrukt
 
-If far from Monet, then reset button press count
+Als je ver van Monet bent, reset je het aantal keren dat op de knop is gedrukt
 
-Store the turnes of the wheel
+Sla de het aantal keren dat aan het wiel is gedraaid op
 
-The handwheel has turned a full circle
+Het wiel heeft een volledige cirkel gedraaid
 
-Store the total number of turns
+Sla het totale aantal keren dat gedraaid is op
 
-Reset the angle that it has been turned
+Reset de hoek waarin het is gedraaid
 
-Only show the crosshair when the mouse is touching the port
+Toon het dradenkruis alleen wanneer de muis het raam raakt
 
-Also not touching the edge of the port
+Raak ook de rand van het raam niet aan
 
-Hide the sprite
+Verberg de sprite
 
-Check that Monet is at the chair
+Controleer of Monet op de stoel zit
 
-10 asteroids have been destroyed
+10 asteroïden zijn vernietigd
 
-Monet is at chair and crosshair is touching asteroid
+Monet zit op stoel en het dradenkruis raakt asteroïde
 
-Store the number of asteroids destroyed
+Sla het aantal vernietigde asteroïden op
 
-Reset asteroid position
+Reset de asteroïde positie
