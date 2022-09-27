@@ -1,39 +1,39 @@
-right
+δεξιά
 
-left
+αριστερά
 
-up
+πάνω
 
-down
+κάτω
 
-button pressed
+κουμπί πατήθηκε
 
-button pressed...times
+κουμπί πατήθηκε...φορές
 
-task complete
+εργασία ολοκληρώθηκε
 
-handwheel turned
+χειροτροχός γύρισε
 
-handwheel turned...times
+χειροτροχός γύρισε... φορές
 
-turned
+στροφή
 
-crosshair
+σταυρόνημα
 
-port
+παράθυρο
 
-button
+κουμπί
 
-go to position
+πήγαινε στη θέση
 
-chair
+καρέκλα
 
-at chair
+στην καρέκλα
 
-true
+αληθής
 
-false
+ψευδής
 
-asteroids
+αστεροειδείς
 
-...asteroids destroyed
+...αστεροειδείς καταστράφηκαν
