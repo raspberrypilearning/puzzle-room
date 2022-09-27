@@ -1,6 +1,6 @@
-right
+правый
 
-left
+левый
 
 up
 
@@ -22,7 +22,7 @@ crosshair
 
 port
 
-button
+кнопка
 
 go to position
 
