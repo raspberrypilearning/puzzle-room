@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## من في غرفة الألغاز؟
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+في هذه الخطوة ، ستقوم بإضافة شخصية إلى غرفة الألغاز ، وإنشاء عناصر تحكم لتحريكها.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratch will open in another browser tab.
+افتح [مشروع بدء Scratch](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+إذا كنت تعمل دون اتصال بالإنترنت ، يمكنك تنزيل مشروع البداية على [rpf.io/p/en/غرفة الالغاز](https://rpf.io/p/en/puzzle-room).
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+يجب أن ترى مشهدًا من داخل سفينة الفضاء. تم صنع العديد من الكائنات المتحركة من أجلك ، وتم تعيين مواقعها.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**اختر:** من في سفينة الفضاء؟ يمكن أن تكون مهمة منفردة من الأرض ، أو مركبة فضائية غريبة ، أو قد تكون موجودة في المستقبل حيث تحكم القطط العالم.
 
-You need one character to interact with the puzzles you are making.
+أنت بحاجة إلى شخصية واحدة للتفاعل مع الألغاز التي تصنعها.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+أضف كائن آخر إلى مشروعك. في هذا المثال ، سترى الشخصية **Monet**.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![صورة gif متحركة لعنصر Monet من Scratch.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+إذا كانت شخصيتك كبيرة جدًا أو صغيرة جدًا بالنسبة للمشهد ، فيجب عليك تغيير حجمها. يمكنك أيضًا اختيار موضع البداية للشخصية.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+أضف مقطع برمجي لإعداد حجم شخصيتك وموضع البداية.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+ستحتاج إلى عناصر تحكم على الشاشة لتتمكن من تحريك شخصيتك.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+اختر أحد كائنات **سهم**. عند النقر على الكائن ، يجب أن يبث اتجاهه حتى يتمكن من تحريك الشخصية في هذا الاتجاه.
 
-![Arrow sprite.](images/arrow-sprite.png)
+![كائن السهم.](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**نصيحة:** إذا كان من الصعب جدًا النقر فوق كائنات**سهم** عند استخدام هاتف محمول أو جهاز لوحي ، فيمكنك عندئذٍ تغيير الازياء. يحتوي كل كائن **سهم** أيضًا على دائرة أرجوانية كبيرة يمكن استخدامها بدلاً من ذلك.
 
-Now add more direction controls to move your main character.
+أضف الآن المزيد من عناصر التحكم  لتحريك شخصيتك الرئيسية.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+قم بتكرار الرمز **سهم** ثلاث مرات. بعد ذلك ، لكل كائن ، قم بتغيير المظهر بحيث يشير إلى اتجاه مختلف.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+غيّر اسم كل كائن إلى الاتجاه الذي يشير إليه وغيّر ` البث `{: class = "block3events"} إلى الاتجاه الذي يشير إليه.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+رتب جميع المقاطع البرمجية المتحركة **سهم** في زاوية الشاشة.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![مشهد الفضاء مع أربعة أسهم في الزاوية اليسرى السفلية ، تشير إلى اتجاهات البوصلة.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+يجب أن تتحرك شخصيتك الرئيسية عند الضغط على الأسهم.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+قم بترميز الكائن الرئيسي لشخصيتك للتحرك عندما يتلقى البث ليذهب إلى `يسارًا ويمينًا ولأعلى ولأسفل`{: class = "block3events"}.
 
-![Monet sprite.](images/monet-sprite.png)
+![كائن Monet.](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**اختبار:** انقر فوق العلم الأخضر ثم انقر فوق الأسهم لتحريك شخصيتك.
 
 --- /task ---
 
