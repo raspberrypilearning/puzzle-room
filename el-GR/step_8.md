@@ -1,10 +1,10 @@
-## What next?
+## Και τώρα;
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Mandala](https://projects.raspberrypi.org/en/projects/mandala) project. In this project, you will make computer generated mandalas.
+Εάν ακολουθείς το μονοπάτι [Περισσότερη Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch), μπορείς να προχωρήσεις στο έργο [Μάνταλα](https://projects.raspberrypi.org/en/projects/mandala). Στο έργο αυτό θα δημιουργήσεις μάνταλα που παράγεται από υπολογιστή.
 
 --- print-only ---
 
-![Mandala project](images/mandala.png)
+![Έργο Mandala](images/mandala.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Αν θέλεις να διασκεδάσεις περισσότερο εξερευνώντας το Scratch, τότε μπορείς να δοκιμάσεις οποιοδήποτε από [αυτά τα έργα](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
