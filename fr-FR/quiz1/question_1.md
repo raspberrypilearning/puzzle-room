@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
@@ -12,14 +12,14 @@ Have fun!
 legend : Question 1 sur 3
 ---
 
-Here is the Monet character next to a big button:
+Voici le personnage Monet à côté d'un gros bouton :
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![personnage Monet debout à côté d'un gros bouton rouge](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+Quels blocs utiliserais-tu pour que le nombre de pressions sur le bouton soit affiché en permanence, jusqu'à ce que le bouton ait été enfoncé 7 fois au total ?
 
 
---- choices ---
+--- choix ---
 
 - ( )
 
@@ -32,11 +32,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback ---
+  --- commentaires ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+Ton script indique le nombre de pressions sur le bouton, mais il s'arrête après seulement 5 pressions sur le bouton.
 
-  --- /feedback ---
+  --- /commentaires ---
 
 - ( )
 
@@ -49,11 +49,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback ---
+  --- commentaires ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+Ces blocs ne fonctionneraient qu'une seule fois au début du jeu, car aucune boucle n'est utilisée.
 
-  --- /feedback ---
+  --- /commentaires ---
 
 - (x)
 
@@ -66,11 +66,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- feedback ---
+  --- commentaires ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+Oui ! Ce script indique combien de fois le bouton a été enfoncé à chaque fois et indique que la tâche est terminée après 7 pressions sur le bouton.
 
-  --- /feedback ---
+  --- /commentaires ---
 
 - ( )
 
@@ -82,12 +82,12 @@ say (button pressed)
 end
 say [task complete)] for (2) seconds
 ```
-  --- feedback ---
+  --- commentaires ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+Ces blocs diraient le nombre `0` sept fois très rapidement au début du jeu, car il n'y a pas de condition vérifiant la valeur de la variable.
 
-  --- /feedback ---
+  --- /commentaires ---
 
---- /choices ---
+--- /choix ---
 
 --- /question ---
