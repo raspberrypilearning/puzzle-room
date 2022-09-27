@@ -1,6 +1,6 @@
-## Upgrade your project
+## Ulepsz swój projekt
 
-If you have time, you can upgrade your project.
+Jeśli masz czas, możesz ulepszyć swój projekt.
 
 Here are some ideas you could try:
 - Add in extra sprites to provide more puzzles
