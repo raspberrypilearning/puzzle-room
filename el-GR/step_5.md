@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## Ο γρίφος των αστεροειδών
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+Σε αυτό το βήμα, θα δημιουργήσεις τον πιο απαιτητικό γρίφο. Θα δημιουργήσεις έναν γρίφο για να καταστρέψεις επικίνδυνους αστεροειδείς.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+Θα χρειαστείς ένα σταυρόνημα που μπορείς να χρησιμοποιήσεις για να στοχεύσεις τους αστεροειδείς.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+Ζωγράφισε ένα νέο αντικείμενο που ονομάζεται **σταυρόνημα**. Ένα παράδειγμα φαίνεται παρακάτω, χρησιμοποιώντας έναν κύκλο και δύο γραμμές. Κάνε τον κύκλο αρχικά συμπαγή και, στη συνέχεια, προσάρμοσε το **γέμισμα** του σε διαφανές, αφού έχεις οριστικοποιήσει το μέγεθος και την θέση του.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![Ένα σταυρόνημα που αποτελείται από έναν μικρό κόκκινο κύκλο με διχοτομούμενες διαγώνιες γραμμές, με κέντρο στον καμβά.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+Άλλαξε το μέγεθος του αντικειμένου **σταυτόνημα**, αν χρειάζεται.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**Συμβουλή**: Μπορείς να κάνεις μεγέθυνση στο πρόγραμμα επεξεργασίας ζωγραφικής, χρησιμοποιώντας τα σύμβολα **+** και **-**, για να διευκολύνεις την τοποθέτηση, ειδικά εάν βρίσκεσαι σε κινητό ή tablet.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+Το σταυρόνημα θα ακολουθεί το ποντίκι, αλλά θα πρέπει να είναι ορατό μόνο μέσα από το παράθυρο στο διάστημα.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+Χρησιμοποίησε τα παρακάτω μπλοκ έτσι ώστε το **σταυρόνημα** να ακολουθεί το δείκτη του ποντικιού.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Το αντικείμενο σταυρόνημα.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και βεβαιώσου ότι το αντικείμενο **σταυρόνημα** ακολουθεί τον δείκτη του ποντικιού.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+Μπορείς να χρησιμοποιήσεις ένα μπλοκ `εάν`{:class="block3control"} για να ελέγξεις εάν το **σταυρόνημα** αγγίζει το αντικείμενο **παράθυρο**, έτσι ώστε να είναι κρυφό όταν **δεν** το αγγίζει (με χρήση του τελεστή <1>όχι</1>).
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+Πρόσθεσε μια δοκιμή, για να βεβαιωθείς ότι το **σταυρόνημα** αγγίζει το **παράθυρο**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Το αντικείμενο σταυρόνημα.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και βεβαιώσου ότι το **σταυρόνημα** κρύβεται όταν δεν αγγίζει το **παράθυρο**.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+Μπορεί να παρατηρήσεις ότι το σταυρόνημα εμφανίζεται στην άκρη του **παραθύρου** και έτσι φαίνεται να βρίσκεται μέσα στο διαστημόπλοιο. Αυτό μπορεί να διορθωθεί ελέγχοντας ότι δεν αγγίζει κάποιο χρώμα του φόντου.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+Πρόσθεσε ένα μπλοκ `ή`{:class="block3operators"} στο μπλοκ `εάν`{:class="block3control"}. Η δεύτερη συνθήκη είναι εάν το **σταυρόνημα** αγγίζει το πράσινο χρώμα που περιβάλλει το **παράθυρο**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Το αντικείμενο σταυρόνημα.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**Συμβουλή:** Καθώς το σταυρόνημα ακολουθεί τον δείκτη του ποντικιού, βεβαιώσου ότι έχεις σταματήσει το έργο σου πριν χρησιμοποιήσεις τον επιλογέα χρώματος.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+Τώρα ήρθε η ώρα να δημιουργήσουμε τους αστεροειδείς.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+Βρες ένα αντικείμενο **Rocks** και πρόσθεσέ το στο έργο σου. Άλλαξε το μέγεθος του αντικειμένου ώστε να μην είναι πολύ μεγάλο.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+Ίσως έχεις δει πώς `οι εντολές μου`{:class="block3myblocks"} βοηθούν στο να διατηρηθεί ο κώδικας οργανωμένος στο [έργο Ρομποτικό όχημα εξερεύνησης της φύσης](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+`Οι εντολές μου`{:class="block3myblocks"} βοηθούν επίσης έτσι ώστε να μην χρειάζεται να γράφεις τον ίδιο κώδικα ξανά και ξανά. Μπορείς να χρησιμοποιήσεις τις `συναρτήσεις μου`{:class="block3myblocks"} για τα **Rocks** για να τα τοποθετήσεις στο παράθυρο του διαστημόπλοιου.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+Δημιούργησε ένα νέο `μπλοκ`{:class="block3variables"} και ονόμασέ το `πήγαινε στη θέση`{:class="block3variables"}. Η αρχική θέση μπορεί να είναι οπουδήποτε στην οθόνη.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+Το αντικείμενο **Rocks** πρέπει να συνεχίσει να βρίσκει μια τυχαία θέση μέχρι να αγγίξει το **παράθυρο** `και`{:class="block3operators"} να μην αγγίζει την άκρη του **παράθυρου**. Αυτός είναι παρόμοιος με τον κώδικα που χρησιμοποίησες στο **σταυρόνημα**, αλλά αυτή τη φορά θα χρησιμοποιήσεις ένα μπλοκ `και`{:class="block3operators"}.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+Πρόσθεσε ένα `επανάλαβε ώσπου`{:class="block3control"} και ένα μπλοκ `και`{:class="block3operators"} για να βεβαιωθείς ότι το **Rocks** συνεχίζει να κινείται μέχρι να βρεθεί στη σωστή θέση.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Δοκιμή:** Κάνε κλικ στον ορισμό του `οι εντολές μου`{:class="block3myblocks"} και θα δεις το βράχο να κινείται τυχαία στην οθόνη, μέχρι να σταματήσει στη παράθυρο.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+Το **Rocks** πρέπει να να είναι κρυμμένο από το οπτικό πεδίο καθώς κινείται, αλλά εάν είναι κρυμμένο, δεν θα αγγίζει το **παράθυρο**, επομένως μπορεί να χρησιμοποιηθεί ένα εφέ `φαντάσματος`{:class="block3looks"} για να το κάνει αόρατο.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+Όρισε το εφέ `φαντάσματος`{:class="block3looks"} στο **Rocks** σε `100` ενώ το αντικείμενο κινείται και, στη συνέχεια, καθάρισε το γραφικό εφέ.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -147,13 +147,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+Το τελευταίο μέρος είναι παρόμοιο με τους άλλους γρίφους. Χρησιμοποιώντας μια μεταβλητή που ονομάζεται `αστεροειδείς`{:class="block3variables"}, μέτρησε πόσο συχνά το **σταυρόνημα** αγγίζει το **Rocks**. Κάθε φορά που συμβαίνει, η μεταβλητή του αστεροειδούς αυξάνεται και το **Rocks** μετακινείται σε μια νέα θέση. Ωστόσο, αυτό θα πρέπει να λειτουργεί μόνο εάν ο χαρακτήρας σου είναι στην καρέκλα.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+Στο αντικείμενο του **χαρακτήρα** σου, δημιούργησε μια νέα μεταβλητή που ονομάζεται `στην καρέκλα`{:class="block3variables"} και ορίσε την σε `αληθής` όταν ο χαρακτήρας αγγίζει την καρέκλα και `ψευδής` όταν δεν την αγγίζει.
 
-![The Monet sprite.](images/monet-sprite.png)
+![Το αντικείμενο Monet.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +170,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+Πρόσθεσε τα ακόλουθα μπλοκ στο αντικείμενο **Rocks** για να ορίσεις το πότε θα ολοκληρωθεί η εργασία.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +185,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+Χρησιμοποίησε ένα άλλο μπλοκ `και`{:class="block3operators"} σε ένα μπλοκ `εάν`{:class="block3control"} για να ελέγξεις ότι το **σταυρόνημα** αγγίζει τον βράχο και ότι η μεταβλητή `στην καρέκλα`{:class="block3variables"} έχει τιμή `αληθής`.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +201,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+Εάν πληρείται η προϋπόθεση, τότε η μεταβλητή `αστεροειδείς`{:class="block3variables"} μπορεί να αυξηθεί κατά `1` και η μεταβλητή `η εντολή μου`{:class="block3custom"} μπορεί να κληθεί ξανά έτσι ώστε το **Rocks** να μετακινηθεί σε νέα θέση.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Το αντικείμενο Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +217,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+Το τελευταίο πράγμα που πρέπει να κάνεις είναι να πεις στον παίκτη για την εργασία. Αυτό μπορεί να γίνει στο αντικείμενο **παράθυρο**.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+Πρόσθεσε μπλοκ για να πεις στον παίκτη πόσοι αστεροειδείς έχουν καταστραφεί.
 
-![The port sprite.](images/port-sprite.png)
+![Το αντικείμενο παράθυρο.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +238,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**Δοκιμή:** Μετακίνησε τον χαρακτήρα σου κοντά στην καρέκλα, μετά μετακίνησε το σταυρόνημα και προσπάθησε να καταστρέψεις μερικούς αστεροειδείς. Στη συνέχεια, μπορείς να προσαρμόσεις οποιαδήποτε από τις τιμές στον κώδικά σου που χρειάζεσαι για να λειτουργήσει καλά το έργο για τα μεγέθη των αντικειμένων σου.
 
 --- /task ---
 
