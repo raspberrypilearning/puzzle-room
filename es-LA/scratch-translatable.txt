@@ -1,10 +1,10 @@
-right
+derecha
 
-left
+izquierda
 
-up
+arriba
 
-down
+abajo
 
 button pressed
 
@@ -22,7 +22,7 @@ crosshair
 
 port
 
-button
+botón
 
 go to position
 
