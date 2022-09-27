@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## Qui est dans la salle des énigmes ?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+Dans cette étape, tu vas ajouter un personnage à une salle des énigmes et créer des contrôles pour les déplacer.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre [le projet de démarrage Scratch](https://scratch.mit.edu/projects/531567946/editor/) {:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+Si tu travailles hors ligne, tu peux télécharger le projet de démarrage à [rpf.io/p/fr/puzzle-room](https://rpf.io/p/en/puzzle-room).
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+Tu devrais voir une scène à l'intérieur d'un vaisseau spatial. Plusieurs sprites ont été faits pour toi, et leurs positions ont été définies.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**Choisir :** Qui est dans le vaisseau spatial ? Il pourrait s'agir d'une mission solo depuis la Terre, d'un vaisseau spatial extraterrestre ou même d'un futur où les chats règnent sur le monde.
 
-You need one character to interact with the puzzles you are making.
+Tu as besoin d'un personnage pour interagir avec les énigmes que tu fais.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+Ajoute un nouveau sprite à ton projet. Dans cet exemple, tu verras le personnage **Monet**.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Gif animé du sprite Monet de Scratch.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+Si ton personnage est trop grand ou trop petit pour la scène, tu devrais changer sa taille. Tu peux également choisir une position de départ pour le personnage.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+Ajoute du code pour configurer la taille et la position de départ de ton personnage.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+Tu auras besoin de contrôles à l'écran pour te permettre de déplacer ton personnage.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+Sélectionne l'un des sprites **flèches**. Quand le sprite est cliqué, il devrait diffuser sa direction pour qu'il puisse faire bouger le personnage dans cette direction.
 
-![Arrow sprite.](images/arrow-sprite.png)
+![Sprite flèche.](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**Astuce :** Si les sprites des **flèches** sont trop difficiles à cliquer lors de l'utilisation d'une tablette ou d'un mobile, tu peux alors changer leurs costumes. Chaque sprite **flèche** a également un grand cercle violet qui peut être utilisé à la place.
 
-Now add more direction controls to move your main character.
+Ajoute maintenant plus de commandes de direction pour déplacer ton personnage principal.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+Duplique le sprite **flèche** trois fois. Ensuite, pour chaque sprite, change le costume pour qu'il pointe dans une direction différente.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+Change le nom de chaque sprite dans la direction qu'il pointe et change la `diffusion` {:class="block3events"} dans la direction qu'il pointe.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+Dispose tous les sprites **flèche** dans le coin de l'écran.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![La scène spatiale avec quatre flèches dans le coin inférieur gauche, pointant vers la direction de la boussole.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+Ton personnage principal doit se déplacer lorsque les flèches sont pressées.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+Code le sprite de ton personnage principal pour qu'il se déplace lorsqu'il reçoit des indications pour qu'il aille `à gauche, à droite, en haut et en bas`{:class="block3events"}.
 
-![Monet sprite.](images/monet-sprite.png)
+![Sprite Monet.](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**Test :** Clique sur le drapeau vert puis clique sur les flèches pour déplacer ton personnage.
 
 --- /task ---
 
