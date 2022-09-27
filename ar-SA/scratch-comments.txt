@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+الاتجاه الذي يشير إليه السهم
 
-The button is visible
+كائن الزر مرئي
 
-Button presses set to 0 at start
+تم ضبط ضغطات الأزرار على 0 في البداية
 
-Keep repeating until button is pressed 5 times
+استمر في التكرار حتى يتم الضغط على الزر 5 مرات
 
-If close to Monet, then increase button press count
+إذا كنت قريبًا من Monet ، فقم بزيادة عدد الضغط على الزر
 
-If far from Monet, then reset button press count
+إذا كان بعيدًا عن Monet ، فقم بإعادة تعيين الضغط على الزر
 
-Store the turnes of the wheel
+قم بتخزين عدد دوران العجلة
 
-The handwheel has turned a full circle
+لقد تحولت العجلة اليدوية إلى دائرة كاملة
 
-Store the total number of turns
+قم بتخزين إجمالي عدد الدوران
 
-Reset the angle that it has been turned
+أعد ضبط الزاوية التي تم بتدويرها
 
-Only show the crosshair when the mouse is touching the port
+أظهر علامة التصويب فقط عندما يلمس الماوس المنفذ
 
-Also not touching the edge of the port
+أيضا لا تلمس حافة المنفذ
 
-Hide the sprite
+إخفاء الكائن
 
-Check that Monet is at the chair
+تأكد من أن Monet على الكرسي
 
-10 asteroids have been destroyed
+تم تدمير 10 كويكباً
 
-Monet is at chair and crosshair is touching asteroid
+Monet على الكرسي وعلامة التصويب تلامس كويكب
 
-Store the number of asteroids destroyed
+تخزين عدد الكويكبات المدمرة
 
-Reset asteroid position
+إعادة تعيين موضع الكويكب
