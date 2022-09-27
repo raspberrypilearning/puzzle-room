@@ -1,6 +1,6 @@
-## You will make
+## Je gaat maken
 
-Create a spaceship puzzle room with a character that solves puzzles.
+Maak een ruimteschip puzzelkamer met een personage dat puzzels oplost.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Puzzelkamers**</span>, of **ontsnappingskamers**, zijn kamers met puzzels die je moet oplossen om uit de kamer te komen, of om in de volgende kamer te komen. Ze kunnen online of echte kamers zijn, maar het idee is meestal hetzelfde: Voltooi de missie zo snel als je kunt!
@@ -13,13 +13,13 @@ Je gaat:
 
 --- no-print ---
 
-### Play ▶️
+### Afspelen ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! Gebruik de pijlen om het personage van de ingenieur te laten bewegen in het ruimteschip. Kun je ze helpen alle puzzels op te lossen en het ruimteschip te helpen?
+Oh oh, het ruimteschip ondervindt problemen! Gebruik de pijlen om het personage van de ingenieur te laten bewegen in het ruimteschip. Kun je ze helpen alle puzzels op te lossen en het ruimteschip te helpen?
 </div>
 <div>
 **Puzzelkamer**: [Zie binnen](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
