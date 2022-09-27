@@ -1,10 +1,10 @@
-right
+dde
 
-left
+chwith
 
-up
+i fyny
 
-down
+i lawr
 
 button pressed
 
@@ -22,7 +22,7 @@ crosshair
 
 port
 
-button
+botwm
 
 go to position
 
