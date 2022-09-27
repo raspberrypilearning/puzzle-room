@@ -1,6 +1,6 @@
-right
+direita
 
-left
+esquerda
 
 up
 
@@ -22,7 +22,7 @@ crosshair
 
 port
 
-button
+botão
 
 go to position
 
@@ -30,7 +30,7 @@ chair
 
 at chair
 
-true
+sim
 
 false
 
