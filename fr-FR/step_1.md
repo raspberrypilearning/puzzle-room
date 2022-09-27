@@ -1,30 +1,28 @@
-## Introduction
+## You will make
 
-In this project, you will create a spaceship puzzle room with a character that solves puzzles.
+Create a spaceship puzzle room with a character that solves puzzles.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">Les **salles des énigmes**</span>, ou **salles d'évasion**, sont des salles contenant des énigmes que tu dois résoudre pour sortir de la pièce ou pour entrer dans la pièce suivante. Il peut s'agir de salles en ligne ou de salles réelles, mais l'idée est généralement la même : terminer la mission le plus rapidement possible !
 </p>
 
-You will:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
+Tu vas devoir :
++ Utiliser un bloc `répéter jusqu'à ce que`{:class="block3control"} pour contrôler quand une action s'arrête
++ Utiliser plusieurs blocs `regrouper` {:class="block3operators"} pour afficher la valeur d'une `variable`{:class="block3variables"}
++ Combiner les conditions `et`{:class="block3operators"}, `ou`{:class="block3operators"}, et `pas`{:class="block3operators"} pour résoudre les problèmes
 
 --- no-print ---
+
+### Play ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
-
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
-
+Uh oh, the spaceship is encountering some difficulties! Utilise les flèches pour que le personnage de l'ingénieur se déplace dans le vaisseau spatial. Peux-tu les aider à résoudre toutes les énigmes et aider le vaisseau spatial ?
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**Salle des énigmes**: [Voir à l'intérieur](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -33,12 +31,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: Conseils pour jouer
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. Tu dois être proche du bouton et cliquer dessus cinq fois
+2. Tu dois être proche de la chaise et ensuite utiliser les viseurs pour détruire dix astéroïdes
+3. Tu dois être à proximité du gouvernail et cliquer dessus pour le faire tourner au total trois tours complets
 
 
 --- /collapse ---
@@ -49,7 +47,7 @@ title: Tips for playing
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Projet terminé](images/showcase_static.png)
 
 --- /print-only ---
 
