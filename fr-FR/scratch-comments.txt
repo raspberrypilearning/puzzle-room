@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+Direction vers laquelle la flèche pointe
 
-The button is visible
+Le bouton est visible
 
-Button presses set to 0 at start
+Les pressions du bouton sont réglées sur 0 au démarrage
 
-Keep repeating until button is pressed 5 times
+Continue à répéter jusqu'à ce que le bouton soit pressé 5 fois
 
-If close to Monet, then increase button press count
+Si proche de Monet, augmente le nombre de pressions sur le bouton
 
-If far from Monet, then reset button press count
+Si loin de Monet, alors remets le compte de pression sur le bouton à zéro
 
-Store the turnes of the wheel
+Mémoriser les tours du gouvernail
 
-The handwheel has turned a full circle
+Le gouvernail a tourné un tour complet
 
-Store the total number of turns
+Mémorise le nombre total de tours
 
-Reset the angle that it has been turned
+Remets à zéro l'angle qui a été tourné
 
-Only show the crosshair when the mouse is touching the port
+Affiche uniquement le viseur lorsque la souris touche le port
 
-Also not touching the edge of the port
+Ne touche pas non plus le bord du port
 
-Hide the sprite
+Cache le sprite
 
-Check that Monet is at the chair
+Vérifie que Monet est à la chaise
 
-10 asteroids have been destroyed
+10 astéroïdes ont été détruits
 
-Monet is at chair and crosshair is touching asteroid
+Monet est à la chaise et le viseur touche l'astéroïde
 
-Store the number of asteroids destroyed
+Mémorise le nombre d'astéroïdes détruits
 
-Reset asteroid position
+Réinitialise la position de l'astéroïde
