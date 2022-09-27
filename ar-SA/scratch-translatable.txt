@@ -1,39 +1,39 @@
-right
+يمين
 
-left
+يسار
 
-up
+فوق
 
-down
+تحت
 
-button pressed
+الضغط على زر
 
-button pressed...times
+زر الضغط ... مرات
 
-task complete
+اكتملت المهمة
 
-handwheel turned
+دورت العجلة اليدوية
 
-handwheel turned...times
+استدارت العجلة اليدوية... مرات
 
-turned
+استدارت
 
-crosshair
+علامة التصويب
 
-port
+المنفذ
 
-button
+زر
 
-go to position
+الذهاب إلى الموضع
 
-chair
+كرسي القيادة
 
-at chair
+على الكرسي
 
-true
+حقيقي
 
-false
+خاطئ
 
-asteroids
+الكويكبات
 
-...asteroids destroyed
+... الكويكبات دمرت
