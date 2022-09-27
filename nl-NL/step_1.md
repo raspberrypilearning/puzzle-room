@@ -1,30 +1,28 @@
-## Introduction
+## You will make
 
-In this project, you will create a spaceship puzzle room with a character that solves puzzles.
+Create a spaceship puzzle room with a character that solves puzzles.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">**Puzzelkamers**</span>, of **ontsnappingskamers**, zijn kamers met puzzels die je moet oplossen om uit de kamer te komen, of om in de volgende kamer te komen. Ze kunnen online of echte kamers zijn, maar het idee is meestal hetzelfde: Voltooi de missie zo snel als je kunt!
 </p>
 
-You will:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
+Je gaat:
++ Een `herhaal tot`{:class="block3control"} blok gebruiken om te bepalen wanneer een actie stopt
++ Meerdere `voeg samen`{:class="block3operators"} blokken gebruiken om de waarde van een `variabele`{:class="block3variables"} te laten zien
++ Een `en`{:class="block3operators"}, `of`{:class="block3operators"}, en `niet`{:class="block3operators"} blok combineren om problemen op te lossen
 
 --- no-print ---
+
+### Play ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
-
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
-
+Uh oh, the spaceship is encountering some difficulties! Gebruik de pijlen om het personage van de ingenieur te laten bewegen in het ruimteschip. Kun je ze helpen alle puzzels op te lossen en het ruimteschip te helpen?
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**Puzzelkamer**: [Zie binnen](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -33,12 +31,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: Tips voor het spelen
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. Je moet dicht bij de knop staan en er vijf keer op klikken
+2. Je moet dicht bij de stoel zijn en dan het dradenkruis gebruiken om tien asteroïden te vernietigen
+3. Je moet dicht bij het wiel staan en erop klikken om het in totaal drie volledige slagen te draaien
 
 
 --- /collapse ---
@@ -49,7 +47,7 @@ title: Tips for playing
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Voltooid project](images/showcase_static.png)
 
 --- /print-only ---
 
