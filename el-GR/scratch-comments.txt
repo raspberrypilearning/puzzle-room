@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+Κατεύθυνση που δείχνει το βέλος
 
-The button is visible
+Το κουμπί είναι ορατό
 
-Button presses set to 0 at start
+Το πάτημα του κουμπιού έχει οριστεί στο 0 κατά την έναρξη
 
-Keep repeating until button is pressed 5 times
+Συνέχισε να επαναλαμβάνεις μέχρι να πατήσεις το κουμπί 5 φορές
 
-If close to Monet, then increase button press count
+Εάν είναι κοντά στο Monet, τότε αύξησε τον αριθμό που πατιέται το κουμπί
 
-If far from Monet, then reset button press count
+Εάν είναι μακριά από το Monet, τότε μηδένισε τον αριθμό που πατιέται το κουμπί
 
-Store the turnes of the wheel
+Αποθήκευσε τις στροφές του τροχού
 
-The handwheel has turned a full circle
+Ο χειροτροχός έχει κάνει έναν πλήρη κύκλο
 
-Store the total number of turns
+Αποθήκευσε τον συνολικό αριθμό στροφών
 
-Reset the angle that it has been turned
+Επανάφερε τη γωνία που έχει περιστραφεί
 
-Only show the crosshair when the mouse is touching the port
+Εμφάνισε το σταυρόνημα μόνο όταν το ποντίκι αγγίζει το παράθυρο
 
-Also not touching the edge of the port
+Επίσης δεν αγγίζει την άκρη του παράθυρου
 
-Hide the sprite
+Κρύψε το αντικείμενο
 
-Check that Monet is at the chair
+Έλεγξε ότι ο Monet βρίσκεται στην καρέκλα
 
-10 asteroids have been destroyed
+10 αστεροειδείς έχουν καταστραφεί
 
-Monet is at chair and crosshair is touching asteroid
+Ο Monet είναι στην καρέκλα και το σταυρόνημα αγγίζει τον αστεροειδή
 
-Store the number of asteroids destroyed
+Αποθήκευσε τον αριθμό των αστεροειδών που καταστράφηκαν
 
-Reset asteroid position
+Επαναφορά θέσης αστεροειδούς
