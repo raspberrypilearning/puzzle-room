@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 質問3/3
 ---
 
 Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
 
 
-![rock sprite](images/rocks-sprite.png)
+![岩スプライト](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -44,7 +44,7 @@ The rocks sprite will move to a random position until it is touching **sprite 1*
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+正解です！ The `not`{:class='block3operators'} block checks that it is not touching black.
 
   --- /feedback ---
 
