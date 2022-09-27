@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-Here's a script for a handwheel puzzle:
+إليك المقطع البرمجي للغز العجلة اليدوية:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+أي سطر من المقطع البرمجي ستضيفه إلى المقطع البرمجي لإخبار الشخصية بعدد المرات التي أدارت فيها العجلة ، باستخدام جملة كاملة؟
 
 --- choices ---
 
@@ -28,19 +28,20 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+نعم ، إذا تم تدوير العجلة اليدوية 3 مرات ، فستظهر عدم دوران العجلة اليدوية</code>`: class = 'block3looks'}</p>
 
-  --- /feedback ---
+<p spaces-before="2">--- /feedback ---</p>
 
-- ( )
+<ul>
+<li>( )</li>
+</ul>
 
-```blocks3
-say (join [handwheel turned ]  [ times])
-```
+<pre><code class="blocks3">say (join [handwheel turned ]  [ times])
+`</pre>
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+باستخدام هذا المقطع البرمجي ، إذا تم تدوير العجلة اليدوية 3 مرات ، فستقول إن `عجلة يدوية تحولت مرة`{: class = 'block3looks'}
 
   --- /feedback ---
 
@@ -52,7 +53,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+باستخدام هذا المقطع البرمجي ، إذا تم تدوير العجلة اليدوية 3 مرات ، فستقول `3 تحولت العجلة اليدوية مرة`{: class = 'block3looks'}
 
   --- /feedback ---
 
@@ -63,7 +64,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+باستخدام هذا المقطع البرمجي ، إذا تم تدوير العجلة اليدوية 3 مرات ، فستقول `3`{: class = 'block3looks'}
 
   --- /feedback ---
 
