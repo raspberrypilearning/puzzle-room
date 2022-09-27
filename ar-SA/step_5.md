@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## لغز الكويكبات
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+في هذه الخطوة ، ستنشئ اللغز الأكثر تحديًا. سوف تصنع لغزًا لتدمير الكويكبات الخطرة.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+ستحتاج إلى علامة تصويب يمكنك استخدامها لاستهداف الكويكبات.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+ارسم كائنًا جديدًا يسمى **علامة التصويب**. يتم عرض مثال أدناه ، باستخدام دائرة وخطين. اجعل الدائرة في البداية ثم اضبط **ملء** إلى شفافة ، بمجرد أن تحدد حجمها وموضعها.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![علامة التصويب تتكون من دائرة حمراء صغيرة بها خطوط قطرية متقاطعة ، تتمحور في اللوحة.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+قم بتغيير حجم</strong> علامة التصويب**إذا كنت بحاجة إلى ذلك.</p>
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**نصيحة**: يمكنك تكبير محرر الطلاء ، باستخدام</strong> **+** **، لتسهيل تحديد المواقع ، خاصةً إذا كنت تستخدم جهازًا محمولًا أو جهازًا لوحيًا.</p>
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+ستتبع علامة التقاطع الماوس ، ولكن يجب أن تكون مرئية فقط من خلال النافذة في الفضاء.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+استخدم المقطع البرمجي التالي بحيث تتبع</strong> علامة التصويب **مؤشر الماوس.</p>
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![علامة التصويب.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**اختبار:** انقر فوق العلم الأخضر واجعل الكائن **علامة التصويب** يتبع موشر الماوس.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+يمكنك استخدام المقطع البرمجي `اذا`{: class = "block3control"} لاختبار ما إذا كانت **علامة التصويب** تلامس الكائن **منفذ** ، بحيث يتم إخفاؤها عندما **ليس** لا  يلمسه.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+أضف اختبارًا للتأكد من أن **علامة التصويب** تلامس ** المنفذ **.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![علامة التصويب.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**اختبار:** انقر فوق العلم الأخضر وتأكد من إخفاء **علامة التصويب** عندما لا تلامس ** المنفذ **.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+قد تلاحظ أن علامة التصويب يظهر على حافة **المنفذ ** ويبدو أنه داخل سفينة الفضاء. يمكن إصلاح ذلك عن طريق التحقق من عدم ملامسته للون الخلفية.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+اضف المقطع البرمجي `او`{:class="block3operators"} إلى المقطع البرمجي `إذا`{:class="block3control"}. الشرط الثاني هو إذا كان **علامة التصويب** يلامس اللون الأخضر الذي يحيط بالــ **منفذ**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![علامة التصويب.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**نصيحة:** بينما يتبع علامة التصويب مؤشر الفأرة ، تأكد من إيقاف مشروعك قبل استخدام منتقي الألوان.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+حان الوقت الآن لإنشاء الكويكبات.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+ابحث عن كائن **Rocks** وأضفه إلى مشروعك. قم بتغيير حجم الكائن بحيث لا يكون كبيرًا جدًا.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+ربما تكون قد رأيت كيف أن `لبناتي`{: class = "block3myblocks"} تساعد في الحفاظ على تنظيم البرمجة مشروع في [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){: target = "_ blank"}.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+`لبناتي`{: class = "block3myblocks"} تساعد أيضًا في جعلها لا تضطر إلى كتابة او استخدام نفس المقطع البرمجي مرارًا وتكرارًا. يمكنك استخدام `لبناتي`{: class = "block3myblocks"</strong> Rocks **لوضعها في منفذ سفينة الفضاء.</p>
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+قم بإنشاء ` لبنة ` جديدة{: class = "block3myblocks"} واسمها `انتقل إلى الموضع`{: class = "block3myblocks"}. يمكن أن يكون وضع البداية في أي مكان على الشاشة.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+يحتاج الكائن **Rocks** إلى الاستمرار في العثور على موضع عشوائي حتى يلمس المنفذين **** `و`{: class = "block3operators"} ولا يلمس حافة المنفذ ****. هذا مشابه للمقطع الرمجي الذي استخدمته في **علامة التصويب**، ولكن هذه المرة ستستخدم مقطع البرمجي `و`{: class = "block3operators"}.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+أضف `كرر حتى`{: class = "block3control"} والمقطع `و`{: class = "block3operators"} لتتأكد من أن **Rocks** تستمر في الحركة حتى تكون في الموضع الصحيح.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**اختبار:** انقر فوق مقطع `لبناتي`{: class = "block3myblocks"} وسترى الصخور تتحرك بشكل عشوائي حول الشاشة ، حتى تتوقف في المنفذ.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+يجب إخفاء **Rocks** عن الأنظار أثناء تحركها ، ولكن إذا كانت مخفية ، فلن تلامس المنفذ ****، لذلك يمكن استخدام تأثير `شبح`{: class = "block3looks"} لعمل لهم غير مرئيين.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+تعيين تأثير `الشبح`{:class="block3looks"} على **الصخور** إلى `100` أثناء تحرك الكائن، ثم مسح تأثير الرسوم البيانية.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -147,13 +147,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+الجزء الأخير مشابه للألغاز الأخرى. باستخدام متغير يسمى `الكويكبات`{:class="block3variables"}، عد عدد مرات لمس **علامة التصويب** ** Rocks ** في كل مرة يحدث ذلك ، يزداد متغير الكويكب وينتقل ** Rocks ** إلى موضع جديد. يجب أن يعمل هذا فقط إذا كانت شخصيتك على الكرسي.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+على الكائن الخاص بك **** ، أنشئ متغير جديد يسمى `على الكرسي`{:class="block3variables"}، ثم ضبطها إلى `صحيح` عندما تلامس الشخصية الكرسي و `خطا` عندما لا تكون كذلك.
 
-![The Monet sprite.](images/monet-sprite.png)
+![كائن Monet.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +170,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+أضف المقطع البرمجي التالي إلى الكائن **Rocks** لضبطه عند اكتمال المهمة.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +185,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+استخدم مقطع أخر `و`{: class = "block3operators"} في المقطع `اذا`{: class = "block3control"} للتحقق من أن **علامة التصويب** تلامس الصخرة وأن `في المقعد`{: class = متغير "block3variables"} هو `صحيح`.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +201,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+إذا تم استيفاء الشرط، ثم يمكن زيادة متغير `الكويكبات`{:class="block3variables"} بمقدار `1` و `لبناتي`{:class="block3custom"} يمكن استدعاءه مرة أخرى حتى تنتقل Rocks **** إلى موضع جديد.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![كائن Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +217,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+آخر شيء يجب القيام به هو إخبار اللاعب عن المهمة. يمكن القيام بذلك على الكائن **المنفذ**.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+أضف مقطع لتخبر اللاعب عن عدد الكويكبات التي تم تدميرها.
 
-![The port sprite.](images/port-sprite.png)
+![كائن المنفذ.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +238,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**اختبار:** حرك شخصيتك بالقرب من الكرسي، ثم حرك علامة التصويب محاولة تدمير بعض الكويكبات. يمكنك بعد ذلك ضبط أي من القيم التي تحتاجها في التعليمات البرمجية الخاصة بك لجعلها تعمل بشكل جيد مع أحجام الرموز الخاصة بك.
 
 --- /task ---
 
