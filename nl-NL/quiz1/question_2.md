@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-Here's a script for a handwheel puzzle:
+Hier is een script voor een wielpuzzel:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+Welke coderegel zou je aan het script toevoegen om het personage, met een volledige zin, te vertellen hoe vaak ze het wiel hebben gedraaid?
 
 --- choices ---
 
@@ -28,7 +28,7 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+Ja, als het wiel 3 keer was gedraaid zou het `wiel 3 keer gedraaid`{:class='block3looks'} zeggen
 
   --- /feedback ---
 
@@ -40,7 +40,7 @@ say (join [handwheel turned ]  [ times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+Als het wiel 3 keer gedraaid was zou dit script `wiel keer gedraaid`{:class='block3looks'} zeggen
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+Als het wiel 3 keer gedraaid was met dit script zou het `3 keer gedraaid wiel`{:class='block3looks'} zeggen
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+Als het wiel 3 keer gedraaid was zou dit script `3`{:class='block3looks'} zeggen
 
   --- /feedback ---
 
