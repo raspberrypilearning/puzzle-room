@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## لغز العجلة اليدوية
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+في هذه الخطوة ، ستقوم بإنشاء لغز حيث تحتاج عجلة يدوية إلى التدوير.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+المقطع البرمجي الخاصة بهذا اللغز تشبه إلى حد كبير لغز الأزرار ، لذا يمكنك نسخ تلك المقاطع البرمجية ثم تحريرها.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+اسحب المقطعين البرمجين اللذين قمت بإنشائهما ** للزر ** على كائن **عجلة اليد** ، لنسخهما إلى هذا الكائن.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+`عند النقر فوق العلم`{:class='block3events'} هو أول مقطع برمجي يحتاج إلى تغيير.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+إنشاء متغير جديد يسمى `دوران العجلة اليدوية`{:class="block3variables"}، واستخدام ذلك المتغير بدلاً من `زر الضغط`{:class="block3variables"}.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**اختر:** قم بتغيير رقم اكمال الدوران إلى ما تريده. اخترنا `3` في المثال.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![لغز العجلة اليدوية.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+مثل العجلة اليدوية الحقيقية ، فإن </strong> العجلة **قادرة فقط على تدوير عدد قليل من الدرجات في المرة الواحدة ، لذلك يجب تخزين الزاوية التي تم تدويرها.</p>
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+أنشئ متغيرًا جديدًا يسمى `دوران`{: class = "block3variables"} واضبطه على `0` عند بدء اللعبة.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![لغز العجلة اليدوية.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+يمكنك الآن تحرير `عندما ينقر هذا الكائن على`{: class = "block3events" **المقطع البرمجي ، بحيث عندما يتم النقر على العجلة اليدوية** بشكل متكرر ، فإنه يحول مقدارًا صغيرًا في كل مرة حتى يكمل دورة كاملة. عندما يكمل العدد الصحيح من الدورات الكاملة (`3` مرة في المثال) ، سيتم حل اللغز.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+أضف المقطع البرمجي بحيث في كل مرة يتم فيها النقر على العجلة اليدوية **** ، يدور `15` درجات ويزداد المتغير `الذي يتحول إلى`{: class = "block3variables"} بمقدار `15`.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![لغز العجلة اليدوية.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**اختبار**: حرك كائن **Monet** (أو كائنك الشخصي) بالقرب من  **العجلة اليدوية** ثم انقر على  **العجلة اليدوية**. من المفيد أن تكون في وضع ملء الشاشة ، بحيث لا يمكنك سحب </strong>العجلة اليديوة**.</p>
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+عندما وصل المتغير `دوران`{: class = "block3variables" `إلى 360`، فإن العجلة اليدوية قد تم تدويرها مرة واحدة ؛ يمكن الآن تخزين هذا في متغير `عجلة يدوية تحولت إلى`{: class = "block3variables"}.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+استخدم **اذا** `متداخلة`{: class = "block3control"} لتغيير العجلة اليدوية `التي تحولت إلى`{: class = "block3variables"} وإعادة تعيين المتغيرات `التي تحولت إلى`{: class = "block3variables"}. القيمة **اذا** `المتداخلة`{: class = "block3control"} هي عندما يتم وضع `اذا`{: class = "block3control"} داخل أخرى.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![لغز العجلة اليدوية.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**اختبار:** حرك كائن الشخصية بالقرب من عجلة اليد ، ثم انقر فوقه. قد تضطر إلى ضبط المسافة التي يجب أن تكون عليها الشخصية من العجلة اليدوية.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![لغز العجلة اليدوية.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**نصيحة**: يمكنك النقر على **Monet** (أو الشخصية) وسحبها ، لتقريبها من عجلة اليد ، على سبيل المثال. سيوفر لك هذا الوقت ، حيث لن تضطر إلى استخدام عناصر التحكم.
 
 --- save ---
