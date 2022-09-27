@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Вопрос 2 из 3
 ---
 
 Here's a script for a handwheel puzzle:
