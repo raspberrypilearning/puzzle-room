@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+القائمة: السؤال 3 من 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+انظر إلى المقاطع البرمجي. ما هو أفضل وصف يصف سلوك الكائن الصخري عند النقر على العلم؟
 
 
-![rock sprite](images/rocks-sprite.png)
+![كائن الصخرة](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,17 +20,17 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+سيتحرك كائن الصخور إلى موضع عشوائي حتى يلمس **sprite 1** ويلامس اللون الأسود.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+هذه المقاع البرمجية تناسب هذا الوصف. <touching (sprite 1 v) ?> و <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+سيتحرك كائن الصخور إلى موضع عشوائي حتى يلمس **sprite 1** أو لا يلمس اللون الأسود.
 
   --- feedback ---
 
@@ -40,17 +40,17 @@ The rocks sprite will move to a random position until it is touching **sprite 1*
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+سيتحرك الكائن الصخري إلى موضع عشوائي حتى يلمس **sprite 1** ويلامس أي لون آخر غير الأسود.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+هذا صحيح. تتحقق الكتلة `وليس`{: class = 'block3operators'} من أنها لا تلمس اللون الأسود.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+سيتحرك كائن الصخور إلى موضع عشوائي حتى لا يلمس **sprite 1** أو اللون الأسود.
 
   --- feedback ---
 
