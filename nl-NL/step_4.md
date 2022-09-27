@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## De wielpuzzel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+In deze stap maak je een puzzel waar een wiel moet worden gedraaid.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+De scripts voor deze puzzel lijken op de knoppuzzel, dus je kunt die scripts kopiëren en ze vervolgens bewerken.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+Sleep de twee scripts die je hebt gemaakt voor de **knop** sprite naar de **wiel** sprite om ze naar die sprite te te kopiëren.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+Het `wanneer op de groene vlag wordt geklikt`{:class='block3events'} script is het eerste script dat moet worden gewijzigd.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+Maak een nieuwe variabele met de naam `aan wiel gedraaid`{:class="block3variables"}, en gebruik die variabele in plaats van de `op knop geduwd`{:class="block3variables"} variabele.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**Kies:** Kies zelf het getal dat aangeeft wanneer de opdracht is voltooid. We kozen `3` in het voorbeeld.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Het wiel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+Net als bij een echt wiel kan de **wiel** sprite slechts een klein aantal graden tegelijk draaien, dus de hoek waarin het is gedraaid moet worden opgeslagen.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+Maak een nieuwe variabele met de naam `gedraaid`{:class="block3variables"} en stel deze in op `0` wanneer het spel begint.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![De wiel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+Nu kun je het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script aanpassen, zodat wanneer op de**wiel** sprite wordt geklikt, het telkens een kleine hoeveelheid draait totdat het een volledige omwenteling voltooit. Wanneer het het juiste aantal volledige slagen (`3` keer in het voorbeeld) heeft voltooid, wordt de puzzel opgelost.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+Voeg blokken toe zodat telkens wanneer op de **wiel** sprite wordt geklikt, deze `15` graden draait en de `gedraaid`{:class="block3variables"} variabele met `15` toeneemt.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![De wiel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**Test**: Beweeg de **Monet** sprite (of je personage sprite) dicht genoeg bij het **wiel** en klik vervolgens op de **wiel** sprite. Het helpt om de volledig scherm weergave modus te gebruiken, zodat je de **wiel** sprite niet kunt verslepen.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+Wanneer de variabele `gedraaid`{:class="block3variables"} `360` bereikt, is het wiel eenmaal gedraaid; dit kan nu worden opgeslagen in de variabele `aan wiel gedraaid`{:class="block3variables"}.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+Gebruik een **geneste** `als`{:class="block3control"} om de waarde van de `aan wiel gedraaid`{:class="block3variables"} variabele te veranderen en de `gedraaid`{:class="block3variables"} variabelen te resetten. Een **geneste** `als`{:class="block3control"} maak je door een `als`{:class="block3control"} in een andere als blok te plaatsen.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![De wiel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**Test:** beweeg je personage-sprite dicht genoeg bij het wiel en klik erop. Mogelijk moet je de afstand van het personage tot het wiel aanpassen.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![De wiel sprite.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**Tip**: Je kunt bijvoorbeeld op je **Monet** (of personage) klikken en slepen om deze dichter bij het wiel te brengen. Dit zal je tijd besparen, omdat je de besturingselementen niet langer hoeft te gebruiken.
 
 --- save ---
