@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## Ο γρίφος του χειροτροχού
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+Σε αυτό το βήμα, θα δημιουργήσεις έναν γρίφο όπου πρέπει να γυρίσεις έναν χειροτροχό.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+Τα scripts για αυτόν τον γρίφο είναι αρκετά παρόμοια με τον γρίφο του κουμπιού, επομένως μπορείς να αντιγράψεις αυτά τα scripts και στη συνέχεια να τα επεξεργαστείς.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+Σύρε τα δύο scripts που δημιούργησες για το αντικείμενο **κουμπί** στο αντικείμενο **χειροτροχός**, για να τα αντιγράψεις σε αυτό το αντικείμενο.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+Το script `όταν γίνει κλικ στην πράσινη σημαία`{:class='block3events'} είναι το πρώτο που πρέπει να αλλάξει.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+Δημιούργησε μια νέα μεταβλητή που ονομάζεται `χειροτροχός γύρισε`{:class="block3variables"} και χρησιμοποίησε αυτήν τη μεταβλητή αντί για τη μεταβλητή `κουμπί πατήθηκε` {:class="block3variables"}.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**Επίλεξε:** Άλλαξε τον αριθμό ολοκλήρωσης σε όποιον θέλεις να είναι. Επιλέξαμε `3` στο παράδειγμα.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Το αντικείμενο χειροτροχός.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+Όπως ένας πραγματικός χειροτροχός, το αντικείμενο **χειροτροχός** θα μπορεί να περιστρέφει μόνο έναν μικρό αριθμό μοιρών κάθε φορά, επομένως η γωνία που έχει περιστραφεί θα πρέπει να αποθηκεύεται.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+Δημιούργησε μια νέα μεταβλητή που ονομάζεται `στροφή`{:class="block3variables"} και όρισέ την σε `0` όταν ξεκινήσει το παιχνίδι.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Το αντικείμενο χειροτροχός.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+Τώρα μπορείς να επεξεργαστείς το script `όταν γίνει κλικ σε αυτό το αντικείμενο/0>{:class="block3events"}, έτσι ώστε όταν γίνεται επανειλημμένα κλικ στο αντικείμενο <strong x-id="1">χειροτροχός</strong>, να περιστρέφεται ένα μικρό ποσό κάθε φορά μέχρι να ολοκληρώσει μια πλήρη περιστροφή. Όταν ολοκληρώσει τον σωστό αριθμό πλήρων στροφών (<code>3` φορές στο παράδειγμα), ο γρίφος θα λυθεί.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+Πρόσθεσε μπλοκ έτσι ώστε κάθε φορά που γίνεται κλικ στο αντικείμενο **χειροτροχός**, να γυρνάει `15` μοίρες και η μεταβλητή `στροφή`{:class="block3variables"} να αυξάνεται κατά `15`.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Το αντικείμενο χειροτροχός.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**Δοκιμή**: Μετακίνησε το αντικείμενο **Monet** (ή το αντικείμενο του χαρακτήρα σου) κοντά στον **χειροτροχό** και, στη συνέχεια, κάνε κλικ στο αντικείμενο **χειροτροχός**. Βοηθάει να βρίσκεσαι σε λειτουργία πλήρους οθόνης, ώστε να μην μπορείς να μετακινήσεις το αντικείμενο **χειροτροχός**.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+Όταν η μεταβλητή `στροφή`{:class="block3variables"} φτάσει το `360`, τότε ο χειροτροχός έχει περιστραφεί μία φορά. Αυτό μπορεί τώρα να αποθηκευτεί στη μεταβλητή `χειροτροχής γύρισε`{:class="block3variables"}.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+Χρησιμοποίησε ένα **εμφωλευμένο** `εάν`{:class="block3control"} για να αλλάξεις την μεταβλητή `χειροτροχός γύρισε`{:class="block3variables"} και να επαναφέρεις τη μεταβλητή `στροφή`{:class="block3variables"}. Ένα **εμφωλευμένο** `εάν`{:class="block3control"} είναι όταν ένα `εάν`{:class="block3control"} τοποθετείται μέσα σε ένα άλλο.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Το αντικείμενο χειροτροχός.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**Δοκιμή:** Μετακίνησε το αντικείμενο του χαρακτήρα σου κοντά στον χειροτροχό και, στη συνέχεια, κάνε κλικ σε αυτό. Ίσως χρειαστεί να προσαρμόσεις την απόσταση που πρέπει να είναι ο χαρακτήρας από τον χειροτροχό.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Το αντικείμενο χειροτροχός.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**Συμβουλή**: Μπορείς να κάνεις κλικ και να σύρεις το αντικείμενο **Monet** (ή τον χαρακτήρα) σου, για να το φέρεις πιο κοντά στον χειροτροχό, για παράδειγμα. Αυτό θα σου εξοικονομήσει χρόνο, καθώς δεν θα χρειαστεί να συνεχίσεις να χρησιμοποιείς τα χειριστήρια.
 
 --- save ---
