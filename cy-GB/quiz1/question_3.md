@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
 Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
 
 
-![rock sprite](images/rocks-sprite.png)
+![corlun craig](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
