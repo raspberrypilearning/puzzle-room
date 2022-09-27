@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-Here's a script for a handwheel puzzle:
+Voici un script pour un puzzle de gouvernail :
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+Quelle ligne de code ajouterais-tu au script pour dire au personnage combien de fois il a tourné la roue, en utilisant une phrase complète ?
 
 --- choices ---
 
@@ -28,7 +28,7 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+Oui, si le gouvernail avait été tourné 3 fois, il aurait dit `gouvernail tourné 3 fois`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -40,7 +40,7 @@ say (join [handwheel turned ]  [ times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+Avec ce script, si le gouvernail avait été tourné 3 fois, il aurait dit ` gouvernail tourné fois`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+Avec ce script, si le gouvernail avait été tourné 3 fois, il aurait dit `3 fois gouvernail tourné`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+Avec ce script, si le gouvernail avait été tourné 3 fois, il aurait dit `3`{:class='block3looks'}
 
   --- /feedback ---
 
