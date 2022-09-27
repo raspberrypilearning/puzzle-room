@@ -1,8 +1,8 @@
-## Upgrade your project
+## Mejora tu proyecto
 
-If you have time, you can upgrade your project.
+Si tienes tiempo, puedes mejorar tu proyecto.
 
-Here are some ideas you could try:
+Aquí hay algunas ideas que podrías probar:
 - Add in extra sprites to provide more puzzles
 - Edit the backdrop and turn areas into new sprites
 - Add an extra challenge, by making the player complete all the challenges in a set time
