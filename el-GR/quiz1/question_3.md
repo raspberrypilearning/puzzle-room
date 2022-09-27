@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+Κοίταξε τα μπλοκ παρακάτω. Ποια περιγραφή περιγράφει καλύτερα τη συμπεριφορά του αντικειμένου βράχου, όταν πατηθεί η σημαία;
 
 
-![rock sprite](images/rocks-sprite.png)
+![αντικείμενο βράχου](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+Το αντικείμενο rocks θα μετακινηθεί σε μια τυχαία θέση μέχρι να αγγίξει το **αντικείμενο 1** και να αγγίξει το μαύρο χρώμα.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+Αυτά τα μπλοκ θα ταίριαζαν σε αυτήν την περιγραφή. <touching (sprite 1 v) ?> και <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+Το αντικείμενο rocks θα μετακινηθεί σε μια τυχαία θέση μέχρι να αγγίξει το **αντικείμενο 1** ή να μην αγγίξει το μαύρο χρώμα.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> ή <όχι<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+Το αντικείμενο rocks θα μετακινηθεί σε μια τυχαία θέση μέχρι να αγγίξει το **αντικείμενο 1** και να αγγίξει οποιοδήποτε χρώμα εκτός από το μαύρο.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+Ναι, αυτό είναι σωστό. Το μπλοκ `όχι`{:class='block3operators'} ελέγχει ότι δεν αγγίζει μαύρο.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+Το αντικείμενο rocks θα μετακινηθεί σε μια τυχαία θέση μέχρι να μην αγγίζει το **αντικείμενο 1** και ή το μαύρο χρώμα.
 
   --- feedback ---
 
