@@ -1,10 +1,10 @@
-## What next?
+## ما هي الخطوة التالية؟
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Mandala](https://projects.raspberrypi.org/en/projects/mandala) project. In this project, you will make computer generated mandalas.
+إذا كنت تتبع مسار [الكثير من Scratch ](https://projects.raspberrypi.org/en/pathways/further-scratch)، يمكنك الانتقال إلى مشروع [ Mandala ](https://projects.raspberrypi.org/en/projects/mandala). في هذا المشروع، سوف تقوم بأنشاء الفن الحديث عن طريق الحاسوب.
 
 --- print-only ---
 
-![Mandala project](images/mandala.png)
+![مشروع Mandala](images/mandala.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف Scratch ، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
