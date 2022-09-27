@@ -8,28 +8,28 @@ copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Je gaat maken
   - 
     title: Wie zit er in de puzzelkamer?
   - 
     title: De knop puzzel
     completion:
-      - engaged
+      - gekoppeld
   - 
     title: De wiel puzzel
   - 
     title: De asteroïden puzzel
     completion:
-      - internal
+      - intern
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - extern
   - 
     title: Verbeter je project
   - 
