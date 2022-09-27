@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend : Question 3 sur 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+Regarde les blocs ci-dessous. Quelle description décrit le mieux le comportement du sprite des rochers, lorsque le drapeau est cliqué ?
 
 
-![rock sprite](images/rocks-sprite.png)
+![sprite Météore](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+Le sprite des rochers se déplacera vers une position aléatoire jusqu'à ce qu'il touche **sprite 1** et touche la couleur noire.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+Ces blocs correspondraient à cette description. <touching (sprite 1 v) ?> et <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+Le sprite des rochers se déplacera vers une position aléatoire jusqu'à ce qu'il touche **sprite 1** ou ne touche pas la couleur noire.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> ou "&#060" ; non<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+Le sprite des rochers se déplacera vers une position aléatoire jusqu'à ce qu'il touche **sprite 1** et touche une couleur autre que la couleur noire.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+Oui c'est correct. Le bloc `pas`{:class='block3operators'} vérifie qu'il ne touche pas le noir.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+Le sprite des rochers se déplacera vers une position aléatoire tant qu'il ne touche pas **sprite 1** ou la couleur noire.
 
   --- feedback ---
 
