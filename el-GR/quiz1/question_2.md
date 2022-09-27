@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-Here's a script for a handwheel puzzle:
+Ακολουθεί ένα script για έναν γρίφο χειροτροχό:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+Ποια γραμμή κώδικα θα πρόσθετες στο script για να πεις στον χαρακτήρα πόσες φορές έχει γυρίσει τον τροχό, χρησιμοποιώντας μια πλήρη πρόταση;
 
 --- choices ---
 
@@ -28,7 +28,7 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+Ναι, αν ο χειροτροχός είχε περιστραφεί 3 φορές θα έλεγε `χειροτροχός γυρισμένος 3 φορές`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -40,7 +40,7 @@ say (join [handwheel turned ]  [ times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+Με αυτό το script, αν ο χειροτροχός είχε περιστραφεί 3 φορές θα έλεγε `χειροτροχός γυρισμένος φορές`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+Με αυτό το script, αν ο χειροτροχός είχε περιστραφεί 3 φορές θα έλεγε `3 χειροτροχός γυρισμένος φορές`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+Με αυτό το script, αν ο χειροτροχός είχε περιστραφεί 3 φορές θα έλεγε `3`{:class='block3looks'}
 
   --- /feedback ---
 
