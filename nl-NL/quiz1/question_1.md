@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Wanneer je elke vraag hebt beantwoord, klik je op **Verzenden**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
@@ -12,11 +12,11 @@ Have fun!
 legend: Vraag 1 van 3
 ---
 
-Here is the Monet character next to a big button:
+Hier is het Monet-personage naast een grote knop:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![het Monet-personage dat naast een grote rode knop staat](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+Welke blokken zou je gebruiken, zodat het aantal keren dat op de knop wordt gedrukt continu wordt weergegeven totdat de knop in totaal 7 keer is ingedrukt?
 
 
 --- choices ---
@@ -34,7 +34,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+Je script geeft het aantal keer dat op een knop wordt gedrukt weer, maar stopt na slechts 5 keer drukken.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+Deze blokken zouden slechts eenmaal aan het begin van het spel lopen, omdat er geen lus wordt gebruikt.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+Ja! Dit script geeft weer hoe vaak de knop is ingedrukt en zegt dat de opdracht is voltooid nadat de knop 7 keer is ingedrukt.
 
   --- /feedback ---
 
@@ -84,7 +84,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+Deze blokken zouden het getal `0` zeven keer heel snel aan het begin van het spel laten zien, omdat er geen voorwaarde is om de waarde van de variabele te controleren.
 
   --- /feedback ---
 
