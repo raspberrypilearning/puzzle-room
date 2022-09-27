@@ -1,33 +1,36 @@
 ---
-title: Puzzle room
+title: غرفة اللغز
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
+description: قم بإنشاء غرفة لغز سفينة الفضاء ذات الشخصية التي تحل الألغاز.
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Who's in the puzzle room?
+    title: من في غرفة الألغاز؟
   - 
-    title: The button puzzle
-    completion: engaged
+    title: لغز الزر
+    completion:
+      - engaged
   - 
-    title: The handwheel puzzle
+    title: لغز العجلة اليدوية
   - 
-    title: The asteroids puzzle
-    completion: internal
+    title: لغز الكويكبات
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: قم بترقية او تطوير مشروعك
   - 
-    title: What next?
+    title: ما هي الخطوة التالية؟
