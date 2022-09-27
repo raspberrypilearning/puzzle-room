@@ -1,8 +1,8 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
-If you have time, you can upgrade your project.
+Os oes gen ti amser, galli di uwchraddio dy brosiect.
 
-Here are some ideas you could try:
+Dyma rai syniadau gallech chi roi cynnig arnyn nhw:
 - Add in extra sprites to provide more puzzles
 - Edit the backdrop and turn areas into new sprites
 - Add an extra challenge, by making the player complete all the challenges in a set time
