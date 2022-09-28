@@ -8,28 +8,28 @@ copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Tu feras
   - 
     title: Qui est dans la salle des énigmes ?
   - 
     title: L'enigme du bouton
     completion:
-      - engaged
+      - engagé
   - 
     title: L'énigme du gouvernail
   - 
     title: L'énigme des astéroïdes
     completion:
-      - internal
+      - interne
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - externe
   - 
     title: Améliorer ton projet
   - 
