@@ -19,7 +19,7 @@ Voici le personnage Monet à côté d'un gros bouton :
 Quels blocs utiliserais-tu pour que le nombre de pressions sur le bouton soit affiché en permanence, jusqu'à ce que le bouton ait été enfoncé 7 fois au total ?
 
 
---- choix ---
+--- choices ---
 
 - ( )
 
@@ -32,11 +32,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- commentaires ---
+  --- feedback ---
 
 Ton script indique le nombre de pressions sur le bouton, mais il s'arrête après seulement 5 pressions sur le bouton.
 
-  --- /commentaires ---
+  --- /feedback ---
 
 - ( )
 
@@ -49,11 +49,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- commentaires ---
+  --- feedback ---
 
 Ces blocs ne fonctionneraient qu'une seule fois au début du jeu, car aucune boucle n'est utilisée.
 
-  --- /commentaires ---
+  --- /feedback ---
 
 - (x)
 
@@ -66,11 +66,11 @@ end
 say [task complete] for (2) seconds
 ```
 
-  --- commentaires ---
+  --- feedback ---
 
 Oui ! Ce script indique combien de fois le bouton a été enfoncé à chaque fois et indique que la tâche est terminée après 7 pressions sur le bouton.
 
-  --- /commentaires ---
+  --- /feedback ---
 
 - ( )
 
@@ -82,12 +82,12 @@ say (button pressed)
 end
 say [task complete)] for (2) seconds
 ```
-  --- commentaires ---
+  --- feedback ---
 
 Ces blocs diraient le nombre `0` sept fois très rapidement au début du jeu, car il n'y a pas de condition vérifiant la valeur de la variable.
 
-  --- /commentaires ---
+  --- /feedback ---
 
---- /choix ---
+--- /choices ---
 
 --- /question ---
