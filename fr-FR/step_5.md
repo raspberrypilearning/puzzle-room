@@ -1,8 +1,8 @@
-## Le puzzle des astéroïdes
+## L'énigme des astéroïdes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Dans cette étape, tu vas créer le puzzle le plus difficile. Tu vas créer un puzzle pour détruire des astéroïdes dangereux.
+Dans cette étape, tu vas créer l'énigme la plus difficile. Tu vas créer une énigme pour détruire des astéroïdes dangereux.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
@@ -13,7 +13,7 @@ Tu auras besoin d'un viseur que tu pourras utiliser pour cibler les astéroïdes
 
 --- task ---
 
-Peints un nouveau sprite appelé **viseur**. Un exemple est montré ci-dessous, en utilisant un cercle et deux lignes. Rends le cercle solide initialement puis ajuste son **remplissage** à transparent, une fois que tu l'as dimensionné et positionné.
+Peins un nouveau sprite appelé **viseur**. Un exemple est montré ci-dessous, en utilisant un cercle et deux lignes. Rends le cercle solide initialement puis ajuste son **remplissage** à transparent, une fois que tu l'as dimensionné et positionné.
 
 ![Un viseur constitué d'un petit cercle rouge avec des lignes diagonales bissectrices, centré dans le tableau.](images/draw-crosshair.png)
 
@@ -27,7 +27,7 @@ Le viseur suivra la souris, mais il ne devrait être visible à travers la fenê
 
 --- task ---
 
-Utilise les blocs suivants pour que le viseur**** suive le pointeur de souris.
+Utilise les blocs suivants pour que le **viseur** suive le pointeur de souris.
 
 ![Le sprite viseur.](images/crosshair-sprite.png)
 
@@ -66,7 +66,7 @@ Tu remarqueras peut-être que le viseur apparaît au bord même du **port** et s
 
 --- task ---
 
-Ajoute un bloc `ou`{:class="block3operators"} au bloc `si`{:class="block3control"}. La seconde condition est si le **viseur** touche la couleur verte qui entoure le port ****.
+Ajoute un bloc `ou`{:class="block3operators"} au bloc `si`{:class="block3control"}. La seconde condition est si le **viseur** touche la couleur verte qui entoure le **port**.
 
 ![Le sprite viseur.](images/crosshair-sprite.png)
 
@@ -91,7 +91,7 @@ Trouve un sprite **rochers** et ajoute-le à ton projet. Redimensionne le sprite
 
 --- /task ---
 
-Tu as peut-être vu comment `mes blocs`{:class="block3myblocks"} aident à organiser le code dans le projet [Vagabond Nature](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+Tu as peut-être vu comment `mes blocs`{:class="block3myblocks"} aident à organiser le code dans le projet [Rover Nature](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
 
 `Mes blocs`{:class="block3myblocks"} aident aussi en faisant en sorte que tu n'aies pas à écrire le même code encore et encore. Tu peux utiliser `mes blocs`{:class="block3myblocks"} pour les **rochers** pour les placer dans le port du vaisseau spatial.
 
@@ -108,11 +108,11 @@ go to (random position v)
 
 --- /task ---
 
-Le sprite **rochers** doit continuer à trouver une position aléatoire jusqu'à ce qu'il touche le port **** `et`{:class="block3operators"} sans toucher au bord du **port**. Ceci est similaire au code que tu as utilisé sur le **viseur**, mais cette fois, tu utiliseras un bloc `et`{:class="block3operators"}.
+Le sprite **rochers** doit continuer à trouver une position aléatoire jusqu'à ce qu'il touche le **port** `et`{:class="block3operators"} sans toucher au bord du **port**. Ceci est similaire au code que tu as utilisé sur le **viseur**, mais cette fois, tu utiliseras un bloc `et`{:class="block3operators"}.
 
 --- task ---
 
-Ajoute un bloc `répéter jusqu'à`{:class="block3control"} et un bloc `et`{:class="block3operators"} pour s'assurer que les **rochers** continuent de bouger jusqu'à ce qu'ils soient dans la bonne position.
+Ajoute un bloc `répéter jusqu'à ce que`{:class="block3control"} et un bloc `et`{:class="block3operators"} pour s'assurer que les **rochers** continuent de bouger jusqu'à ce qu'ils soient dans la bonne position.
 
 ![Le sprite Rochers.](images/rocks-sprite.png)
 
@@ -128,7 +128,7 @@ go to (random position v)
 
 --- /task ---
 
-Les **rochers** doivent être cachés de la vue au fur et à mesure qu'ils se déplacent, mais s'ils sont cachés, ils ne toucheront pas le port ****, donc un fantôme ``{:class="block3looks"} peut être utilisé pour les rendre invisibles.
+Les **rochers** doivent être cachés de la vue au fur et à mesure qu'ils se déplacent, mais s'ils sont cachés, ils ne toucheront pas le **port**, donc un effet `fantôme`{:class="block3looks"} peut être utilisé pour les rendre invisibles.
 
 --- task ---
 
@@ -147,11 +147,11 @@ end
 
 --- /task ---
 
-La dernière partie est similaire aux autres puzzles. En utilisant une variable appelée `astéroïdes`{:class="block3variables"}, compte combien de fois le **viseur** touche les **Rochers**. Chaque fois que cela se produit, la variable d'astéroïde augmente et les **rochers** se déplacent vers une nouvelle position. Cela ne devrait fonctionner que si ton personnage est à la chaise.
+La dernière partie est similaire aux autres énigmes. En utilisant une variable appelée `astéroïdes`{:class="block3variables"}, compte combien de fois le **viseur** touche les **Rochers**. Chaque fois que cela se produit, la variable astéroïde augmente et les **rochers** se déplacent vers une nouvelle position. Cela ne devrait fonctionner que si ton personnage est à la chaise.
 
 --- task ---
 
-Sur ton sprite **personnage**, crée une nouvelle variable appelée `à la chaise`{:class="block3variables"}, et mets le à `vrai` lorsque le personnage touche la chaise et `faux` quand il ne l'est pas.
+Sur ton sprite **personnage**, crée une nouvelle variable appelée `à la chaise`{:class="block3variables"}, et mets le à `true` lorsque le personnage touche la chaise et `false` quand il ne l'est pas.
 
 ![Le sprite Monet.](images/monet-sprite.png)
 
@@ -201,7 +201,7 @@ go to position ::custom
 
 --- task ---
 
-Si la condition est remplie, alors la variable `astéroïdes`{:class="block3variables"} peut être augmentée de `1` et le `mon bloc`{:class="block3custom"} peut être appelé de nouveau pour que les **rochers** se déplacent vers une nouvelle position.
+Si la condition est remplie, alors la variable `astéroïdes`{:class="block3variables"} peut être augmentée de `1` et `mon bloc`{:class="block3custom"} peut être appelé de nouveau pour que les **rochers** se déplacent vers une nouvelle position.
 
 ![Le sprite Rochers.](images/rocks-sprite.png)
 
