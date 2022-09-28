@@ -13,7 +13,7 @@ Quand le jeu démarre, le bouton doit rester au même endroit, et toujours être
 
 --- task ---
 
-Ajoute les blocs suivants au sprite bouton****.
+Ajoute les blocs suivants au sprite **bouton**.
 
 ```blocks3
 when flag clicked
@@ -24,11 +24,11 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-Le bouton devra être appuyé plusieurs fois pour que le puzzle soit terminé. Pour cela, tu auras besoin d'une variable ``{:class="block3variables"} pour mémoriser le nombre de pressions.
+Le bouton devra être appuyé plusieurs fois pour que l'énigme soit terminée. Pour cela, tu auras besoin d'une `variable`{:class="block3variables"} pour mémoriser le nombre de pressions.
 
 --- task ---
 
-Crée une nouvelle variable ``{:class="block3variables"} et appelle-la `bouton pressé`{:class="block3variables"}.
+Crée une nouvelle `variable`{:class="block3variables"} et appelle-la `bouton pressé`{:class="block3variables"}.
 
 --- /task ---
 
@@ -36,7 +36,7 @@ Au début du jeu, le `bouton pressé`{:class="block3variables"} devrait être `0
 
 --- task ---
 
-Ajoute les blocs suivants au sprite bouton****.
+Ajoute les blocs suivants au sprite **bouton**.
 
 ![Le sprite bouton.](images/button-sprite.png)
 
@@ -47,13 +47,13 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-Un bloc `répéter jusqu'à`{:class="block3control"} est une boucle qui se répète jusqu'à ce qu'une certaine condition soit remplie.
+Un bloc `répéter jusqu'à ce que`{:class="block3control"} est une boucle qui se répète jusqu'à ce qu'une certaine condition soit remplie.
 
-**Choisis :** Combien de fois le bouton doit-il être appuyé pour résoudre le puzzle ? Dans cet exemple, il faudra appuyer `5 fois` fois, mais tu peux choisir un nombre différent.
+**Choisis :** Combien de fois le bouton doit-il être appuyé pour résoudre l'énigme ? Dans cet exemple, il faudra appuyer `5 ` fois, mais tu peux choisir un nombre différent.
 
 --- task ---
 
-Ajoute une boucle `répéter jusqu'à`{:class="block3control"}, et règle sa condition lorsque le bouton `est appuyé sur`{:class="block3variables"} est `égal à`{:class="block3operators"} `5`.
+Ajoute une boucle `répéter jusqu'à ce que`{:class="block3control"}, et règle sa condition lorsque le `bouton pressé`{:class="block3variables"} est `égal à`{:class="block3operators"} `5`.
 
 ![Le sprite bouton.](images/button-sprite.png)
 
@@ -81,13 +81,13 @@ else
 
 --- /task ---
 
-Si le personnage est proche et que le bouton est enfoncé, alors le `bouton pressé sur la variable`{:class="block3variables"} peut être augmenté. Si le personnage n'est pas proche, le puzzle devrait se réinitialiser ; le joueur doit appuyer sur le bouton cinq fois de suite, avant d'essayer d'autres puzzles.
+Si le personnage est proche et que le bouton est enfoncé, alors le `bouton pressé `{:class="block3variables"} peut être augmentée. Si le personnage n'est pas proche, l'énigme devrait se réinitialiser ; le joueur doit appuyer sur le bouton cinq fois de suite, avant d'essayer d'autres énigmes.
 
 **Astuce :** Dans Scratch, la distance entre deux sprites est calculée à partir du centre des sprites. Cela signifie que de grands sprites peuvent donner l'impression de se toucher, mais que leurs centres peuvent être très éloignés les uns des autres.
 
 --- task ---
 
-Ajoute du code pour modifier la valeur de la variable `bouton appuyé sur`{:class="block3variables"}.
+Ajoute du code pour modifier la valeur de la variable `bouton pressé`{:class="block3variables"}.
 
 ![Le sprite bouton.](images/button-sprite.png)
 
@@ -103,15 +103,15 @@ else
 
 --- task ---
 
-**Test :** Exécute ton projet et rapproche le personnage du bouton. Lorsque tu cliques sur le bouton, le bouton ` pressé sur la variable`{:class='block3variables'} devrait augmenter. Tu peux ajuster la valeur de la distance `à Monet`{:class='block3sensing'} vers le haut ou le bas, jusqu'à ce que tu trouves un nombre qui a un sens pour toi.
+**Test :** Exécute ton projet et rapproche le personnage du bouton. Lorsque tu cliques sur le bouton, la variable ` bouton pressé`{:class='block3variables'} devrait augmenter. Tu peux ajuster la valeur de la `distance de Monet`{:class='block3sensing'} vers le haut ou le bas, jusqu'à ce que tu trouves un nombre qui a un sens pour toi.
 
 --- /task ---
 
-Tu peux utiliser le bloc `regrouper`{:class="block3operators"} à `dire`{:class="block3looks"} au joueur combien de fois le bouton a été pressé.
+Tu peux utiliser le bloc `regrouper`{:class="block3operators"} pour `dire`{:class="block3looks"} au joueur combien de fois le bouton a été pressé.
 
 --- task ---
 
-Place un bloc `regrouper`{:class="block3operators"} à l'intérieur d'un autre bloc. Ajoute ensuite le texte que tu veux, et le </code>bouton appuyé sur la variable{:class="block3variables"}, le tout à l'intérieur d'un bloc `dire`{:class="block3looks"}.
+Place un bloc `regrouper`{:class="block3operators"} à l'intérieur d'un autre bloc. Ajoute ensuite le texte que tu veux, et la variable `bouton pressé`{:class="block3variables"}, le tout à l'intérieur d'un bloc `dire`{:class="block3looks"}.
 
 Par exemple :
 
