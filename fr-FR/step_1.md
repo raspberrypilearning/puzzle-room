@@ -1,6 +1,6 @@
-## You will make
+## Tu feras
 
-Create a spaceship puzzle room with a character that solves puzzles.
+Créer une salle des énigmes de vaisseau spatial avec un personnage qui résout des énigmes.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">Les **salles des énigmes**</span>, ou **salles d'évasion**, sont des salles contenant des énigmes que tu dois résoudre pour sortir de la pièce ou pour entrer dans la pièce suivante. Il peut s'agir de salles en ligne ou de salles réelles, mais l'idée est généralement la même : terminer la mission le plus rapidement possible !
@@ -13,13 +13,13 @@ Tu vas devoir :
 
 --- no-print ---
 
-### Play ▶️
+### Joue ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! Utilise les flèches pour que le personnage de l'ingénieur se déplace dans le vaisseau spatial. Peux-tu les aider à résoudre toutes les énigmes et aider le vaisseau spatial ?
+Euh, le vaisseau spatial rencontre quelques difficultés ! Utilise les flèches pour que le personnage de l'ingénieur se déplace dans le vaisseau spatial. Peux-tu les aider à résoudre toutes les énigmes et aider le vaisseau spatial ?
 </div>
 <div>
 **Salle des énigmes**: [Voir à l'intérieur](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
