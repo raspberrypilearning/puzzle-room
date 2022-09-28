@@ -1,8 +1,8 @@
-## Le puzzle du bouton
+## L'énigme du bouton
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Dans cette étape, tu ajouteras ton premier puzzle, qui sera d'appuyer sur le bouton un certain nombre de fois.
+Dans cette étape, tu ajouteras ta première énigme, qui sera d'appuyer sur le bouton un certain nombre de fois.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
