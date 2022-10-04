@@ -14,13 +14,13 @@ steps:
   - 
     title: De knop puzzel
     completion:
-      - gekoppeld
+      - engaged
   - 
     title: De wiel puzzel
   - 
     title: De asteroïden puzzel
     completion:
-      - intern
+      - internal
   - 
     title: Snelle quiz
     knowledge_quiz:
@@ -29,7 +29,7 @@ steps:
       questions: 3
       passing_score: 3
     completion:
-      - extern
+      - external
   - 
     title: Verbeter je project
   - 
