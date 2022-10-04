@@ -14,13 +14,13 @@ steps:
   - 
     title: L'enigme du bouton
     completion:
-      - engagé
+      - engaged
   - 
     title: L'énigme du gouvernail
   - 
     title: L'énigme des astéroïdes
     completion:
-      - interne
+      - internal
   - 
     title: Questionnaire rapide
     knowledge_quiz:
@@ -29,7 +29,7 @@ steps:
       questions: 3
       passing_score: 3
     completion:
-      - externe
+      - external
   - 
     title: Améliorer ton projet
   - 
