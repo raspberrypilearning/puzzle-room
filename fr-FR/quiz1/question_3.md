@@ -24,7 +24,8 @@ Le sprite des rochers se déplacera vers une position aléatoire jusqu'à ce qu'
 
   --- feedback ---
 
-Ces blocs correspondraient à cette description. <touching (sprite 1 v) ?> et <touching color (#000000) ?>
+Ces blocs correspondraient à cette description. 
+`<touching (sprite 1 v) ?> and <touching color (#000000) ?>`{:class='block3sensing'}
 
   --- /feedback ---
 
@@ -34,7 +35,7 @@ Le sprite des rochers se déplacera vers une position aléatoire jusqu'à ce qu'
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> ou "&#060" ; non<touching color (#FFFFFF) ?>
+`<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>`{:class='block3sensing'}
 
   --- /feedback ---
 
@@ -54,7 +55,7 @@ Le sprite des rochers se déplacera vers une position aléatoire tant qu'il ne t
 
   --- feedback ---
 
-<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>
+`<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>`{:class='block3sensing'}
 
   --- /feedback ---
 
