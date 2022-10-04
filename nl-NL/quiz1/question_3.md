@@ -25,7 +25,7 @@ De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** ra
   --- feedback ---
 
 Deze blokken zouden bij die beschrijving passen. 
-`<touching (sprite 1 v) ?> and <touching color (#000000) ?>`{:class='block3sensing'}
+<touching (sprite 1 v) ?> and <touching color (#000000) ?>
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** ra
 
   --- feedback ---
 
-`<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>`{:class='block3sensing'}
+<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ De rocks sprite beweegt naar een willekeurige positie totdat hij **sprite 1** of
 
   --- feedback ---
 
-`<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>`{:class='block3sensing'}
+<not<touching (sprite 1 v) ?>> or <touching color (#000000) ?>
 
   --- /feedback ---
 
