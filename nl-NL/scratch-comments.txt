@@ -1,0 +1,35 @@
+Richting waarin de pijl wijst
+
+De knop is zichtbaar
+
+Druk op de knop om bij het starten op 0 te zetten
+
+Blijf herhalen totdat de knop 5 keer is ingedrukt
+
+Als je dicht bij Monet bent, verhoog je het aantal keren dat op de knop is gedrukt
+
+Als je ver van Monet bent, reset je het aantal keren dat op de knop is gedrukt
+
+Sla de het aantal keren dat aan het wiel is gedraaid op
+
+Het wiel heeft een volledige cirkel gedraaid
+
+Sla het totale aantal keren dat gedraaid is op
+
+Reset de hoek waarin het is gedraaid
+
+Toon het dradenkruis alleen wanneer de muis het raam raakt
+
+Raak ook de rand van het raam niet aan
+
+Verberg de sprite
+
+Controleer of Monet op de stoel zit
+
+10 asteroïden zijn vernietigd
+
+Monet zit op stoel en het dradenkruis raakt asteroïde
+
+Sla het aantal vernietigde asteroïden op
+
+Reset de asteroïde positie

@@ -1,0 +1,35 @@
+Direction vers laquelle la flèche pointe
+
+Le bouton est visible
+
+Les pressions du bouton sont réglées sur 0 au démarrage
+
+Continue à répéter jusqu'à ce que le bouton soit pressé 5 fois
+
+Si proche de Monet, augmente le nombre de pressions sur le bouton
+
+Si loin de Monet, alors remets le compte de pression sur le bouton à zéro
+
+Mémoriser les tours du gouvernail
+
+Le gouvernail a tourné un tour complet
+
+Mémorise le nombre total de tours
+
+Remets à zéro l'angle qui a été tourné
+
+Affiche uniquement le viseur lorsque la souris touche le port
+
+Ne touche pas non plus le bord du port
+
+Cache le sprite
+
+Vérifie que Monet est à la chaise
+
+10 astéroïdes ont été détruits
+
+Monet est à la chaise et le viseur touche l'astéroïde
+
+Mémorise le nombre d'astéroïdes détruits
+
+Réinitialise la position de l'astéroïde
