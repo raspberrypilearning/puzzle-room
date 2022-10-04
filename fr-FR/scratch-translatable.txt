@@ -1,0 +1,39 @@
+droite
+
+gauche
+
+haut
+
+bas
+
+bouton pressé
+
+bouton pressé ... fois
+
+tâche terminée
+
+gouvernail a tourné
+
+gouvernail a tourné ... fois
+
+a tourné
+
+viseur
+
+port
+
+bouton
+
+aller à la position
+
+chaise
+
+à la chaise
+
+vrai
+
+faux
+
+astéroïdes
+
+... astéroïdes détruits

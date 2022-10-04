@@ -1,0 +1,28 @@
+---
+title: Puzzelkamer
+hero_image: images/banner.png
+description: Maak een ruimteschip puzzelkamer met een personage dat puzzels oplost.
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Je gaat maken
+  - title: Wie zit er in de puzzelkamer?
+  - title: De knop puzzel
+    completion:
+      - engaged
+  - title: De wiel puzzel
+  - title: De asteroïden puzzel
+    completion:
+      - internal
+  - title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?

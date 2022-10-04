@@ -1,0 +1,39 @@
+rechts
+
+links
+
+omhoog
+
+omlaag
+
+knop ingedrukt
+
+knop....keer ingedrukt
+
+opdracht voltooid
+
+wiel gedraaid
+
+wiel....keer gedraaid
+
+gedraaid
+
+dradenkruis
+
+raam
+
+knop
+
+ga naar positie
+
+stoel
+
+in de stoel
+
+waar
+
+niet waar
+
+asteroïden
+
+...asteroïden vernietigd
