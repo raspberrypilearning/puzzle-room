@@ -13,7 +13,7 @@ In deze stap voeg je een personage toe aan een puzzelkamer en maak je besturings
 
 Open [het Scratch-starter project](https://scratch.mit.edu/projects/740768934/editor/){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
-Als je offline werkt, kun je het startersproject downloaden op [rpf.io/p/nl-NL/puzzle-room](https://rpf.io/p/nl-NL/puzzle-room).
+Als je offline werkt, kun je het startersproject downloaden op [rpf.io/p/nl-NL/puzzle-room-go](https://rpf.io/p/nl-NL/puzzle-room-go).
 
 [[[working-offline]]]
 
