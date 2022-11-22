@@ -13,7 +13,7 @@
 
 [Scratch స్టార్టర్ ప్రాజెక్ట్ ](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"} ని తెరవండి. Scratch మరొక బ్రౌజర్ ట్యాబ్‌లో తెరవబడుతుంది.
 
-మీరు ఆఫ్‌లైన్‌లో పని చేస్తుంటే, మీరు స్టార్టర్ ప్రాజెక్ట్‌ను [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room)లో డౌన్‌లోడ్ చేసుకోవచ్చు.
+మీరు ఆఫ్‌లైన్‌లో పని చేస్తుంటే, మీరు స్టార్టర్ ప్రాజెక్ట్‌ను [rpf.io/p/te-IN/puzzle-room-go](https://rpf.io/p/te-IN/puzzle-room-go)లో డౌన్‌లోడ్ చేసుకోవచ్చు.
 
 [[[working-offline]]]
 
