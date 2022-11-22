@@ -32,7 +32,7 @@ Maak een nieuwe `variabele`{:class="block3variables"} en noem deze `op knop gedu
 
 --- /task ---
 
-Aan het begin van het spel moet `op knop geduwd`{:class="block3variables"} `0` zijn.
+Aan het begin van het spel moet `knop ingedrukt`{:class="block3variables"} `0` zijn.
 
 --- task ---
 
@@ -81,7 +81,7 @@ else
 
 --- /task ---
 
-Als het personage dichtbij genoeg staat en de knop wordt ingedrukt, kan de `op knop geduwd`{:class="block3variables"} variabele worden verhoogd. Als het personage niet dichtbij geneg is, moet de puzzel gereset worden; de speler moet de knop vijf keer achter elkaar indrukken voordat hij andere puzzels kan spelen.
+Als het personage dichtbij genoeg staat en de knop wordt ingedrukt, kan de `knop ingedrukt`{:class="block3variables"} variabele worden verhoogd. Als het personage niet dichtbij genoeg is, moet de puzzel gereset worden; de speler moet de knop vijf keer achter elkaar indrukken voordat hij andere puzzels kan spelen.
 
 **Tip:** in Scratch wordt de afstand tussen twee sprites berekend uit de middelpunten van de sprites. Voor grote sprites kan het daarom soms lijken alsof ze elkaar al raken, maar hun centra kunnen nog steeds ver uit elkaar liggen waardoor ze elkaar dus nog niet raken.
 
