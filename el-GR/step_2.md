@@ -13,7 +13,7 @@
 
 Άνοιξε το [αρχικό έργο Scratch](https://scratch.mit.edu/projects/531567946/editor/){:target="_ blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
-Εάν εργάζεσαι εκτός σύνδεσης, μπορείς να κάνεις λήψη του αρχικού έργου στη διεύθυνση [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
 
 [[[working-offline]]]
 
