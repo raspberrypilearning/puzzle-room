@@ -13,7 +13,7 @@
 
 [ Scratch ನ ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"} ತೆರೆಯಿರಿ. Scratch ಇನ್ನೊಂದು ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.
 
-ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, ನೀವು ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room)ರಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.
+ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, ನೀವು ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು [rpf.io/p/kn-IN/puzzle-room-go](https://rpf.io/p/kn-IN/puzzle-room-go)ರಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.
 
 [[[working-offline]]]
 
