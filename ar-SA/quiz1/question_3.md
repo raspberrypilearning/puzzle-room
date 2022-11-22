@@ -24,7 +24,7 @@ go to (random position v)
 
   --- feedback ---
 
-هذه المقاع البرمجية تناسب هذا الوصف. <touching (sprite 1 v) ?> و <touching color (#000000) ?>
+ومن شأن هذه الكتل أن تناسب ذلك الوصف. <touching (sprite 1 v) ?> و <touching color (#000000) ?>
 
   --- /feedback ---
 
