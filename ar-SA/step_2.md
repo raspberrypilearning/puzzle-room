@@ -13,7 +13,7 @@
 
 افتح [مشروع بدء Scratch](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-إذا كنت تعمل دون اتصال بالإنترنت ، يمكنك تنزيل مشروع البداية على [rpf.io/p/en/غرفة الالغاز](https://rpf.io/p/en/puzzle-room).
+If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
 
 [[[working-offline]]]
 
