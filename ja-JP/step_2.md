@@ -13,7 +13,7 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Scratchはブラウザの別のタブで開きます。
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room](https://rpf.io/p/en/puzzle-room).
+If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
 
 [[[working-offline]]]
 
