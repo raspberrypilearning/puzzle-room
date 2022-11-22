@@ -21,7 +21,7 @@ Het `wanneer op de groene vlag wordt geklikt`{:class='block3events'} script is h
 
 --- task ---
 
-Maak een nieuwe variabele met de naam `aan wiel gedraaid`{:class="block3variables"}, en gebruik die variabele in plaats van de `op knop geduwd`{:class="block3variables"} variabele.
+Maak een nieuwe variabele met de naam `wiel gedraaid`{:class="block3variables"}, en gebruik die variabele in plaats van de `knop ingedrukt`{:class="block3variables"} variabele.
 
 **Kies:** Kies zelf het getal dat aangeeft wanneer de opdracht is voltooid. We kozen `3` in het voorbeeld.
 
@@ -79,11 +79,11 @@ else
 
 **Test**: Beweeg de **Monet** sprite (of je personage sprite) dicht genoeg bij het **wiel** en klik vervolgens op de **wiel** sprite. Het helpt om de volledig scherm weergave modus te gebruiken, zodat je de **wiel** sprite niet kunt verslepen.
 
-Wanneer de variabele `gedraaid`{:class="block3variables"} `360` bereikt, is het wiel eenmaal gedraaid; dit kan nu worden opgeslagen in de variabele `aan wiel gedraaid`{:class="block3variables"}.
+Wanneer de variabele `gedraaid`{:class="block3variables"} `360` bereikt, is het wiel eenmaal gedraaid; dit kan nu worden opgeslagen in de variabele `wiel gedraaid`{:class="block3variables"}.
 
 --- task ---
 
-Gebruik een **geneste** `als`{:class="block3control"} om de waarde van de `aan wiel gedraaid`{:class="block3variables"} variabele te veranderen en de `gedraaid`{:class="block3variables"} variabelen te resetten. Een **geneste** `als`{:class="block3control"} maak je door een `als`{:class="block3control"} in een andere als blok te plaatsen.
+Gebruik een **geneste** `als`{:class="block3control"} om de waarde van de `wiel gedraaid`{:class="block3variables"} variabele te veranderen en de `gedraaid`{:class="block3variables"} variabelen te resetten. Een **geneste** `als`{:class="block3control"} maak je door een `als`{:class="block3control"} in een andere als blok te plaatsen.
 
 ![De wiel sprite.](images/handwheel-sprite.png)
 
