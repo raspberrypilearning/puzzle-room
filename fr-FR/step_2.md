@@ -13,7 +13,7 @@ Dans cette étape, tu vas ajouter un personnage à une salle des énigmes et cr�
 
 Ouvre [le projet de démarrage Scratch](https://scratch.mit.edu/projects/531567946/editor/) {:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
-Si tu travailles hors ligne, tu peux télécharger le projet de démarrage à [rpf.io/p/fr/puzzle-room](https://rpf.io/p/en/puzzle-room).
+Si tu travailles hors ligne, tu peux télécharger le projet de démarrage à [rpf.io/p/fr-FR/puzzle-room-go](https://rpf.io/p/fr-FR/puzzle-room-go).
 
 [[[working-offline]]]
 
