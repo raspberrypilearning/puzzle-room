@@ -41,7 +41,7 @@ go to (mouse-pointer v)
 
 --- /task ---
 
-Je kunt een `als`{:class="block3control"} blok gebruiken om te testen of het **dradenkruis** de **raam** sprite raakt, zodat het verborgen is wanneer hij het raam**niet** raakt.
+Je kunt een `als`{:class="block3control"} blok gebruiken om te testen of het **dradenkruis** de **raam** sprite raakt, zodat het verborgen is wanneer hij het raam **niet** raakt.
 
 --- task ---
 
@@ -151,7 +151,7 @@ Het laatste deel is vergelijkbaar met de andere puzzels. Tel met behulp van een 
 
 --- task ---
 
-Maak op je **personage** sprite een nieuwe variabele met de naam `bij de stoel`{:class="block3variables"}, en stel deze in op `waar` wanneer het personage de stoel raakt en `niet waar` wanneer dat niet het geval is.
+Maak op je **personage** sprite een nieuwe variabele met de naam `in de stoel`{:class="block3variables"}, en stel deze in op `waar` wanneer het personage de stoel raakt en `niet waar` wanneer dat niet het geval is.
 
 ![De Monet sprite.](images/monet-sprite.png)
 
@@ -185,7 +185,7 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Gebruik een ander `en`{:class="block3operators"} blok in een `als`{:class="block3control"} blok om te controleren of het **dradenkruis** de rock raakt en of de `bij de stoel`{:class="block3variables"} variabele `code>code>waar`{:class="block3variables"} is.
+Gebruik een ander `en`{:class="block3operators"} blok in een `als`{:class="block3control"} blok om te controleren of het **dradenkruis** de rock raakt en of de `in de stoel`{:class="block3variables"} variabele `code>code>waar`{:class="block3variables"} is.
 
 ![De Rocks sprite.](images/rocks-sprite.png)
 
