@@ -96,7 +96,7 @@ when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
 + change [button pressed v] by (1) //If close to Monet, then increase button press count
 else
-+ set [button press v] to (0) //If far from Monet, then reset button press count
++ set [button pressed v] to (0) //If far from Monet, then reset button press count
 ```
 
 --- /task ---
