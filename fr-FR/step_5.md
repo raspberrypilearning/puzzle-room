@@ -137,10 +137,10 @@ Définis l'effet `fantôme`{:class="block3looks"} sur les **rochers** à `100` p
 ![Le sprite Rochers.](images/rocks-sprite.png)
 
 ```blocks3
-define go to position
+define aller à la position
 go to (random position v)
 repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
-+ set [ghost v] effect to (100) //Hide the sprite
++ set [ghost v] effect to (100) //Cache le sprite
 end
 + clear graphic effects
 ```
