@@ -94,9 +94,9 @@ Voeg code toe om de waarde van de variabele `op knop geduwd`{:class="block3varia
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //If close to Monet, then increase button press count
++ change [knop ingedrukt v] by (1) //Als je dicht bij Monet bent, verhoog je het aantal keren dat op de knop is gedrukt
 else
-+ set [button press v] to (0) //If far from Monet, then reset button press count
++ set [knop ingedrukt v] to (0) //Als je ver van Monet bent, reset je het aantal keren dat op de knop is gedrukt
 ```
 
 --- /task ---
