@@ -1,19 +1,19 @@
-## The button puzzle
+## Pos y botwm
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first puzzle, which will be to push the button a certain number of times.
+Yn y cam hwn, byddi di'n ychwanegu dy bos cyntaf, sef gwthio'r botwm nifer penodol o weithiau.
 </div>
 <div>
 ![](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
-When the game starts, the button needs to stay in the same place, and always be visible on the front layer.
+Pan fydd y gêm yn dechrau, mae angen i'r botwm aros yn yr un lle, a bod yn weladwy bob amser ar yr haen flaen.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Ychwanegu'r blociau canlynol at y corlun **botwm**.
 
 ```blocks3
 when flag clicked
@@ -24,21 +24,21 @@ go to [front v] layer //The button is visible
 
 --- /task ---
 
-The button will need to be pushed a number of times for the puzzle to be completed. For this, you will need a `variable`{:class="block3variables"} to store the number of pushes.
+Bydd angen gwthio'r botwm nifer o weithiau er mwyn cwblhau'r pos. Ar gyfer hyn, bydd angen `newidyn`{:class="block3variables"} arnat i storio nifer y gwthiadau.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} and call it `button pressed`{:class="block3variables"}.
+Crea `newidyn`{:class="block3variables"} a'i alw'n `botwm wedi'i wasgu`{:class="block3variables"}.
 
 --- /task ---
 
-At the start of the game, `button pressed`{:class="block3variables"} should be `0`.
+Ar ddechrau'r gêm, dylai `botwm wedi'i wasgu`{:class="block3variables"} fod yn `0`.
 
 --- task ---
 
-Add the following blocks to the **button** sprite.
+Ychwanega'r blociau canlynol at y corlun **botwm**.
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ set [button pressed v] to (0) //Button presses set to 0 at start
 
 --- /task ---
 
-A `repeat until`{:class="block3control"} block is a loop that keeps repeating until a certain condition is met.
+Mae bloc `ailadrodd tan`{:class="block3control"} yn ddolen sy'n parhau i ailadrodd nes bod amod penodol wedi'i fodloni.
 
-**Choose:** How many times will the button need to be pressed to solve the puzzle? In this example, it will need to be pressed `5` times, but you can choose a different number.
+**Dewisa:** Sawl gwaith fydd angen pwyso'r botwm i ddatrys y pos? Yn yr enghraifft hon, bydd angen ei wasgu `5` gwaith, ond gelli ddewis rhif gwahanol.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} loop, and set its condition to be when `button pressed`{:class="block3variables"} is `equal`{:class="block3operators"} to `5`.
+Ychwanega ddolen `ailadrodd tan`{:class="block3control"}, a gosod ei gyflwr i fod pan fydd `botwm yn cael ei wasgu`{:class="block3variables"} yn `gyfartal`{:class="block3operators"} i `5`.
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -65,13 +65,13 @@ set [button pressed v] to (0)
 
 --- /task ---
 
-Now, the player needs to be able to push the button. They should only be able to press it when the character is close to the button though!
+Nawr, mae angen i'r chwaraewr allu gwthio'r botwm. Ond dim ond pan fydd y cymeriad yn agos at y botwm y dylen nhw allu ei wasgu!
 
 --- task ---
 
-Add blocks to detect if the character is close to the button when the **button** sprite is clicked.
+Ychwanega flociau i ganfod a yw'r cymeriad yn agos at y botwm pan fydd **botwm** y corlun yn cael ei glicio.
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -81,41 +81,41 @@ else
 
 --- /task ---
 
-If the character is close, and the button is pressed, then the `button pressed`{:class="block3variables"} variable can be increased. If the character is not close, the puzzle should reset; the player needs to push the button five times in a row, before trying any other puzzles.
+Os yw'r cymeriad yn agos, a'r botwm yn cael ei wasgu, yna gellir cynyddu'r newidyn `botwm wedi'i wasgu`{:class="block3variables"}. Os nad yw'r cymeriad yn agos, dylai'r pos ailosod; mae angen i'r chwaraewr wthio'r botwm bum gwaith yn olynol, cyn rhoi cynnig ar unrhyw bosau eraill.
 
-**Tip:** In Scratch, the distance between any two sprites is calculated from the centres of the sprites. This means that large sprites can look as if they are touching, but their centres may still be far apart.
+**Awgrym:** Yn Scratch, mae'r pellter rhwng unrhyw ddau gorlun yn cael ei gyfrifo o ganol y corlun. Mae hyn yn golygu y gall corlun mawr edrych fel pe baent yn cyffwrdd, ond efallai bod eu canol yn dal i fod ymhell oddi wrth ei gilydd.
 
 --- task ---
 
-Add code to change the value of the variable `button pressed`{:class="block3variables"}.
+Ychwanega god i newid gwerth y newidyn `botwm wedi'i wasgu`{:class="block3variables"}.
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
 + change [button pressed v] by (1) //If close to Monet, then increase button press count
 else
-+ set [button press v] to (0) //If far from Monet, then reset button press count
++ set [button pressed v] to (0) //If far from Monet, then reset button press count
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. As you click on the button, the `button pressed`{:class='block3variables'} variable should increase. You can adjust the value of `distance to Monet`{:class='block3sensing'} up or down, until you find a number that makes sense to you.
+**Profi:** Rheda dy brosiect a symud y cymeriad yn agos at y botwm. Wrth i ti glicio ar y botwm, dylai'r newidyn `botwm wedi'i wasgu`{:class='block3variables'} gynyddu. Gelli addasu gwerth `pellter i Monet`{:class='block3sensing'} i fyny neu i lawr, nes i ti ddod o hyd i rif sy'n gwneud synnwyr i ti.
 
 --- /task ---
 
-You can use the `join`{:class="block3operators"} block to `say`{:class="block3looks"} to the player how many times the button has been pressed.
+Gelli ddefnyddio'r bloc `ymuno`{:class="block3operators"} i `ddweud`{:class="block3looks"} i'r chwaraewr sawl gwaith mae'r botwm wedi'i wasgu.
 
 --- task ---
 
-Place a `join`{:class="block3operators"} block inside another one. Then add in the text you want, and the `button pressed`{:class="block3variables"} variable, all inside a `say`{:class="block3looks"} block.
+Gosoda floc `ymuno`{:class="block3operators"} y tu mewn i un arall. Yna ychwanega'r testun rwyt ti ei eisiau, a'r newidyn `botwm wedi'i wasgu`{:class="block3variables"}, i gyd y tu mewn i floc `dweud`{:class="block3looks"}.
 
 Er enghraifft:
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ repeat until <(button pressed) = (5)>
 + say (join [button pressed] (join (button pressed) [times])
 ```
 
-**Tip:** Make sure you add spaces in the text in your `join`{:class="block3operators"} block.
+**Awgrym:** Gwna'n siŵr dy fod yn ychwanegu bylchau yn y testun yn dy floc `ymuno`{:class="block3operators"}.
 
 --- /task ---
 
-The loop will end when the button has been pressed `5` times, then the last block in the script will be run. This can tell the player that the task is complete.
+Bydd y ddolen yn dod i ben pan fydd y botwm wedi'i wasgu `5` gwaith, yna bydd y bloc olaf yn y sgript yn cael ei redeg. Gall hyn ddweud wrth y chwaraewr bod y dasg wedi'i chwblhau.
 
 --- task ---
 
-Use a `say`{:class="block3looks"} block to tell the player the task has been completed.
+Defnyddia floc `dweud`{:class="block3looks"} i ddweud wrth y chwaraewr bod y dasg wedi'i chwblhau.
 
-![The button sprite.](images/button-sprite.png)
+![Corlun y botwm.](images/button-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -151,7 +151,7 @@ end
 
 --- task ---
 
-**Test:** Run your project and move the character close to the button. When you click on the button five times, the task should be complete.
+**Profi:** Rheda dy brosiect a symud y cymeriad yn agos at y botwm. Pan fyddi di'n clicio ar y botwm bum gwaith, dylai'r dasg fod yn gyflawn.
 
 --- /task ---
 
