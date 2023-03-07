@@ -1,28 +1,28 @@
 ---
-title: Puzzle room
+title: Ystafell posau
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
+description: Creu ystafell posau llong ofod gyda chymeriad sy'n datrys posau.
 version: 4
 listed: true
 copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Byddi di'n creu
   - 
-    title: Who's in the puzzle room?
+    title: Pwy sydd yn yr ystafell posau?
   - 
-    title: The button puzzle
+    title: Pos y botwm
     completion:
       - engaged
   - 
-    title: The handwheel puzzle
+    title: Pos yr olwyn law
   - 
-    title: The asteroids puzzle
+    title: Pos yr asteroidau
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Cwis cyflym
     knowledge_quiz:
       path: quiz1
       version: 1
