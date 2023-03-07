@@ -97,7 +97,7 @@ hide
 
 --- task ---
 
-قم بإنشاء `لبنة` جديدة{:class="block3myblocks"} واسمها `انتقل إلى الموضع`{:class="block3myblocks"}. يمكن أن يكون وضع البداية في أي مكان على الشاشة.
+قم بإنشاء `لبنة`{:class="block3myblocks"} جديدة واسمها `انتقل إلى الموضع`{:class="block3myblocks"}. يمكن أن يكون وضع البداية في أي مكان على الشاشة.
 
 ![كائن Rocks.](images/rocks-sprite.png)
 
