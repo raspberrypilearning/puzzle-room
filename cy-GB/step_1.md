@@ -1,28 +1,28 @@
-## You will make
+## Byddi di'n creu
 
-Create a spaceship puzzle room with a character that solves puzzles.
+Creu ystafell posau llong ofod gyda chymeriad sy'n datrys posau.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+Mae <span style="color: #0faeb0">**ystafelloedd posau**</span>, neu **ystafelloedd dianc**, yn ystafelloedd sy'n cynnwys posau y mae'n rhaid i ti eu datrys i fynd allan o'r ystafell, neu i fynd i mewn i'r ystafell nesaf. Gallant fod yn ystafelloedd ar-lein neu go iawn, ond mae'r syniad yr un peth fel arfer: cwblha'r dasg cyn gynted ag y gelli di!
 </p>
 
 Byddi di'n:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
++ Defnyddia floc `ailadrodd tan`{:class="block3control"} i reoli pryd daw gweithred i ben
++ Defnyddiwch flociau `ymuno`{:class="block3operators"} lluosog i allbynnu gwerth `newidyn`{:class="block3variables"}
++ Cyfuna amodau `a`{:class="block3operators"}, `neu`{:class="block3operators"}, a `ddim`{:class="block3operators"} i ddatrys problemau
 
 --- no-print ---
 
-### Play ▶️
+### Chwarae ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
+O na, mae'r llong ofod yn wynebu rhai anawsterau! Defnyddia'r saethau i gael cymeriad y peiriannydd i symud o gwmpas y llong ofod. Elli di eu helpu i ddatrys yr holl bosau a helpu'r llong ofod?
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
+**Ystafell posau**: [Gweld tu mewn](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -31,12 +31,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: Syniadau ar gyfer chwarae
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. Mae angen i ti fod yn agos at y botwm a chlicio arno bum gwaith
+2. Mae angen i ti fod yn agos at y gadair ac yna defnyddio'r crosshairs i ddinistrio deg asteroid
+3. Mae angen i ti fod yn agos at yr olwyn law a chlicio arno i'w droi cyfanswm o dri thro llawn
 
 
 --- /collapse ---
