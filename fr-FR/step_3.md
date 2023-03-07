@@ -94,9 +94,9 @@ Ajoute du code pour modifier la valeur de la variable `bouton pressé`{:class="b
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //If close to Monet, then increase button press count
++ change [bouton pressé v] by (1) //Si proche de Monet, augmente le nombre de pressions sur le bouton
 else
-+ set [button press v] to (0) //If far from Monet, then reset button press count
++ set [bouton pressé v] to (0) //Si loin de Monet, alors remets le compte de pression sur le bouton à zéro
 ```
 
 --- /task ---
