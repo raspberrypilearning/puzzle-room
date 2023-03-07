@@ -140,7 +140,7 @@ Sprite కదులుతున్నప్పుడు **Rocks** పై `ghost`
 define go to position
 go to (random position v)
 repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
-+ set [ghost v] effect to (100) //Hide the sprite
++ set [ghost v] effect to (100) //Sprite ను దాచండి
 end
 + clear graphic effects
 ```
