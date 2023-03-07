@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## Pos yr olwyn law
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+Yn y cam hwn, byddi di'n creu pos lle mae angen troi olwyn law.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+Mae'r sgriptiau ar gyfer y pos hwn yn eithaf tebyg i'r pos botwm, felly gelli di gopïo'r sgriptiau hynny drosodd ac yna eu golygu.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+Llusga'r ddwy sgript i ti eu creu ar gyfer **botwm** y corlun ymlaen i gorlun yr **olwyn law**, i'w copïo i'r corlun hwnnw.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+Y sgript `pan gliciwyd baner`{:class='block3events'} sgript yw'r un cyntaf sydd angen ei newid.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+Crea newidyn newydd o'r enw `handwheel troi`{:class="block3variables"}, a defnyddio'r newidyn hwnnw yn lle'r newidyn `botwm wedi'i wasgu`{:class="block3variables"}.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**Dewisa:** Newidia'r rhif cwblhau i beth bynnag yr hoffet iddo fod. Dewison ni `3` yn yr enghraifft.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Corlun yr olwyn law.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+Fel olwyn law go iawn, dim ond nifer fach o raddau ar y tro y bydd corlun yr **olwyn law** yn gallu troi, felly bydd angen storio'r ongl y mae wedi'i droi.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+Crea newidyn newydd o'r enw `wedi troi`{:class="block3variables"} a'i osod i `0` pan fydd y gêm yn dechrau.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Corlun yr olwyn law.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+Nawr gelli di olygu sgript `wrth glicio ar y corlun hwn`{:class="block3events"}, fel bod y corlun **olwyn law**, pan fydd rhywun yn clicio arno dro ar ôl tro, ei bod yn troi swm bach bob tro nes iddo gwblhau cylchdro llawn. Pan fydd wedi cwblhau'r nifer cywir o droadau llawn (`3` gwaith yn yr enghraifft), bydd y pos yn cael ei ddatrys.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+Ychwanega flociau fel bod y corlun **handwheel**, bob tro mae'n cael ei glicio, yn troi `15` gradd ac mae'r newidyn `wedi troi`{:class="block3variables"} yn cynyddu `15`.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Corlun yr olwyn law.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**Profi**: Symuda gorlun **Monet** (neu gorlun dy gymeriad) yn agos at y **olwyn law** ac yna clicia ar gorlun yr **olwyn law**. Mae'n helpu i fod yn y modd sgrin lawn, fel na elli lusgo corlun yr **olwyn law** o gwmpas.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+Pan fydd y newidyn `wedi troi`{:class="block3variables"} yn cyrraedd `360`, yna mae'r olwyn law wedi'i throi unwaith; gall hwn bellach gael ei storio yn y newidyn `olwyn law wedi'i throi`{:class="block3variables"}.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+Defnyddia **wedi'i nythu** `os`{:class="block3control"} i newid yr `olwyn law wedi'i throi`{:class="block3variables"} ac ailosod y newidyn `wedi troi`{:class="block3variables"}. **Yn nythu** `os`{:class="block3control"} yw pan fydd un `os`{:class="block3control"} yn cael ei osod y tu mewn i un arall.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Corlun yr olwyn law.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**Profi** Symuda corlun dy gymeriad yn agos at yr olwyn law, ac yna clicia arno. Efallai y bydd yn rhaid i ti addasu'r pellter y mae angen i'r cymeriad fod o'r olwyn law.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![Corlun yr olwyn law.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**Awgrym**: Gelli glicio a llusgo dy gorlun (neu gymeriad) **Monet** o gwmpas, i ddod ag ef yn nes at yr olwyn law, er enghraifft. Bydd hyn yn arbed amser i ti, gan na fyddi di'n gorfod parhau i defnyddio'r rheolyddion.
 
 --- save ---
