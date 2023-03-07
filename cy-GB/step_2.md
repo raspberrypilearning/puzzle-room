@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## Pwy sydd yn yr ystafell posau?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+Yn y cam hwn, byddi di'n ychwanegu cymeriad at ystafell bos, ac yn creu rheolyddion i'w symud o gwmpas.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
+Agora [brosiect cychwyn arni gyda Scratch](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
+Os wyt ti'n gweithio heb gyswllt, gelli lawrlwytho'r prosiect cychwyn arni yn [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+Dylet weld golygfa o'r tu mewn i long ofod. Mae sawl corlun wedi'u gwneud i ti, ac mae eu safleoedd wedi'u gosod.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**Dewisa:** Pwy sydd yn y llong ofod? Gallai fod yn daith unigol o'r Ddaear, gallai fod yn llong ofod estron, neu gallai hyd yn oed fodoli mewn dyfodol lle mae cathod yn rheoli'r byd.
 
-You need one character to interact with the puzzles you are making.
+Mae angen un cymeriad arnat i ryngweithio â'r posau rwyt ti'n eu gwneud.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+Ychwanegu gorlun newydd at dy brosiect. Yn yr enghraifft hon, fe weli'r cymeriad **Monet**.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Gif animeiddiedig o gorlun Monet o Scratch.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+Os yw dy gymeriad yn rhy fawr neu'n rhy fach ar gyfer yr olygfa, dylet newid ei faint. Gelli hefyd ddewis man cychwyn ar gyfer y cymeriad.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+Ychwanega god i sefydlu maint a man cychwyn dy gymeriad.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+Bydd angen rheolyddion ar y sgrin arnat i dy alluogi i symud dy gymeriad o gwmpas.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+Dewisa un o'r corluniau **arrow**. Pan fydd y corlun yn cael ei glicio, dylai ddarlledu ei gyfeiriad fel y gall wneud i'r cymeriad symud i'r cyfeiriad hwnnw.
 
-![Arrow sprite.](images/arrow-sprite.png)
+![Corlun Arrow.](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**Awgrym:** Os yw'r corluniau **arrow** yn rhy anodd i glicio arno wrth ddefnyddio ffôn symudol neu lechen, yna gellir newid eu gwisgoedd. Mae gan bob corlun **arrow** hefyd gylch porffor mawr y gellir ei ddefnyddio yn lle.
 
-Now add more direction controls to move your main character.
+Nawr ychwanega fwy o reolaethau cyfeiriad i symud dy brif gymeriad.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+Dyblyga'r corlun **arrow** deirgwaith. Yna, ar gyfer pob corlun, newidia'r wisg fel ei bod yn pwyntio i gyfeiriad gwahanol.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+Newidia enw pob corlun i'r cyfeiriad y mae'n ei bwyntio a newidia'r `darllediad`{:class="block3events"} i'r cyfeiriad y mae'n ei bwyntio.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+Trefna'r holl gorluniau **arrow** yng nghornel y sgrin.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![Golygfa'r gofod gyda phedair saeth yn y gornel chwith isaf, yn pwyntio at gyfeiriadau'r cwmpawd.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+Dylai dy brif gymeriad symud pan fydd y saethau'n cael eu pwyso.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+Coda gorlun dy brif gymeriad i'w symud pan fydd yn derbyn darllediadau i fynd `i'r chwith, i'r dde, i fyny ac i lawr`{:class="block3events"}.
 
-![Monet sprite.](images/monet-sprite.png)
+![Corlun Monet.](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**Profi:** Clicia'r faner werdd ac yna clicia ar y saethau i symud dy gymeriad o gwmpas.
 
 --- /task ---
 
