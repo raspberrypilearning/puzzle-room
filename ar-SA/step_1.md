@@ -1,6 +1,6 @@
-## You will make
+## سوف تصنع
 
-Create a spaceship puzzle room with a character that solves puzzles.
+قم بإنشاء غرفة لغز سفينة الفضاء ذات الشخصية التي تحل الألغاز.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">** غرف الألغاز **</span>، أو ** غرف الهروب ** ، هي غرف تحتوي على ألغاز يجب حلها للخروج من الغرفة أو للدخول إلى الغرفة المجاورة. يمكن أن تكون غرفًا عبر الإنترنت أو غرفًا حقيقية ، ولكن الفكرة هي نفسها عادةً: أكمل المهمة بأسرع ما يمكن!
@@ -13,13 +13,13 @@ Create a spaceship puzzle room with a character that solves puzzles.
 
 --- no-print ---
 
-### Play ▶️
+### العب ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! استخدم الأسهم للحصول على شخصية المهندس للتحرك حول سفينة الفضاء. هل يمكنك مساعدتهم في حل جميع الألغاز ومساعدة سفينة الفضاء؟
+أوه ، تواجه سفينة الفضاء بعض الصعوبات! استخدم الأسهم للحصول على شخصية المهندس للتحرك حول سفينة الفضاء. هل يمكنك مساعدتهم في حل جميع الألغاز ومساعدة سفينة الفضاء؟
 </div>
 <div>
 **غرفة الألغاز**: [اطلع على البرنامج](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
