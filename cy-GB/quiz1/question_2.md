@@ -5,7 +5,7 @@
 legend: Cwestiwn 2 o 3
 ---
 
-Here's a script for a handwheel puzzle:
+Dyma sgript ar gyfer pos olwyn llaw:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ end
 say [task complete] for (2) seconds
 ```
 
-Which line of code would you add to the script to tell the character how many times they have turned the wheel, using a complete sentence?
+Pa linell o god fyddet ti'n ei hychwanegu at y sgript i ddweud wrth y cymeriad sawl gwaith maen nhw wedi troi'r olwyn, gan ddefnyddio brawddeg gyflawn?
 
 --- choices ---
 
@@ -28,7 +28,7 @@ say (join [handwheel turned ] (join (handwheel turned) [ times])
 
   --- feedback ---
 
-Yes, if the handwheel had been turned 3 times it would say `handwheel turned 3 times`{:class='block3looks'}
+Ydy, pe bai'r olwyn law wedi'i throi 3 gwaith byddai'n dweud bod `olwyn law wedi'i throi 3 gwaith`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -40,7 +40,7 @@ say (join [handwheel turned ]  [ times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `handwheel turned times`{:class='block3looks'}
+Gyda'r sgript yma, pe bai'r olwyn law wedi'i throi 3 gwaith byddai'n dweud bod `olwyn law wedi'i throi 3 gwaith`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ say (join (handwheel turned)(join [handwheel turned ] [times])
 
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3 handwheel turned times`{:class='block3looks'}
+Gyda'r sgript yma, pe bai'r olwyn law wedi'i throi 3 gwaith byddai'n dweud bod `3 troad o'r olwyn law`{:class='block3looks'}
 
   --- /feedback ---
 
@@ -63,7 +63,7 @@ say (handwheel turned)
 ```
   --- feedback ---
 
-With this script if the handwheel had been turned 3 times it would say `3`{:class='block3looks'}
+Gyda'r sgript yma, pe bai'r olwyn law wedi'i throi 3 gwaith byddai'n dweud `3`{:class='block3looks'}
 
   --- /feedback ---
 
