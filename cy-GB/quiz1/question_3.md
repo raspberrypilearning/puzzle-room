@@ -5,7 +5,7 @@
 legend: Cwestiwn 3 o 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+Cymer olwg ar y blociau isod. Pa ddisgrifiad sy'n disgrifio ymddygiad corlun Rocks orau, pan gaiff y faner ei chlicio?
 
 
 ![corlun craig](images/rocks-sprite.png)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+Bydd corlun Rocks yn symud i safle ar hap nes ei fod yn cyffwrdd â **sprite 1** ac yn cyffwrdd â'r lliw du.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+Byddai'r blociau hyn yn cyd-fynd â'r disgrifiad hwnnw. <touching (sprite 1 v) ?> a <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+Bydd corlun Rocks yn symud i safle ar hap nes ei fod yn cyffwrdd â **sprite 1** neu heb gyffwrdd â'r lliw du.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> neu <ddim<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+Bydd corlun Rocks yn symud i safle ar hap nes ei fod yn cyffwrdd â **sprite 1** ac yn cyffwrdd ag unrhyw liw heblaw du.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+Cywir. Mae'r bloc `ddim`{:class='block3operators'} yn gwirio nad yw'n cyffwrdd â du.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+Bydd corlun Rocks yn symud i safle ar hap nes ei fod ddim yn cyffwrdd â **sprite 1** neu'r lliw du.
 
   --- feedback ---
 
