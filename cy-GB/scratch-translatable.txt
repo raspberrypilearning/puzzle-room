@@ -6,17 +6,17 @@ i fyny
 
 i lawr
 
-button pressed
+pwyswyd botwm
 
-button pressed...times
+pwyswyd botwm...gwaith
 
-task complete
+tasg wedi'i chwblhau
 
-handwheel turned
+olwyn law wedi'i throi
 
-handwheel turned...times
+olwyn law wedi'i throi...o weithiau
 
-turned
+wedi troi
 
 crosshair
 
@@ -24,16 +24,16 @@ port
 
 botwm
 
-go to position
+mynd i safle
 
-chair
+cadair
 
-at chair
+ar gadair
 
 true
 
 false
 
-asteroids
+asteroidau
 
-...asteroids destroyed
+...asteroid wedi'u dinistrio
