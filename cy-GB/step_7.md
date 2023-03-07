@@ -3,13 +3,13 @@
 Os oes gen ti amser, galli di uwchraddio dy brosiect.
 
 Dyma rai syniadau gallech chi roi cynnig arnyn nhw:
-- Add in extra sprites to provide more puzzles
-- Edit the backdrop and turn areas into new sprites
-- Add an extra challenge, by making the player complete all the challenges in a set time
+- Ychwanega gorluniau ychwanegol i ddarparu mwy o bosau
+- Golyga'r gefnlen a throi ardaloedd yn gorluniau newydd
+- Ychwanega her ychwanegol, trwy wneud i'r chwaraewr gwblhau'r holl heriau o fewn amser penodol
 
-You could use this [lever image](images/lever.png){:target='_blank'} as a new sprite, and this [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} with the bottom right levers removed to create a new task. Both are used in the project shown below.
+Gallet ddefnyddio'r [ddelwedd hon o lifer](images/lever.png){:target='_blank'} fel corlun newydd, a'r [ddelwedd hon o gefnlen newydd](images/upgrade-backdrop.png){:target='_blank'} gyda'r liferi gwaelod ar y dde wedi'u tynnu i greu tasg newydd. Defnyddir y ddau yn y prosiect a ddangosir isod.
 
-**Puzzle room upgrade**: [See inside](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
+**Uwchraddio ystafell posau**: [Gweld tu mewn i](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
 </div>
