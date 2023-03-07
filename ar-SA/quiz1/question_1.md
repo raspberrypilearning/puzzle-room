@@ -1,10 +1,10 @@
-## Quick quiz
+## اختبار سريع
 
-Answer the three questions. There are hints to guide you to the correct answer.
+أجب على الاسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+عندما تجيب على كل سؤال، انقر فوق **تحقق من إجابتي**.
 
-Have fun!
+استمتع!
 
 --- question ---
 
@@ -12,11 +12,11 @@ Have fun!
 القائمة: السؤال 1 من 3
 ---
 
-Here is the Monet character next to a big button:
+هذه هي شخصية Monet بجانب زر كبير:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![monet شخصية تقف بجانب زر أحمر كبير](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+ما المقاطع البرمجية التي ستستخدمها ، بحيث يتم عرض عدد مرات الضغط على الزر باستمرار ، حتى يتم الضغط على الزر إجمالي 7 مرات؟
 
 
 --- choices ---
@@ -34,7 +34,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+يوضح االمقطع البرمجي الخاص بك عدد مرات الضغط على الأزرار ، ولكنه يتوقف بعد ضغطات 5 فقط على الأزرار.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+سيتم تشغيل هذه المقاطع البرمجية مرة واحدة فقط في بداية اللعبة ، حيث لا توجد حلقة مستخدمة.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+نعم! يوضح هذا المقطع البرمجي عدد مرات الضغط على الزر في كل مرة ويقول إن المهمة قد اكتملت بعد 7 ضغطات على الزر.
 
   --- /feedback ---
 
@@ -84,7 +84,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+ستقول هذه المقاطع البرمجية الرقم `0` سبع مرات بسرعة كبيرة في بداية اللعبة ، حيث لا يوجد شرط للتحقق من قيمة المتغير.
 
   --- /feedback ---
 
