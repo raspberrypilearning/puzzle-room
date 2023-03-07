@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+Cyfeiriad mae'r saeth yn pwyntio
 
-The button is visible
+Mae'r botwm yn weladwy
 
-Button presses set to 0 at start
+Pwysau botwm wedi'u gosod i 0 ar y dechrau
 
-Keep repeating until button is pressed 5 times
+Cadwa ati i ailadrodd nes bod y botwm wedi'i wasgu 5 gwaith
 
-If close to Monet, then increase button press count
+Os yw'n agos at Monet, yna cynydda gyfrif gwasgiadau'r botwm
 
-If far from Monet, then reset button press count
+Os ymhell o Monet, yna ailosoda cyfrif gwasgiadau'r botwm
 
-Store the turnes of the wheel
+Storio troeon yr olwyn
 
-The handwheel has turned a full circle
+Mae'r olwyn law wedi troi cylch llawn
 
-Store the total number of turns
+Storio cyfanswm nifer y troeon
 
-Reset the angle that it has been turned
+Ailosod yr ongl y mae wedi troi
 
-Only show the crosshair when the mouse is touching the port
+Dangos y crosshair dim ond pan fydd y llygoden yn cyffwrdd â'r port
 
-Also not touching the edge of the port
+Hefyd nid yn cyffwrdd ymyl y port
 
-Hide the sprite
+Cuddio'r corlun
 
-Check that Monet is at the chair
+Gwiria fod Monet ar gadair
 
-10 asteroids have been destroyed
+Mae 10 asteroid wedi'u dinistrio
 
-Monet is at chair and crosshair is touching asteroid
+Mae Monet wrth y gadair ac mae crosshair yn cyffwrdd ag asteroid
 
-Store the number of asteroids destroyed
+Storio nifer yr asteroidau a ddinistriwyd
 
-Reset asteroid position
+Ailosod safle'r asteroid
