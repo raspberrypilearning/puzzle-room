@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## Pos yr asteroidau
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+Yn y cam hwn, byddi di'n creu'r pos mwyaf heriol. Byddi di'n creu pos i ddinistrio asteroidau peryglus.
 </div>
 <div>
 ![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+Bydd angen crosshair arnat y gelli ei ddefnyddio i dargedu'r asteroidau.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+Paentia gorlun newydd o'r enw **crosshair**. Dangosir enghraifft isod, gan ddefnyddio cylch a dwy linell. Gwna'r cylch yn solet i ddechrau ac yna addasa ei **llenwad** i dryloyw, ar ôl i ti benderfynu ar ei faint a'i leoliad.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![Crosshair sy'n cynnwys cylch coch bach gyda llinellau croeslin dwyreiniol, wedi'u canoli yn y cynfas.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+Newidia faint dy gorlun **crosshair** os oes angen.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**Awgrym**: Gelli di chwyddo i mewn ar y golygydd paent, gan ddefnyddio'r symbolau **+** a **-**, i'w gwneud hi'n haws lleoli, yn enwedig os wyt ti ar ddyfais symudol neu lechen.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+Bydd y crosshair yn dilyn y llygoden, ond dim ond trwy'r ffenestr i'r gofod y dylai fod yn weladwy.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+Defnyddia'r blociau canlynol fel bod y **crosshair** yn dilyn pwyntydd y llygoden.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Corlun crosshair.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**Profi:** Clicia'r faner werdd a sicrha bod y **crosshair** yn dilyn pwyntydd y llygoden.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+Gelli ddefnyddio bloc `os`{:class="block3control"} i brofi a yw'r **crosshair** yn cyffwrdd â chorlun **port**, fel ei fod wedi'i guddio pan fydd **ddim** yn ei gyffwrdd.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+Ychwanega brawf, i sicrhau bod y **crosshair** yn cyffwrdd â'r **port**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Corlun crosshair.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**Profi:** Clicia'r faner werdd a sicrha bod y **crosshair** yn cuddio pan nad yw'n cyffwrdd â'r **port**.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+Efallai y byddi di'n sylwi bod y crosshair yn ymddangos ar ymyl y **port** ac felly mae'n ymddangos ei fod y tu mewn i'r llong ofod. Gellir trwsio hyn trwy wirio nad yw'n cyffwrdd â lliw'r cefnlen.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+Ychwanega floc `neu`{:class="block3operators"} i'r bloc `os`{:class="block3control"}. Yr ail amod yw os yw'r **crosshair** yn cyffwrdd â'r lliw gwyrdd o amgylch y **port**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![Corlun crosshair.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**Awgrym:** Wrth i'r crosshair ddilyn pwyntydd y llygoden, gwna'n siŵr dy fod yn stopio dy brosiect cyn defnyddio'r dewisydd lliwiau.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+Nawr mae'n bryd creu'r asteroidau.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+Der o hyd i gorlun **Rocks** a'i ychwanegu at dy brosiect. Newidia faint y corlun fel nad yw'n rhy fawr.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+Efallai dy fod wedi gweld sut mae `fy mlociau`{:class="block3myblocks"} yn helpu i gadw trefn ar y cod ym mhrosiect [Nature rover](https://projects.raspberrypi.org/en/projects/nature-rover){:target = "_blank"}.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+Mae `Fy mlociau`{:class="block3myblocks"} hefyd yn helpu trwy sicrhau nad oes rhaid i ti ysgrifennu'r un cod dro ar ôl tro. Gelli ddefnyddio `fy mlociau`{:class="block3myblocks"} ar gyfer **Rocks** i'w gosod ym mhorth y llong ofod.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+Crea `floc` {:class="block3myblocks"} newydd a'i alw'n `mynd i safle`{:class="block3myblocks"}. Gall y man cychwyn fod yn unrhyw le ar y sgrin.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+Mae angen i gorlun **Rocks** barhau i ddod o hyd i safle ar hap nes ei fod yn cyffwrdd â'r **port** `a`{:class="block3operators"} ddim yn cyffwrdd ag ymyl y **port**. Mae hwn yn debyg i'r cod a ddefnyddiwyd gennyt ar y **crosshair**, ond y tro hwn byddi di'n defnyddio bloc `a`{:class="block3operators"}.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+Ychwanega floc `ailadrodd tan`{:class="block3control"} ac `a`{:class="block3operators"} i wneud yn siŵr bod **Rocks** yn dal i symud nes eu bod yn y safle cywir.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,36 +124,37 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Profi:** Clicia ar dy ddiffiniad `fy mlociau`{:class="block3myblocks"} a dylet weld Rocks yn symud ar hap o amgylch y sgrin, nes iddi stopio yn y port.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+Mae angen cuddio **Rocks** o'r golwg wrth iddynt symud, ond os ydynt wedi'u cuddio, ni fyddant yn cyffwrdd â'r **port**, felly gellir defnyddio effaith `ysbryd`{:class="block3looks"} i'w gwneud nhw'n anweledig.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+Gosoda'r effaith `ysbryd`{:class="block3looks"} ar y **Rocks** i `100` tra bod y corlun yn symud, ac yna cliria'r effaith graffigol.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
 go to (random position v)
 repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
 + set [ghost v] effect to (100) //Hide the sprite
+go to (random position v)
 end
 + clear graphic effects
 ```
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+Mae'r rhan olaf yn debyg i'r posau eraill. Gan ddefnyddio newidyn o'r enw `asteroidau`{:class="block3variables"}, cyfrifa pa mor aml mae'r **crosshair** yn cyffwrdd â'r **Rocks**. Bob tro mae'n gwneud hynny, mae'r newidyn asteroid yn cynyddu ac mae **Rocks** yn symud i safle newydd. Ond dim ond os yw'ch cymeriad wrth y gadair y dylai hyn weithio.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+Ar gorlun dy **gymeriad**, crea newidyn newydd o'r enw `ar gadair`{:class="block3variables"}, a'i osod i `true` pan fydd y cymeriad yn cyffwrdd â'r gadair a `false` pan nad ydynt.
 
-![The Monet sprite.](images/monet-sprite.png)
+![Corlun Monet.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -170,9 +171,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+Ychwanega'r blociau canlynol at gorlun **Rocks** i'w osod pan fydd y dasg wedi'i chwblhau.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -185,9 +186,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+Defnyddia floc `a`{:class="block3operators"} arall mewn bloc `os`{:class="block3control"} i wirio bod y **crosshair** yn cyffwrdd â'r rock a bod newidyn `ar gadair`{:class= "block3variables"} yn `true`.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -201,9 +202,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+Os yw'r amod wedi'i fodloni, yna gellir cynyddu'r newidyn `asteroidau`{:class="block3variables"} gan `1` a gellir galw'r `fy bloc`{:class="block3custom"} eto er mwyn i **Rocks** symud i safle newydd.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![Corlun Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -217,13 +218,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+Y peth olaf i'w wneud yw dweud wrth y chwaraewr am y dasg. Gellir gwneud hyn ar y corlun **port**.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+Ychwanega flociau i ddweud wrth y chwaraewr faint o asteroidau sydd wedi'u dinistrio.
 
-![The port sprite.](images/port-sprite.png)
+![Corlun port.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -238,7 +239,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**Profi:** Symuda dy gymeriad yn agos at y gadair, yna symuda'r crosshair o gwmpas a cheisia ddinistrio rhai asteroidau. Yna gelli addasu unrhyw un o'r gwerthoedd yn dy god sydd eu hangen arnat er mwyn gwneud iddo weithio'n dda ar gyfer maint dy gorluniau.
 
 --- /task ---
 
