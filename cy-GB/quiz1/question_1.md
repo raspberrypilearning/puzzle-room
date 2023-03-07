@@ -1,10 +1,10 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
 --- question ---
 
@@ -12,11 +12,11 @@ Have fun!
 legend: Cwestiwn 1 o 3
 ---
 
-Here is the Monet character next to a big button:
+Dyma'r cymeriad Monet wrth ymyl botwm mawr:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![cymeriad monet yn sefyll wrth ymyl botwm mawr coch](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+Pa flociau fyddet ti'n eu defnyddio, fel bod nifer y gwasgfeydd botwm yn cael eu harddangos yn barhaus, nes bod y botwm wedi'i wthio cyfanswm o 7 gwaith?
 
 
 --- choices ---
@@ -34,7 +34,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+Mae dy sgript yn dweud y nifer o wasgiau botwm, fodd bynnag mae'n stopio ar ôl dim ond 5 gwasg botwm.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+Dim ond unwaith y byddai'r blociau hyn yn rhedeg ar ddechrau'r gêm, gan nad oes dolen yn cael ei defnyddio.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+Iawn! Mae'r sgript hon yn dweud sawl gwaith mae'r botwm wedi'i wasgu bob tro ac yn dweud bod y dasg wedi'i chwblhau ar ôl pwyso botwm 7 gwaith.
 
   --- /feedback ---
 
@@ -84,7 +84,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+Byddai'r blociau hyn yn dweud y rhif `0` saith gwaith yn gyflym iawn ar ddechrau'r gêm, gan nad oes unrhyw amod yn gwirio gwerth y newidyn.
 
   --- /feedback ---
 
