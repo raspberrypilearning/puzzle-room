@@ -94,9 +94,9 @@ else
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //If close to Monet, then increase button press count
++ change [button pressed v] by (1) //Monet जवळ असल्यास, बटन दाबण्याची संख्या वाढवा
 else
-+ set [button press v] to (0) //If far from Monet, then reset button press count
++ set [button press v] to (0) //Monet पासून लांब असल्यास, बटन दाबण्याची संख्या रीसेट करा
 ```
 
 --- /task ---
