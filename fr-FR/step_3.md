@@ -92,11 +92,11 @@ Ajoute du code pour modifier la valeur de la variable `bouton pressé`{:class="b
 ![Le sprite bouton.](images/button-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(distance to (Monet v)) < (50)> then
-+ change [bouton pressé v] by (1) //Si proche de Monet, augmente le nombre de pressions sur le bouton
-else
-+ set [bouton pressé v] to (0) //Si loin de Monet, alors remets le compte de pression sur le bouton à zéro
+quand ce sprite est cliqué 
+si <(distance jusqu'à (Monet v)) < (50)> alors
++ changer [bouton appuyé v] de (1) //Si près de Monet, alors augmenter le nombre de boutons pressés
+sinon
++ mettre [bouton appuyé v] à (0) //Si loin du Monet, alors réinitialiser le nombre de boutons pressés
 ```
 
 --- /task ---
