@@ -5,7 +5,7 @@
 ఈ దశలో, మీరు హ్యాండ్‌వీల్‌ను తిప్పాల్సిన పజిల్‌ని సృష్టిస్తారు.
 </div>
 <div>
-![](images/step_4.gif){:width="300px"}
+![The character moves across the screen to the handwheel and begins turning it. The amount of turn is counted in the variable label and as each full turn is completed a specch bubble counts the amount of turns.](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
