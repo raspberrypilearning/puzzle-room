@@ -22,9 +22,8 @@ Tu vas devoir :
 Euh, le vaisseau spatial rencontre quelques difficultés ! Utilise les flèches pour que le personnage de l'ingénieur se déplace dans le vaisseau spatial. Peux-tu les aider à résoudre toutes les énigmes et aider le vaisseau spatial ?
 </div>
 <div>
-**Salle des énigmes**: [Voir à l'intérieur](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
