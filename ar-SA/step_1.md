@@ -22,9 +22,8 @@
 أوه ، تواجه سفينة الفضاء بعض الصعوبات! استخدم الأسهم للحصول على شخصية المهندس للتحرك حول سفينة الفضاء. هل يمكنك مساعدتهم في حل جميع الألغاز ومساعدة سفينة الفضاء؟
 </div>
 <div>
-**غرفة الألغاز**: [اطلع على البرنامج](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
