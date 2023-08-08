@@ -5,7 +5,7 @@
 In deze stap maak je een puzzel waar een wiel moet worden gedraaid.
 </div>
 <div>
-![The character moves across the screen to the handwheel and begins turning it. The amount of turn is counted in the variable label and as each full turn is completed a specch bubble counts the amount of turns.](images/step_4.gif){:width="300px"}
+![Het personage beweegt over het scherm naar het handwiel en begint eraan te draaien. The amount of turn is counted in the variable label and as each full turn is completed a specch bubble counts the amount of turns.](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
