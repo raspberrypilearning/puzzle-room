@@ -22,9 +22,8 @@ Byddi di'n:
 O na, mae'r llong ofod yn wynebu rhai anawsterau! Defnyddia'r saethau i gael cymeriad y peiriannydd i symud o gwmpas y llong ofod. Elli di eu helpu i ddatrys yr holl bosau a helpu'r llong ofod?
 </div>
 <div>
-**Ystafell posau**: [Gweld tu mewn](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
