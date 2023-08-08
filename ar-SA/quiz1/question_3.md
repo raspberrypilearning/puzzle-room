@@ -34,7 +34,7 @@ go to (random position v)
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> أو <not<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
