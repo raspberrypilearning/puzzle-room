@@ -5,7 +5,7 @@
 Σε αυτό το βήμα, θα δημιουργήσεις τον πιο απαιτητικό γρίφο. Θα δημιουργήσεις έναν γρίφο για να καταστρέψεις επικίνδυνους αστεροειδείς.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
