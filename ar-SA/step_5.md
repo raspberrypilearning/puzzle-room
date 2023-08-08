@@ -5,7 +5,7 @@
 في هذه الخطوة ، ستنشئ اللغز الأكثر تحديًا. سوف تصنع لغزًا لتدمير الكويكبات الخطرة.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
@@ -139,8 +139,8 @@ go to (random position v)
 ```blocks3
 define go to position
 go to (random position v)
-repeat until <<touching (port v) ?> and <not <touching color (#69B486) ?>>
-+ set [ghost v] effect to (100) //Hide the sprite
+repeat until <<touching (المنفذ v) ?> and <not <touching color (#69B486) ?>>
++ set [ghost v] effect to (100) //إخفاء الكائن
 go to (random position v)
 end
 + clear graphic effects
