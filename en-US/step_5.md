@@ -5,7 +5,7 @@
 In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
