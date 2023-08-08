@@ -94,9 +94,9 @@ else
 ```blocks3
 when this sprite clicked
 if <(distance to (Monet v)) < (50)> then
-+ change [button pressed v] by (1) //If close to Monet, then increase button press count
++ change [الضغط على زر v] by (1) //إذا كنت قريبًا من Monet ، فقم بزيادة عدد الضغط على الزر
 else
-+ set [button pressed v] to (0) //If far from Monet, then reset button press count
++ set [الضغط على زر v] to (0) //إذا كان بعيدًا عن Monet ، فقم بإعادة تعيين الضغط على الزر
 ```
 
 --- /task ---
