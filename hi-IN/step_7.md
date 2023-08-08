@@ -8,10 +8,8 @@
 - खिलाड़ी को एक निर्धारित समय में सभी चुनौतियों को पूरा करवाने के लिए एक अतिरिक्त चुनौती जोड़ें
 
 आप इस [lever image](images/lever.png){:target='_blank'} को एक नए स्प्राइट के रूप में उपयोग कर सकते हैं और एक नया कार्य बनाने के लिए इस [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} के निचले दाएं लीवर को हटाकर । नीचे दिखाए गए प्रोजेक्ट में दोनों का उपयोग किया जाता है।
-
-**पजल रूम का अपग्रेड**: [अंदर देखें ](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 --- save ---
