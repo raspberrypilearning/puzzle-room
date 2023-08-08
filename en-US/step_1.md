@@ -22,9 +22,8 @@ You will:
 Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
 </div>
 <div>
-**Puzzle room**: [See inside](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
