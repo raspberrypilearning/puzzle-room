@@ -22,9 +22,8 @@
 Uh oh, the spaceship is encountering some difficulties! स्पेसशिप भोवती फिरण्यास कॅरेक्टर तयार करण्यासाठी ऍरोचा वापर करा. सर्व कोडी सोडविण्यासाठी आणि स्पेसशिपला मदत करण्यासाठी तुम्ही त्यांना मदत करू शकता का?
 </div>
 <div>
-**पझल रूम**: [आत बघा](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
