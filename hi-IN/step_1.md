@@ -22,9 +22,8 @@
 Uh oh, the spaceship is encountering some difficulties! इंजीनियर चरित्र को अंतरिक्ष यान के चारों ओर घूमने के लिए तीरों का उपयोग करें। क्या आप सभी पहेलियों को सुलझाने और अंतरिक्ष यान की मदद करने में उनकी मदद कर सकते हैं?
 </div>
 <div>
-**पज़्ज़ल रूम**: [अंदर देखें](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
