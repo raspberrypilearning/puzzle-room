@@ -5,7 +5,7 @@
 ఈ దశలో, మీరు అత్యంత సవాలుగా ఉండే పజిల్‌ని సృష్టిస్తారు. ప్రమాదకరమైన గ్రహశకలాలు అనగా ఆస్టరాయిడ్ లను నాశనం చేయడానికి మీరు ఒక పజిల్‌ని సృష్టిస్తారు.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
