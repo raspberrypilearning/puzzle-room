@@ -8,10 +8,8 @@
 - ಆಟಗಾರ ನಿಗದಿತ ಸಮಯದಲ್ಲಿ ಎಲ್ಲಾ ಸವಾಲುಗಳನ್ನು ಪೂರ್ಗೊಳಿಸುವಂತೆ ಮಾಡಿ, ಹೆಚ್ಚುವರಿ ಸವಾಲನ್ನು ಸೇರಿಸಿ
 
 ನೀವು ಇದನ್ನು [lever image](images/lever.png){:target='_blank'} ಹೊಸ ಸ್ಪ್ರೈಟ್‌ ಆಗಿ ಉಪಯೋಗಿಸಬಹುದು, ಮತ್ತು ಈ [new backdrop image](images/upgrade-backdrop.png){:target='_blank'} ನ್ನು ಕೆಳಗಿನ ಬಲ ಲೀವರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಹೊಸ ಕಾರ್ಯ ರಚಿಸಲು ಉಪಯೋಗಿಸಬಹುಸು. ಈ ಕೆಳಗೆ ತೋರಿಸಿರುವ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ಎರಡನ್ನು ಉಪಯೋಗಿಸಲಾಗಿದೆ.
-
-**ಪಝಲ್‌ ಕೊಠಡಿ ಅಪ್‌ಗ್ರೇಡ್**: [ಇದರೊಳಗೆ ನೋಡಿ](https://scratch.mit.edu/projects/540387423/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/540387423/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 --- save ---
