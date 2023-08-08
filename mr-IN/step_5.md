@@ -5,7 +5,7 @@
 या टप्प्यात, तुम्ही अधिक आव्हानात्मक कोडे तयार कराल. तुम्ही धोकादायक ऍस्ट्रॉइड्स तयार करण्यासाठी कोडे तयार कराल.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
