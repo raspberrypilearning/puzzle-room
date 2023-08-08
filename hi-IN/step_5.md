@@ -5,7 +5,7 @@
 इस चरण में, आप सबसे चुनौतीपूर्ण पहेली बनाएंगे। आप खतरनाक क्षुद्रग्रहों को नष्ट करने के लिए एक पहेली तैयार करेंगे।
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
