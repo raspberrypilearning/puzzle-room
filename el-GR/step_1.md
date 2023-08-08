@@ -22,9 +22,8 @@ Create a spaceship puzzle room with a character that solves puzzles.
 Uh oh, the spaceship is encountering some difficulties! Χρησιμοποίησε τα βέλη για να κάνεις τον χαρακτήρα του/της μηχανικού να κινηθεί σε όλο το διαστημόπλοιο. Μπορείς να τον/την βοηθήσεις να λύσει όλους τους γρίφους και να βοηθήσει το διαστημόπλοιο;
 </div>
 <div>
-**Δωμάτιο με γρίφους**: [Δες μέσα](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
