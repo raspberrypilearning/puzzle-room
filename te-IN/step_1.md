@@ -22,9 +22,8 @@
 Uh oh, the spaceship is encountering some difficulties! ఇంజనీర్ పాత్రను స్పేస్‌షిప్ చుట్టూ తరలించడానికి బాణాలను ఉపయోగించండి. మీరు వాటిని అన్ని పజిల్స్ పరిష్కరించడానికి మరియు స్పేస్ షిప్ కి సహాయం చేయవచ్చు?
 </div>
 <div>
-**పజిల్ రూమ్**: [లోపల చూడండి](https://scratch.mit.edu/projects/536877672/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/536877672/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
