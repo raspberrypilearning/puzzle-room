@@ -5,7 +5,7 @@
 In deze stap maak je de meest uitdagende puzzel. Je maakt een puzzel om gevaarlijke asteroïden te vernietigen.
 </div>
 <div>
-![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
+![Animatie waarin het personage naar de stoel beweegt. Dan verschijnt een dradenkruis en verschijnen er asteroïden die worden neergeschoten. Een tekstballon telt het aantal neergeschoten asteroïden.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
