@@ -5,7 +5,7 @@
 Dans cette étape, tu vas créer l'énigme la plus difficile. Tu vas créer une énigme pour détruire des astéroïdes dangereux.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
