@@ -92,11 +92,11 @@ Voeg code toe om de waarde van de variabele `op knop geduwd`{:class="block3varia
 ![De knop sprite.](images/button-sprite.png)
 
 ```blocks3
-when this sprite clicked
-if <(distance to (Monet v)) < (50)> then
-+ change [knop ingedrukt v] by (1) //Als je dicht bij Monet bent, verhoog je het aantal keren dat op de knop is gedrukt
-else
-+ set [knop ingedrukt v] to (0) //Als je ver van Monet bent, reset je het aantal keren dat op de knop is gedrukt
+wanneer op deze sprite wordt geklikt
+als <(afstand tot (Monet v)) < (50)> dan
++ verander [knop ingedrukt v] met (1) //Als je dicht bij Monet bent, verhoog je het aantal keren dat op de knop is gedrukt
+anders
++ maak [knop ingedrukt v] (0) //Als je ver van Monet bent, reset je het aantal keren dat op de knop is gedrukt
 ```
 
 --- /task ---
