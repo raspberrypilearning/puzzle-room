@@ -137,12 +137,12 @@ Stel het `transparant`{:class="block3looks"} effect op de **Rocks** in op `100` 
 ![De Rocks sprite.](images/rocks-sprite.png)
 
 ```blocks3
-define ga naar positie
-go to (random position v)
-repeat until <<touching (raam v) ?> and <not <touching color (#69B486) ?>>
-+ set [ghost v] effect to (100) //Verberg de sprite
-end
-+ clear graphic effects
+definieer ga naar positie
+ga naar (willekeurige positie v)
+herhaal tot <<touching (port v) ?> en <niet <touching color (#69B486) ?>>
++ zet [transparant v] effect op (100) //Verberg de sprite
+einde
++ zet alle effecten uit
 ```
 
 --- /task ---
