@@ -1,11 +1,11 @@
-## De wiel puzzel
+## De wielpuzzel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In deze stap maak je een puzzel waar een wiel moet worden gedraaid.
 </div>
 <div>
-![](images/step_4.gif){:width="300px"}
+![Het personage beweegt over het scherm naar het handwiel en begint eraan te draaien. Het aantal draaien wordt geteld in het variabele label en als elke volledige draai is voltooid, telt een tekst ballon het aantal draaien.](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
@@ -21,7 +21,7 @@ Het `wanneer op de groene vlag wordt geklikt`{:class='block3events'} script is h
 
 --- task ---
 
-Maak een nieuwe variabele met de naam `wiel gedraaid`{:class="block3variables"}, en gebruik die variabele in plaats van de `op knop geduwd`{:class="block3variables"} variabele.
+Maak een nieuwe variabele met de naam `wiel gedraaid`{:class="block3variables"}, en gebruik die variabele in plaats van de `knop ingedrukt`{:class="block3variables"} variabele.
 
 **Kies:** Kies zelf het getal dat aangeeft wanneer de opdracht is voltooid. We kozen `3` in het voorbeeld.
 
@@ -79,7 +79,7 @@ else
 
 **Test**: Beweeg de **Monet** sprite (of je personage sprite) dicht genoeg bij het **wiel** en klik vervolgens op de **wiel** sprite. Het helpt om de volledig scherm weergave modus te gebruiken, zodat je de **wiel** sprite niet kunt verslepen.
 
-Wanneer de variabele `gedraaid`{:class="block3variables"} `360` bereikt, is het wiel eenmaal gedraaid; dit kan nu worden opgeslagen in de variabele `aan wiel gedraaid`{:class="block3variables"}.
+Wanneer de variabele `gedraaid`{:class="block3variables"} `360` bereikt, is het wiel eenmaal gedraaid; dit kan nu worden opgeslagen in de variabele `wiel gedraaid`{:class="block3variables"}.
 
 --- task ---
 
