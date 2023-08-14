@@ -5,7 +5,7 @@
 In deze stap maak je de meest uitdagende puzzel. Je maakt een puzzel om gevaarlijke asteroïden te vernietigen.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
+![Animatie waarin het personage naar de stoel beweegt. Dan verschijnt een dradenkruis en verschijnen er asteroïden die worden neergeschoten. Een tekstballon telt het aantal neergeschoten asteroïden.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
@@ -41,7 +41,7 @@ go to (mouse-pointer v)
 
 --- /task ---
 
-Je kunt een `als`{:class="block3control"} blok gebruiken om te testen of het **dradenkruis** de **raam** sprite raakt, zodat het verborgen is wanneer hij het raam**niet** raakt.
+Je kunt een `als`{:class="block3control"} blok gebruiken om te testen of het **dradenkruis** de **raam** sprite raakt, zodat het verborgen is wanneer hij het raam **niet** raakt.
 
 --- task ---
 
@@ -185,7 +185,7 @@ repeat until <(asteroïden) = (10)> //10 asteroïden zijn vernietigd
 
 --- task ---
 
-Gebruik een ander `en`{:class="block3operators"} blok in een `als`{:class="block3control"} blok om te controleren of het **dradenkruis** de rock raakt en of de `bij de stoel`{:class="block3variables"} variabele `code>code>waar`{:class="block3variables"} is.
+Gebruik een ander `en`{:class="block3operators"} blok in een `als`{:class="block3control"} blok om te controleren of het **dradenkruis** de rock raakt en of de `in de stoel`{:class="block3variables"} variabele `code>code>waar`{:class="block3variables"} is.
 
 ![De Rocks sprite.](images/rocks-sprite.png)
 
