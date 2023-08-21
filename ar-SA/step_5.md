@@ -5,7 +5,7 @@
 في هذه الخطوة ، ستنشئ اللغز الأكثر تحديًا. سوف تصنع لغزًا لتدمير الكويكبات الخطرة.
 </div>
 <div>
-![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
+! [رسم متحرك يظهر تحريك الشخصية للكرسي. ثم يظهر التقاطع وتظهر الكويكبات ويتم إطلاقها. فقاعة كلامية تحسب عدد الكويكبات التي تم التقاطها.] (images / step_5.gif) {: width = "300px"}
 </div>
 </div>
 
