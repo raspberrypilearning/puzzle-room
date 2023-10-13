@@ -5,7 +5,7 @@
 Σε αυτό το βήμα, θα δημιουργήσεις έναν γρίφο όπου πρέπει να γυρίσεις έναν χειροτροχό.
 </div>
 <div>
-![The character moves across the screen to the handwheel and begins turning it. The amount of turn is counted in the variable label and as each full turn is completed a specch bubble counts the amount of turns.](images/step_4.gif){:width="300px"}
+![Ο χαρακτήρας κινείται κατά μήκος της οθόνης στον χειροτροχό και αρχίζει να τον γυρίζει. Το πλήθος των περιστροφών καταμετράται στην μεταβλητή και μόλις ολοκληρώνεται μια πλήρης περιστροφή, ένα συννεφάκι ομιλίας μετράει τον αριθμό των περιστροφών.](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
