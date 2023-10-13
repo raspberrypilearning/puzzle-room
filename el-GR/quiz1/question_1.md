@@ -1,10 +1,10 @@
-## Quick quiz
+## Γρήγορο κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν συμβουλές που θα σε καθοδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, κάνε κλικ στο **Έλεγξε την απάντησή μου**.
 
-Have fun!
+Διασκέδασέ το!
 
 --- question ---
 
@@ -12,11 +12,11 @@ Have fun!
 legend: Ερώτηση 1 από 3
 ---
 
-Here is the Monet character next to a big button:
+Εδώ είναι ο χαρακτήρας Monet δίπλα σε ένα μεγάλο κουμπί:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![ο χαρακτήρας Monet που στέκεται δίπλα σε ένα μεγάλο κόκκινο κουμπί](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+Ποια μπλοκ θα χρησιμοποιούσες, ώστε ο αριθμός των πατημάτων των κουμπιών να εμφανίζεται συνεχώς, μέχρι να πατηθεί το κουμπί συνολικά 7 φορές;
 
 
 --- choices ---
@@ -34,7 +34,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+Το script σου λέει τον αριθμό των πατημάτων κουμπιών, ωστόσο σταματά μετά από μόνο 5 πατήματα κουμπιών.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+Αυτά τα μπλοκ θα τρέξουν μόνο μία φορά στην αρχή του παιχνιδιού, καθώς δεν χρησιμοποιείται βρόχος.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+Ναι! Αυτό το script λέει πόσες φορές έχει πατηθεί το κουμπί κάθε φορά και λέει ότι η εργασία ολοκληρώθηκε μετά από 7 πατήματα κουμπιών.
 
   --- /feedback ---
 
@@ -84,7 +84,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+Αυτά τα μπλοκ θα έλεγαν τον αριθμό `0` επτά φορές πολύ γρήγορα στην αρχή του παιχνιδιού, καθώς δεν υπάρχει συνθήκη που να ελέγχει την τιμή της μεταβλητής.
 
   --- /feedback ---
 
