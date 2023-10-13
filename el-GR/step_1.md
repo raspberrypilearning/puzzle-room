@@ -1,6 +1,6 @@
-## You will make
+## Θα φτιάξεις
 
-Create a spaceship puzzle room with a character that solves puzzles.
+Δημιούργησε ένα δωμάτιο με γρίφους σε διαστημόπλοιο με έναν χαρακτήρα που λύνει γρίφους.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Δωμάτια με γρίφους**</span>, ή ** δωμάτια απόδρασης**, είναι δωμάτια που περιέχουν γρίφους που πρέπει να λύσεις για να βγεις από το δωμάτιο ή για να μπεις στο διπλανό δωμάτιο. Μπορούν να είναι διαδικτυακά ή πραγματικά δωμάτια, αλλά η ιδέα είναι συνήθως η ίδια: ολοκλήρωσε την αποστολή όσο πιο γρήγορα μπορείς!
@@ -13,13 +13,13 @@ Create a spaceship puzzle room with a character that solves puzzles.
 
 --- no-print ---
 
-### Play ▶️
+### Δοκίμασέ το ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! Χρησιμοποίησε τα βέλη για να κάνεις τον χαρακτήρα του/της μηχανικού να κινηθεί σε όλο το διαστημόπλοιο. Μπορείς να τον/την βοηθήσεις να λύσει όλους τους γρίφους και να βοηθήσει το διαστημόπλοιο;
+Ωχ, το διαστημόπλοιο αντιμετωπίζει κάποιες δυσκολίες! Χρησιμοποίησε τα βέλη για να κάνεις τον χαρακτήρα του/της μηχανικού να κινηθεί σε όλο το διαστημόπλοιο. Μπορείς να τον/την βοηθήσεις να λύσει όλους τους γρίφους και να βοηθήσει το διαστημόπλοιο;
 </div>
 <div>
 <div class="scratch-preview" style="margin-left: 15px;">
