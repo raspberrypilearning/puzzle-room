@@ -2,15 +2,15 @@
 title: Δωμάτιο με γρίφους
 hero_image: images/banner.png
 description: Δημιούργησε ένα δωμάτιο με γρίφους σε διαστημόπλοιο με έναν χαρακτήρα που λύνει τους γρίφους.
-meta_title: Scratch coding projects for kids and teens | Puzzle room
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Create an escape room in Scratch with a character that solves puzzles.
+meta_title: Έργα κώδικα σε Scratch για παιδιά και εφήβους | Δωμάτιο με γρίφους
+meta_description: Μάθε το Scratch με τα έργα κώδικα του Ιδρύματος Raspberry Pi για παιδιά και εφήβους. Δημιούργησε ένα escape room με Scratch με έναν χαρακτήρα που λύνει γρίφους.
 version: 4
 listed: true
 copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Τι θα φτιάξεις
   - 
     title: Ποιος είναι στο δωμάτιο των γρίφων;
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
