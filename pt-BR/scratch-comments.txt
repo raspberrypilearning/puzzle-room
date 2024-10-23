@@ -1,35 +1,35 @@
-Direction the arrow is pointing
+Direção que a seta está apontando
 
-The button is visible
+O botão está visível
 
-Button presses set to 0 at start
+Número de vezes do botão pressionado definido para 0 no início
 
-Keep repeating until button is pressed 5 times
+Continue repetindo até que o botão seja pressionado 5 vezes
 
-If close to Monet, then increase button press count
+Se estiver perto de Monet, aumente a contagem de vezes que o botão foi pressionado
 
-If far from Monet, then reset button press count
+Se estiver longe de Monet, reinicie a contagem de vezes que o botão foi pressionado
 
-Store the turnes of the wheel
+Armazene os giros da roda-manual
 
-The handwheel has turned a full circle
+A roda-manual deu uma volta completa
 
-Store the total number of turns
+Armazene o número total de voltas
 
-Reset the angle that it has been turned
+Redefinir o ângulo em que foi girado
 
-Only show the crosshair when the mouse is touching the port
+Mostrar apenas a mira quando o mouse está tocando a janela
 
-Also not touching the edge of the port
+Também não está tocando a borda da janela
 
-Hide the sprite
+Ocultar o ator
 
-Check that Monet is at the chair
+Verifique se o Monet está na cadeira
 
-10 asteroids have been destroyed
+10 asteroides foram destruídos
 
-Monet is at chair and crosshair is touching asteroid
+Monet está na cadeira e a mira está tocando o asteroide
 
-Store the number of asteroids destroyed
+Armazene o número de asteroides destruídos
 
-Reset asteroid position
+Redefinir posição do asteroide
