@@ -1,35 +1,35 @@
-## The asteroids puzzle
+## O quebra-cabeça dos asteróides
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the most challenging puzzle. You will create a puzzle to destroy dangerous asteroids.
+Neste passo, você vai criar o quebra-cabeça mais desafiador. Você criará um quebra-cabeça para destruir asteroides perigosos.
 </div>
 <div>
-![Animation showing the character moving to the chair. Then a crosshair appears and asteroids appear and are shot. A speech bubble counts the number of asteroids shot.](images/step_5.gif){:width="300px"}
+![Animação mostrando o personagem se movendo para a cadeira. Então uma mira aparece e os asteroides aparecem e são acertados. Um balão de conversa conta o número de asteroides atirados.](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
-You will need a crosshair that you can use to target the asteroids.
+Você precisará de uma mira que possa usar para mirar nos asteroides.
 
 --- task ---
 
-Paint a new sprite called **crosshair**. An example is shown below, using a circle and two lines. Make the circle solid initially and then adjust its **fill** to transparent, once you have it sized and positioned.
+Pinte um novo ator chamado **mira**. Um exemplo é mostrado abaixo, usando um círculo e duas linhas. Torne o círculo sólido inicialmente e então ajuste o **preencher** para transparente, uma vez que você o tenha no tamanho certo e posicionado.
 
-![A crosshair consisting of a small red circle with bisecting diagonal lines, centred in the canvas.](images/draw-crosshair.png)
+![Uma mira composta por um pequeno círculo vermelho com linhas diagonais centralizada na tela.](images/draw-crosshair.png)
 
-Resize your **crosshair** sprite if you need to.
+Redimensione seu ator **mira** se precisar.
 
-**Tip**: You can zoom in on the paint editor, using the **+** and **-** symbols, to make positioning easier, especially if you are on a mobile or tablet device.
+**Dica**: Você pode ampliar no editor de fantasias, usando o ** + ** e ** - ** símbolos, para facilitar o posicionamento, especialmente se você estiver em um dispositivo móvel ou tablet.
 
 --- /task ---
 
-The crosshair will follow the mouse, but it should only be visible through the window into space.
+A mira seguirá o mouse, mas ele só deve ser visível através da janela para o espaço.
 
 --- task ---
 
-Use the following blocks so that the **crosshair** follows the mouse-pointer.
+Use os seguintes blocos para que a **mira** siga o ponteiro do mouse.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![O ator da mira.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ forever
 go to (mouse-pointer v)
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** follows the mouse-pointer.
+**Teste:** Clique na bandeira verde e certifique-se de que a **mira** siga o ponteiro do mouse.
 
 --- /task ---
 
-You can use an `if`{:class="block3control"} block to test if the **crosshair** is touching the **port** sprite, so that it is hidden when it is **not** touching it.
+Você pode usar um bloco `se`{:class="block3control"} para testar se **mira** está tocando o ator **janela**, para que fique escondido quando **não** estiver tocando.
 
 --- task ---
 
-Add a test, to make sure that the **crosshair** is touching the **port**.
+Adicione um teste para ter certeza de que a **mira** está tocando a **janela**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![O ator da mira.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,17 +58,17 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Test:** Click the green flag and make sure that the **crosshair** hides when it is not touching the **port**.
+**Teste:** Clique na bandeira verde e certifique-se de que a **mira** se esconde quando não está tocando a **janela**.
 
 --- /task ---
 
-You might notice that the crosshair appears at the very edge of the **port** and so appears to be inside the spaceship. This can be fixed by checking it's not touching a colour of the backdrop.
+Você pode notar que a mira aparece na borda da **janela** e parece estar dentro da nave espacial. Isso pode ser corrigido verificando que não está tocando a cor do pano de fundo.
 
 --- task ---
 
-Add an `or`{:class="block3operators"} block to the `if`{:class="block3control"} block. The second condition is if the **crosshair** is touching the green colour that surrounds the **port**.
+Adicione um bloco `ou`{:class="block3operators"} ao bloco `se`{:class="block3control"}. A segunda condição é se a **mira** está tocando a cor verde que envolve a **janela**.
 
-![The crosshair sprite.](images/crosshair-sprite.png)
+![O ator da mira.](images/crosshair-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -79,27 +79,27 @@ go to (mouse-pointer v)
 hide
 ```
 
-**Tip:** As the crosshair follows the mouse-pointer, make sure you stop your project before using the colour picker.
+**Dica:** Como a mira segue o ponteiro do mouse, certifique-se de interromper o projeto antes de usar o seletor de cores.
 
 --- /task ---
 
-Now it's time to create the asteroids.
+Agora é hora de criar os asteroides.
 
 --- task ---
 
-Find a **Rocks** sprite and add it to your project. Resize the sprite so that it is not too big.
+Encontre um ator **Rocks** e adicione-o ao seu projeto. Redimensione o ator para que não fique muito grande.
 
 --- /task ---
 
-You may have seen how `my blocks`{:class="block3myblocks"} help keep code organised in the [Nature rover project](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
+Você deve ter visto como `meus blocos`{:class="block3myblocks"} ajuda a manter o código organizado no [Projeto](https://projects.raspberrypi.org/en/projects/nature-rover){:target="_blank"}.
 
-`My blocks`{:class="block3myblocks"} also help by making it so you don't have to write the same code over and over again. You can use `my blocks`{:class="block3myblocks"} for the **Rocks** to position them in the spaceship's port.
+`Meus blocos`{:class="block3myblocks"} também ajudam, fazendo com que você não precise escrever o mesmo código várias vezes. Você pode usar `meus blocos`{:class="block3myblocks"} para as **Rocks** para posicioná-las na janela da nave espacial.
 
 --- task ---
 
-Create a new `block`{:class="block3myblocks"} and call it `go to position`{:class="block3myblocks"}. The starting position can be anywhere on the screen.
+Crie um novo `bloco`{:class="block3myblocks"} e chame-o de `vá para a posição`{:class="block3myblocks"}. A posição inicial pode estar em qualquer lugar na tela.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -108,13 +108,13 @@ go to (random position v)
 
 --- /task ---
 
-The **Rocks** sprite needs to keep finding a random position until it is touching the **port** `and`{:class="block3operators"} not touching the edge of the **port**. This is similar to the code you used on the **crosshair**, but this time you will use an `and`{:class="block3operators"} block.
+O ator **Rocks** precisa continuar encontrando uma posição aleatória enquanto esta tocando a **janela** `e`{:class ="block3operators"} não tocando a borda da **porta**. Isso é semelhante ao código que você usou na **mira**, mas desta vez você usará um bloco `e`{:class="block3operators"}.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} and an `and`{:class="block3operators"} block to make sure that the **Rocks** keep moving until they are in the correct position.
+Adicione um `repita até que`{:class="block3control"} e um bloco `e`{:class="block3operators"} para garantir que o ator **Rocks** se mova até que ele esteja na posição correta.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -124,17 +124,17 @@ go to (random position v)
 
 ```
 
-**Test:** Click on your `my blocks`{:class="block3myblocks"} definition and you should see the rock move randomly around the screen, until it stops in the port.
+**Teste:** Clique no `Meus blocos`{:class="block3myblocks"} e você deve ver a rocha se mover aleatoriamente pela tela, até parar na janela.
 
 --- /task ---
 
-The **Rocks** need to be hidden from view as they move, but if they are hidden, they won't be touching the **port**, so a `ghost`{:class="block3looks"} effect can be used to make them invisible.
+O **Rocks** precisa ser escondido da vista enquanto se movem, mas se estiverem escondidos, eles não estarão tocando a **janela**, então um efeito `fantasma`{:class="block3looks"} pode ser usado para torná-los invisíveis.
 
 --- task ---
 
-Set the `ghost`{:class="block3looks"} effect on the **Rocks** to `100` while the sprite is moving, and then clear the graphical effect.
+Defina o efeito `fantasma`{:class="block3looks"} no **Rocks** para `100` enquanto o ator estiver se movendo, e depois limpe o efeito gráfico.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 define go to position
@@ -148,13 +148,13 @@ end
 
 --- /task ---
 
-The last part is similar to the other puzzles. Using a variable called `asteroids`{:class="block3variables"}, count how often the **crosshair** touches the **Rocks**. Each time it does, the asteroid variable increases and the **Rocks** move to a new position. This should only work if your character is at the chair though.
+A última parte é semelhante aos outros quebra-cabeças. Usando uma variável chamada `asteroides`{:class="block3variables"}, conte quantas vezes a **mira** toca o **Rocks**. A cada vez que o faz, a variável asteroide aumenta e o **Rocks** se move para uma nova posição. Mas isso só deve funcionar se o seu personagem estiver na cadeira.
 
 --- task ---
 
-On your **character** sprite, create a new variable called `at chair`{:class="block3variables"}, and set it to `true` when the character is touching the chair and `false` when they are not.
+No seu ator **personagem**, crie uma nova variável chamada `na cadeira`{:class="block3variables"}, e definir como `verdadeiro` quando o personagem estiver tocando a cadeira e `falso` quando não estiverem.
 
-![The Monet sprite.](images/monet-sprite.png)
+![O ator do personagem Monet.](images/monet-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -171,9 +171,9 @@ set [at chair v] to [false]
 
 --- task ---
 
-Add the following blocks to the **Rocks** sprite to set when the task is complete.
+Adicione os seguintes blocos ao ator **Rocks** para definir quando a tarefa for concluída.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -186,9 +186,9 @@ repeat until <(asteroids) = (10)> //10 asteroids have been destroyed
 
 --- task ---
 
-Use another `and`{:class="block3operators"} block in an `if`{:class="block3control"} block to check that the **crosshair** is touching the rock and that the `at chair`{:class="block3variables"} variable is `true`.
+Use outro bloco `e`{:class="block3operators"} em um bloco `se`{:class="block3control"} para verificar que a **mira** esta tocando a rocha e a variável `na cadeira`{:class="block3variables"} é `verdadeiro`.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -202,9 +202,9 @@ go to position ::custom
 
 --- task ---
 
-If the condition has been met, then the `asteroids`{:class="block3variables"} variable can be increased by `1` and the `my block`{:class="block3custom"} can be called again so the **Rocks** move to a new position.
+Se a condição foi atendida, então a variável `asteroides`{:class="block3variables"} pode ser aumentada por `1` e a `meu bloco`{:class="block3custom"} pode ser chamada novamente para que a **Rocks** se mova para uma nova posição.
 
-![The Rocks sprite.](images/rocks-sprite.png)
+![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -218,13 +218,13 @@ if <<(at chair) = [true]> and <touching (crosshair v)>> then
 
 --- /task ---
 
-The last thing to do is tell the player about the task. This can be done on the **port** sprite.
+A última coisa a fazer é contar ao jogador sobre a tarefa. Isso pode ser feito no ator **janela**.
 
 --- task ---
 
-Add blocks to tell the player how many asteroids have been destroyed.
+Adicione blocos para dizer ao jogador quantos asteroides foram destruídos.
 
-![The port sprite.](images/port-sprite.png)
+![O ator Janela.](images/port-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -239,7 +239,7 @@ say [task completed] for (2) seconds
 
 --- task ---
 
-**Test:** Move your character close to the chair, then move the crosshair around and try to destroy some asteroids. You can then adjust any of the values in your code that you need to in order to make it work well for your sprite sizes.
+**Teste:** Mova seu personagem para perto da cadeira, então mova a mira e tente destruir alguns asteroides. Você pode então ajustar qualquer um dos valores em seu código para fazê-lo funcionar bem para o tamanhos dos seus atores.
 
 --- /task ---
 
