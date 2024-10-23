@@ -1,8 +1,8 @@
-## Who's in the puzzle room?
+## Quem está na sala do quebra-cabeças?
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character to a puzzle room, and create controls to move them around.
+Nesta etapa, você adicionará um personagem a uma sala de quebra-cabeças e criará controles para movê-lo.
 </div>
 <div>
 ![](images/step_2.gif){:width="300px"}
@@ -11,43 +11,43 @@ In this step, you will add a character to a puzzle room, and create controls to 
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
+Abra [o projeto inicial do Scratch](https://scratch.mit.edu/projects/531567946/editor/){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
 
-If you are working offline, you can download the starter project at [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
+Se estiver trabalhando offline, você pode baixar o projeto inicial em [rpf.io/p/en/puzzle-room-go](https://rpf.io/p/en/puzzle-room-go).
 
 [[[working-offline]]]
 
 --- /task ---
 
-You should see a scene from inside a spaceship. Several sprites have been made for you, and their positions have been set.
+Você deverá ver uma cena de dentro de uma nave espacial. Vários atores foram criados para você e suas posições foram definidas.
 
-**Choose:** Who's in the spaceship? It could be a solo mission from Earth, it could be an alien spaceship, or it could even exist in a future where cats rule the world.
+**Escolha:** Quem está na espaçonave? Poderia ser uma missão solo da Terra, poderia ser uma nave alienígena, ou poderia até mesmo existir em um futuro onde os gatos dominassem o mundo.
 
-You need one character to interact with the puzzles you are making.
+Você precisa de um personagem para interagir com os quebra-cabeças que está criando.
 
 --- task ---
 
-Add a new sprite to your project. In this example, you will see the character **Monet**.
+Adicione um novo ator ao seu projeto. Neste exemplo, você verá o caractere **Monet**.
 
-![Animated gif of the Monet sprite from Scratch.](images/monet.gif)
+![Gif animado do ator Monet do Scratch.](images/monet.gif)
 
 --- /task ---
 
-If your character is too large or too small for the scene, you should change their size. You can also pick a starting position for the character.
+Se o seu personagem for muito grande ou muito pequeno para a cena, você deverá alterar seu tamanho. Você também pode escolher uma posição inicial para o personagem.
 
 --- task ---
 
-Add code to set up your character's size and starting position.
+Adicione o código para definir o tamanho e a posição inicial do seu personagem.
 
 --- /task ---
 
-You will need on-screen controls to enable you to move your character around.
+Você precisará de controles na tela para poder mover seu personagem.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+Selecione um dos atores de **seta**. Quando o ator é clicado, ele deve transmitir sua direção para fazer o personagem se mover naquela direção.
 
-![Arrow sprite.](images/arrow-sprite.png)
+![Ator de seta.](images/arrow-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,29 +56,29 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**Dica:** Se a **seta** dos atores forem muito difíceis de clicar ao usar um celular ou tablet, então você pode mudar suas fantasias. Cada ator de **seta** também tem um grande círculo roxo que pode ser usado em seu lugar.
 
-Now add more direction controls to move your main character.
+Agora adicione mais controles de direção para mover seu personagem principal.
 
 --- task ---
 
-Duplicate the **arrow** sprite three times. Then, for each sprite, change the costume so it points in a different direction.
+Duplique o ator de **seta** três vezes. Então, para cada ator, mude a fantasia para que aponte em uma direção diferente.
 
-Change each sprite's name to the direction it is pointing and change the `broadcast`{:class="block3events"} to the direction it is pointing.
+Mude o nome de cada ator de seta para a direção que ele está apontando e mude a `transmissão`{:class="block3events"} para a direção que ele está apontando.
 
-Arrange all the **arrow** sprites in the corner of the screen.
+Organize todos os sprites de **seta** no canto da tela.
 
-![The space scene with four arrows in the bottom left-hand corner, pointing to the compass directions.](images/arrows.png)
+![A cena espacial com quatro setas no canto inferior esquerdo, apontando para as direções da bússola.](images/arrows.png)
 
 --- /task ---
 
-Your main character should move when the arrows are pressed.
+Seu personagem principal deve se mover quando as setas forem pressionadas.
 
 --- task ---
 
-Code your main character sprite to move when it receives broadcasts to go `left, right, up, and down`{:class="block3events"}.
+Codifique seu ator de personagem principal para se mover quando receber transmissões para `esquerda, direita, para cima e para baixo`{:class="block3events"}.
 
-![Monet sprite.](images/monet-sprite.png)
+![Ator do Monet.](images/monet-sprite.png)
 
 ```blocks3
 when I receive [up v]
@@ -98,7 +98,7 @@ change x by (-10)
 
 --- task ---
 
-**Test:** Click the green flag and then click on the arrows to move your character around.
+**Teste:** Clique na bandeira verde e depois clique nas setas para mover seu personagem.
 
 --- /task ---
 
