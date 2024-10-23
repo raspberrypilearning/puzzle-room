@@ -1,10 +1,10 @@
 ## E agora?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Mandala](https://projects.raspberrypi.org/en/projects/mandala) project. In this project, you will make computer generated mandalas.
+Se você estiver seguindo o caminho [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch), poderá passar para o projeto [Mandala](https://projects.raspberrypi.org/en/projects/mandala). Neste projeto você fará mandalas criadas por computador.
 
 --- print-only ---
 
-![Mandala project](images/mandala.png)
+![Projeto Mandala](images/mandala.png)
 
 --- /print-only ---
 
