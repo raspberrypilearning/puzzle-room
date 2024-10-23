@@ -1,25 +1,25 @@
-## You will make
+## Você vai fazer
 
-Create a spaceship puzzle room with a character that solves puzzles.
+Crie uma sala de quebra-cabeças de nave espacial com um personagem que resolve quebra-cabeças.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Puzzle rooms**</span>, or **escape rooms**, are rooms containing puzzles that you must solve to get out of the room, or to get into the next room. They can be online or real rooms, but the idea is usually the same: complete the mission as quickly as you can!
+<span style="color: #0faeb0">**Salas de quebra-cabeças**</span>, ou **salas de fuga**, são salas contendo quebra-cabeças que você deve resolver para sair da sala ou para entrar na próxima sala. Podem ser salas online ou reais, mas a ideia costuma ser a mesma: completar a missão o mais rápido que puder!
 </p>
 
 Você deve:
-+ Use a `repeat until`{:class="block3control"} block to control when an action stops
-+ Use multiple `join`{:class="block3operators"} blocks to output the value of a `variable`{:class="block3variables"}
-+ Combine `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} conditions to solve problems
++ Use um bloco `repita até que`{:class="block3control"} para controlar quando uma ação deve parar
++ Use vários blocos `junte`{:class="block3operators"} para gerar o valor de uma `variável`{:class="block3variables"}
++ Combine operadores `e`{:class="block3operators"}, `ou`{:class="block3operators"}, e `não`{:class="block3operators"} para resolver problemas
 
 --- no-print ---
 
-### Play ▶️
+### Jogar ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Uh oh, the spaceship is encountering some difficulties! Use the arrows to get the engineer character to move around the spaceship. Can you help them solve all the puzzles and help the spaceship?
+Uh oh, a nave espacial está enfrentando algumas dificuldades! Use as setas para fazer o engenheiro se mover pela nave espacial. Você pode ajudá-lo a resolver todos os quebra-cabeças e ajudar a nave espacial?
 </div>
 <div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -30,12 +30,12 @@ Uh oh, the spaceship is encountering some difficulties! Use the arrows to get th
 
 --- collapse ---
 ---
-title: Tips for playing
+title: Dicas para jogar
 ---
 
-1. You need to be close to the button and click it five times
-2. You need to be close to the chair and then use the crosshairs to destroy ten asteroids
-3. You need to be close to the handwheel and click it to turn it a total of three full turns
+1. Você precisa estar perto do botão e clicar nele cinco vezes
+2. Você precisa estar perto da cadeira e então usar a mira para destruir dez asteroides
+3. Você precisa estar próximo à roda-manual e clicar nela para girá-la um total de três voltas completas
 
 
 --- /collapse ---
