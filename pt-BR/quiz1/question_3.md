@@ -2,13 +2,13 @@
 --- question ---
 
 ---
-legend: Pergunta 3 de 3
+legenda: Pergunta 3 de 3
 ---
 
-Look at the blocks below. Which description best describes the behaviour of the rocks sprite, when the flag is clicked?
+Observe os blocos abaixo. Qual opção melhor descreve o comportamento do ator "Asteróides" quando a bandeira é clicada?
 
 
-![ator de rocha](images/rocks-sprite.png)
+![ator "Asteróides"](images/rocks-sprite.png)
 ```blocks3
 when flag clicked
 go to (random position v)
@@ -20,37 +20,37 @@ go to (random position v)
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching the colour black.
+O atro "Asteróides" se moverá para uma posição aleatória até tocar **sprite 1** e tocar a cor preta.
 
   --- feedback ---
 
-These blocks would fit that description. <touching (sprite 1 v) ?> and <touching color (#000000) ?>
+Esses blocos se encaixariam nessa descrição. <touching (sprite 1 v) ?> e <touching color (#000000) ?>
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is touching **sprite 1** or not touching the colour black.
+O ator "Asteróides" se moverá para uma posição aleatória até tocar **sprite 1** ou não tocar na cor preta.
 
   --- feedback ---
 
-<touching (sprite 1 v) ?> or <not<touching color (#FFFFFF) ?>
+<touching (sprite 1 v) ?> ou <não<touching color (#FFFFFF) ?>
 
   --- /feedback ---
 
 - (x)
 
-The rocks sprite will move to a random position until it is touching **sprite 1** and touching any colour other than black.
+O ator "Asteróides" se moverá para uma posição aleatória até tocar **sprite 1** e tocar qualquer cor diferente de preto.
 
   --- feedback ---
 
-Yes, that's correct. The `not`{:class='block3operators'} block checks that it is not touching black.
+Sim, está correto. O bloco `não`{:class='block3operators'} verifica se não está tocando o preto.
 
   --- /feedback ---
 
 - ( )
 
-The rocks sprite will move to a random position until it is not touching **sprite 1** or the colour black.
+O ator "Asteróides" se moverá para uma posição aleatória até que não toque no **sprite 1** ou na cor preta.
 
   --- feedback ---
 
