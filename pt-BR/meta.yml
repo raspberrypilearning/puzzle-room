@@ -1,30 +1,30 @@
 ---
-title: Puzzle room
+title: Sala de quebra-cabeça
 hero_image: images/banner.png
-description: Create a spaceship puzzle room with a character that solves puzzles.
-meta_title: Scratch coding projects for kids and teens | Puzzle room
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Create an escape room in Scratch with a character that solves puzzles.
+description: Crie uma sala de quebra-cabeças de nave espacial com um personagem que resolve quebra-cabeças.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Sala de quebra-cabeça
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Crie uma sala de fuga no Scratch com um personagem que resolve quebra-cabeças.
 version: 4
 listed: true
 copyedit: true
 last_tested: '2021-03-26'
 steps:
   - 
-    title: You will make
+    title: Você vai fazer
   - 
-    title: Who's in the puzzle room?
+    title: Quem está na sala do quebra-cabeças?
   - 
-    title: The button puzzle
+    title: O botão do quebra-cabeça
     completion:
       - engaged
   - 
-    title: The handwheel puzzle
+    title: O quebra-cabeça da roda-manual
   - 
-    title: The asteroids puzzle
+    title: O quebra-cabeça dos asteróides
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Teste rápido
     knowledge_quiz:
       path: quiz1
       version: 1
