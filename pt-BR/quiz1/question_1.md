@@ -1,10 +1,10 @@
-## Quick quiz
+## Teste Rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda as três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder cada pergunta, clique em **Verificar minha resposta**.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 
@@ -12,11 +12,11 @@ Have fun!
 legenda: Pergunta 1 de 3
 ---
 
-Here is the Monet character next to a big button:
+Aqui está o personagem Monet próximo a um botão grande:
 
-![monet character standing beside a large red button](images/monet-by-button.png)
+![personagem Monet ao lado de um grande botão vermelho](images/monet-by-button.png)
 
-Which blocks would you use, so that the number of button presses is continually displayed, until the button has been pushed a total of 7 times?
+Quais blocos você usaria para que fosse exibido o número de vezes em que o botão foi pressionado, até que o botão fosse pressionado um total de 7 vezes?
 
 
 --- choices ---
@@ -34,7 +34,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Your script says the number of button presses, however it stops after only 5 button presses.
+Estes blocos exibem o número de vezes em que o botão foi pressionado, mas ele para após o botão ser pressionado 5 vezes.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-These blocks would only run once at the start of the game, as there is no loop being used.
+Esses blocos só seriam executados uma vez no início do jogo, já que não há bloco "repita" sendo usado.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ say [task complete] for (2) seconds
 
   --- feedback ---
 
-Yes! This script says how many times the button has been pressed each time and says the task is complete after 7 button presses.
+Sim! Esses blocos mostram quantas vezes o botão foi pressionado e diz que a tarefa é concluída após 7 pressionamentos de botão.
 
   --- /feedback ---
 
@@ -84,7 +84,7 @@ say [task complete)] for (2) seconds
 ```
   --- feedback ---
 
-These blocks would say the number `0` seven times really quickly at the start of the game, as there is no condition checking the value of the variable.
+Esses blocos diriam o número `0` sete vezes muito rapidamente no início do jogo, pois não há bloco "se" para verificar o valor da variável.
 
   --- /feedback ---
 
