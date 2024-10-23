@@ -1,31 +1,31 @@
-## The handwheel puzzle
+## O quebra-cabeça da roda-manual
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create a puzzle where a handwheel needs to be turned.
+Nesse passo, você criará um quebra-cabeça onde uma roda-manual precisa ser virada.
 </div>
 <div>
-![The character moves across the screen to the handwheel and begins turning it. The amount of turn is counted in the variable label and as each full turn is completed a specch bubble counts the amount of turns.](images/step_4.gif){:width="300px"}
+![O personagem se move pela tela até a roda-manual e começa a girá-la. A quantidade de giros é contada no rótulo variável e conforme cada giro é completado, um balão vai mostrando a quantidade de voltas.](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-The scripts for this puzzle are quite similar to the button puzzle, so you can copy those scripts over and then edit them.
+Os blocos para esse quebra-cabeça são bem semelhantes ao desafio do botão, então você pode copiar esses blocos e então editá-los.
 
 --- task ---
 
-Drag the two scripts you created for the **button** sprite on to the **handwheel** sprite, to copy them to that sprite.
+Arraste os dois scripts que você criou para o ator **botão** para o ator **roda-manual**, para copiá-los.
 
 --- /task ---
 
-The `when flag clicked`{:class='block3events'} script is the first one that needs to be changed.
+O bloco `quando bandeira for clicado`{:class='block3events'} é o primeiro que precisa ser alterado.
 
 --- task ---
 
-Create a new variable called `handwheel turned`{:class="block3variables"}, and use that variable instead of the `button pressed`{:class="block3variables"} variable.
+Crie uma nova variável chamada `giros completos na roda-manual`{:class="block3variables"}, e use essa variável em vez do `botão pressionado`{:class=" variável block3variables"}.
 
-**Choose:** Change the completion number to whatever you would like it to be. We chose `3` in the example.
+**Escolha:** Altere o número de conclusão para o que você gostaria que fosse. Escolhemos `3` no exemplo.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![O ator da roda-manual.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,13 +38,13 @@ end
 
 --- /task ---
 
-Like a real handwheel, the **handwheel** sprite will only be able to turn a small number of degrees at a time, so the angle it has been turned will need to be stored.
+Como uma roda-manual real, o ator **roda-manual** só será capaz de virar um pequeno número de graus por vez, então o ângulo que foi girado deverá ser armazenado.
 
 --- task ---
 
-Create a new variable called `turned`{:class="block3variables"} and set it to `0` when the game starts.
+Crie uma nova variável chamada `graus rotacionados`{:class="block3variables"} e defina como `0` quando o jogo começar.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![O ator da roda-manual.](images/handwheel-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,13 +58,13 @@ say [task complete] for (2) seconds
 
 --- /task ---
 
-Now you can edit the `when this sprite clicked`{:class="block3events"} script, so that when the **handwheel** sprite is clicked repeatedly it turns a small amount each time until it completes a full revolution. When it has completed the right number of full turns (`3` times in the example), the puzzle will be solved.
+Agora você pode editar o script `quando este ator for clicado`{:class="block3events"}, para que, quando o ator **roda-manual** for clicado repetidamente, vire uma pequena quantidade de cada vez até completar uma volta completa. Quando completar o número giros completos (`3` vezes no exemplo), o desafio será resolvido.
 
 --- task ---
 
-Add blocks so that each time the **handwheel** sprite is clicked, it turns `15` degrees and the `turned`{:class="block3variables"} variable increases by `15`.
+Adicione blocos para que cada vez que o ator **roda-manual** for clicado, ele gire `15` graus e a variável `graus rotacionados`{:class="block3variables"} aumenta em `15`.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![O ator da roda-manual.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -77,15 +77,15 @@ else
 
 --- /task ---
 
-**Test**: Move the **Monet** sprite (or your character sprite) close to the **handwheel** and then click on the **handwheel** sprite. It helps to be in fullscreen mode, so that you can't drag the **handwheel** sprite around.
+**Teste**: Mova o ator**Monet** (ou o ator do seu personagem) perto da **roda-manual** e então clique no ator da **roda-manual**. Ajuda estar no modo de tela cheia, para que você não arraste o ator da **roda-manual** pela tela.
 
-When the `turned`{:class="block3variables"} variable reaches `360`, then the handwheel has been turned once; this can now be stored in the `handwheel turned`{:class="block3variables"} variable.
+Quando a variável `graus rotacionados`{:class="block3variables"} atinge `360`, então a roda-manual está ativada; isso agora pode ser armazenado na variável `giros completos na roda-manual`{:class="block3variables"}.
 
 --- task ---
 
-Use a **nested** `if`{:class="block3control"} to change the `handwheel turned`{:class="block3variables"} and reset the `turned`{:class="block3variables"} variables. A **nested** `if`{:class="block3control"} is when one `if`{:class="block3control"} is placed inside another.
+Use um `se`{:class="block3control"} **aninhado** para alterar o volante `giros completos na roda-manual`{:class ="block3variables"} e redefina as variáveis `graus rotacionados`{:class="block3variables"}. Um `se`{:class="block3control"} **aninhado** é quando um `se`{:class="block3control"} é colocado dentro de outro.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![O ator da roda-manual.](images/handwheel-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -104,9 +104,9 @@ set [handwheel turned v] to (0)
 
 --- task ---
 
-**Test:** Move your character sprite close to the handwheel, and then click on it. You might have to adjust the distance that the character needs to be from the handwheel.
+**Teste:** Mova seu ator para perto da roda-manual, e então clique nele. Você pode ter que ajustar a distância que o personagem precisa estar da roda-manual.
 
-![The handwheel sprite.](images/handwheel-sprite.png)
+![O ator da roda-manual.](images/handwheel-sprite.png)
 
 ```blocks3
 <(distance to (Monet v)) < (150)>
@@ -114,6 +114,6 @@ set [handwheel turned v] to (0)
 
 --- /task ---
 
-**Tip**: You can click and drag your **Monet** (or character) sprite around, to bring it closer to the handwheel, for instance. This will save you time, as you won't keep on having to use the controls.
+**Dica**: Você pode clicar e arrastar seu ator **Monet** (ou personagem), para aproximá-lo do volante, por exemplo. Isso irá te economizar tempo, pois você não vai ter que usar os controles.
 
 --- save ---
