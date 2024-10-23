@@ -2,38 +2,38 @@ direita
 
 esquerda
 
-up
+acima
 
-down
+abaixo
 
-button pressed
+botão pressionado
 
-button pressed...times
+botão pressionado...vezes
 
-task complete
+tarefa concluída
 
-handwheel turned
+roda-manual girada
 
-handwheel turned...times
+roda-manual girada...vezes
 
-turned
+girada
 
-crosshair
+mira
 
-port
+janela
 
 botão
 
-go to position
+vá para a posição
 
-chair
+cadeira
 
-at chair
+na cadeira
 
 sim
 
-false
+não
 
-asteroids
+asteroides
 
-...asteroids destroyed
+...asteroides destruídos
