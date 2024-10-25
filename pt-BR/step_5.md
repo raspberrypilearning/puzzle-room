@@ -102,7 +102,7 @@ Crie um novo `bloco`{:class="block3myblocks"} e chame-o de `vá para a posição
 ![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
-define go to position
+define vá para a posição
 go to (posição aleatória v)
 ```
 
@@ -117,7 +117,7 @@ Adicione um `repita até que`{:class="block3control"} e um bloco `e`{:class="blo
 ![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
-define go to position
+define vá para a posição
 go to (posição aleatória v)
 + repeat until <<touching (janela v) ?> and <not <touching color (#69B486) ?>>
 go to (posição aleatória v)
@@ -137,7 +137,7 @@ Defina o efeito `fantasma`{:class="block3looks"} no **Rocks** para `100` enquant
 ![O ator Rocks.](images/rocks-sprite.png)
 
 ```blocks3
-define go to position
+define vá para a posição
 go to (posição aleatória v)
 repeat until <<touching (janela v) ?> and <not <touching color (#69B486) ?>>
 + set [fantasma v] effect to (100) // Ocultar o ator
@@ -178,7 +178,7 @@ Adicione os seguintes blocos ao ator **Rocks** para definir quando a tarefa for 
 ```blocks3
 when flag clicked
 set [asteroides v] to (0)
-go to position ::custom
+vá para a posição ::custom
 repeat until <(asteroides) = (10)> // 10 asteroides foram destruídos
 ```
 
@@ -193,7 +193,7 @@ Use outro bloco `e`{:class="block3operators"} em um bloco `se`{:class="block3con
 ```blocks3
 when flag clicked
 set [asteroides v] to (0)
-go to position ::custom
+vá para a posição ::custom
 + repeat until <(asteroides) = (10)>
 + if <<(na cadeira) = [sim]> and <touching (mira v)>> then // Monet está na cadeira e a mira está tocando o asteroide
 ```
@@ -209,11 +209,11 @@ Se a condição foi atendida, então a variável `asteroides`{:class="block3vari
 ```blocks3
 when flag clicked
 set [asteroides v] to (0)
-go to position ::custom
+vá para a posição ::custom
 repeat until <(asteroides) = (10)>
 if <<(na cadeira) = [sim]> and <touching (mira v)>> then
 + change [asteroides v] by (1) // Armazene o número de asteroides destruídos
-+ go to position ::custom // Redefinir posição do asteroide
++ vá para a posição ::custom // Redefinir posição do asteroide
 ```
 
 --- /task ---
