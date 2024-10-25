@@ -1,0 +1,35 @@
+Direção que a seta está apontando
+
+O botão está visível
+
+Número de vezes do botão pressionado definido para 0 no início
+
+Continue repetindo até que o botão seja pressionado 5 vezes
+
+Se estiver perto de Monet, aumente a contagem de vezes que o botão foi pressionado
+
+Se estiver longe de Monet, reinicie a contagem de vezes que o botão foi pressionado
+
+Armazene os giros da roda-manual
+
+A roda-manual deu uma volta completa
+
+Armazene o número total de voltas
+
+Redefinir o ângulo em que foi girado
+
+Mostrar apenas a mira quando o mouse está tocando a janela
+
+Também não está tocando a borda da janela
+
+Ocultar o ator
+
+Verifique se o Monet está na cadeira
+
+10 asteroides foram destruídos
+
+Monet está na cadeira e a mira está tocando o asteroide
+
+Armazene o número de asteroides destruídos
+
+Redefinir posição do asteroide

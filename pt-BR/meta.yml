@@ -1,0 +1,30 @@
+---
+title: Sala de quebra-cabeça
+hero_image: images/banner.png
+description: Crie uma sala de quebra-cabeças de nave espacial com um personagem que resolve quebra-cabeças.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Sala de quebra-cabeça
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Crie uma sala de fuga no Scratch com um personagem que resolve quebra-cabeças.
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Você vai fazer
+  - title: Quem está na sala do quebra-cabeças?
+  - title: O botão do quebra-cabeça
+    completion:
+      - engaged
+  - title: O quebra-cabeça da roda-manual
+  - title: O quebra-cabeça dos asteróides
+    completion:
+      - internal
+  - title: Teste rápido
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Melhore o seu projeto
+  - title: E agora?

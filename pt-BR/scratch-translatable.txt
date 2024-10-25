@@ -1,0 +1,39 @@
+direita
+
+esquerda
+
+acima
+
+abaixo
+
+botão pressionado
+
+botão pressionado...vezes
+
+tarefa concluída
+
+roda-manual girada
+
+roda-manual girada...vezes
+
+girada
+
+mira
+
+janela
+
+botão
+
+vá para a posição
+
+cadeira
+
+na cadeira
+
+sim
+
+não
+
+asteroides
+
+...asteroides destruídos
