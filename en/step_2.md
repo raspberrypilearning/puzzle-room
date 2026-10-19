@@ -45,7 +45,15 @@ You will need on-screen controls to enable you to move your character around.
 
 --- task ---
 
-Select one of the **arrow** sprites. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
+Click **Choose a Sprite**, search for `Arrow1`, and add it to your project. Rename the sprite `right`.
+
+Open the **Costumes** tab. The four costumes point right, left, down, and up. Select the first costume, `arrow1-a`, so your arrow points right.
+
+--- /task ---
+
+--- task ---
+
+Select your **right** arrow sprite and open the **Code** tab. When the sprite is clicked, it should broadcast its direction so that it can make the character move in that direction.
 
 ![Arrow sprite.](images/arrow-sprite.png)
 
@@ -56,7 +64,7 @@ broadcast (right v) //Direction the arrow is pointing
 
 --- /task ---
 
-**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, then you can change their costumes. Each **arrow** sprite also has a large purple circle that can be used instead.
+**Tip:** If the **arrow** sprites are too difficult to click on when using a mobile or tablet, increase their **Size** in the Sprite pane.
 
 Now add more direction controls to move your main character.
 
